@@ -10,10 +10,40 @@ To overcome this situation, I decided to recode the mackie codec, which comes wi
 TODO
 
 ### Installation
-Mac:
+#### Mac:
+```bash
+# first go to a folder where you want to clone the git repo
+# then invoke the git clone command
+# -> this will create a folder named 'reason-remote
+git clone https://github.com/schroederw/reason-remote.git
 
-Windows:
+# or using ssh
+git clone git@github.com:schroederw/reason-remote.git
 
-QConProG2 Setup:
+# enter the git folder
+cd reason-remote
 
-Reason Setup:
+# to install
+./install.sh
+
+# to uninstall
+./uninstall.sh
+```
+
+#### QCon ProG2 Setup:
+- Switch on your Qcon ProG2 and choose Logic Mode!
+
+#### Reason Setup:
+The QCon Pro G2 seem not to support an autodetection probe call using MIDI System Messages.
+Because of that, you have to select the controller manually.
+Select Preferences in the 'Reason' menu (Mac) and select the 'external controller' tab.
+Click 'Add manually' and select 'Icon' as the manufacturer.
+Since there only one model to choose, the QCon Pro G2 should be selected automatically.
+Then chose the MIDI input and output ports using the displayed version.
+
+#### Why Logic Pro Mode and not Mackie Control Mode?
+Like I already mentioned, in my opinion, the Mackie Mode is limited due to its defintion.
+In case of the QCon Pro G2 this means, I can't map the functions the way I like in Mackie Mode.
+E.g. not all buttons can be used with the status LED indicating a state, like 'Click On/Off'.
+In Logic Pro Mode, this drawback is at least 'milder'. In Logic Pro mode, most buttons may be
+used with a status LED, if I see it fit.   
