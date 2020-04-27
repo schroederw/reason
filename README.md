@@ -10,4 +10,10 @@ To overcome this situation, I decided to recode the mackie codec, which comes wi
 TODO
 
 ### Installation
-TODO
+Mac:
+
+Windows:
+
+QConProG2 Setup:
+
+Reason Setup:
