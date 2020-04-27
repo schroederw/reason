@@ -1685,11 +1685,13 @@ Map	F2 Button		New Alternative Take
 //	Actions via dedicated Buttons
 Map	Undo Button		Undo
 Map	Redo Button		Redo
-//Map	Save Button		not remotable in Reason
+//	Disable the button: not remotable in Reason
+Map	Save Button		0
 
 Map	Read/Off Button		Target Track Enable Automation Recording
 Map	Write Button		Reset Automation Override
-//Map	Sends Button		Any Track Solo
+//	Disable the button
+Map	Sends Button		0
 
 
 
@@ -1774,8 +1776,12 @@ Map	Ticks Display		Tempo BPM Up			EditBPM
 
 //	Display Click Level
 
-Map	Bars Display		0			EditClickLevel
-Map	Beats Display		0			EditClickLevel
-Map	Sub-division Display		0			EditClickLevel
-//	this assignment does not work, maybe because the level is sent as a string message, not as a pure number?
-Map	Ticks Display		Click Level			EditClickLevel
+Map	Bars Display		Bar Position			BarsBeats	EditClickLevel
+Map	Beats Display		Beat Position			BarsBeats	EditClickLevel
+Map	Sub-division Display		Sixteenth Position			BarsBeats	EditClickLevel
+Map	Ticks Display		Tick Position			BarsBeats	EditClickLevel
+
+Map	Bars Display		Hour Position			Time	EditClickLevel
+Map	Beats Display		Minute Position			Time	EditClickLevel
+Map	Sub-division Display		Second Position			Time	EditClickLevel
+Map	Ticks Display		Millisecond Position			Time	EditClickLevel

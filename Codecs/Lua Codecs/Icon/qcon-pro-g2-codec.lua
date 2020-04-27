@@ -407,10 +407,10 @@ function remote_init(manufacturer,model)
 		local inputButtonDefs =
 		{
 			{ id=from_hex("28"), name="Page Up Button 1", type="inout" },
-			{ id=from_hex("2a"), name="Page Down Button 2", type="inout" }, -- Logic-Mode 2a
-			{ id=from_hex("2c"), name="Pan Button", type="inout" },         -- Logic-Mode 2c
-			{ id=from_hex("29"), name="Inserts Button", type="inout" },     -- Logic-Mode 29
-			{ id=from_hex("2b"), name="EQ Button", type="inout" },          -- Logic-Mode 2b
+			{ id=from_hex("2a"), name="Page Down Button 2", type="inout" },
+			{ id=from_hex("2c"), name="Pan Button", type="inout" },
+			{ id=from_hex("29"), name="Inserts Button", type="inout" },
+			{ id=from_hex("2b"), name="EQ Button", type="inout" },
 			{ id=from_hex("2d"), name="FX Send Button", type="inout" },
 
 			{ id=from_hex("2e"), name="Fader Bank Left Button" },
@@ -420,14 +420,14 @@ function remote_init(manufacturer,model)
 
 			{ id=from_hex("32"), name="Flip Button", type="inout" },
 
-			{ id=from_hex("34"), name="Name/Value Button", type="inout" },  -- in/out unavailable
-			{ id=from_hex("35"), name="SMPTE/Beats Button", type="inout" }, -- in/out unavailable
+			{ id=from_hex("34"), name="Name/Value Button", type="inout" },
+			{ id=from_hex("35"), name="SMPTE/Beats Button", type="inout" },
 
-			{ id=from_hex("47"), name="Undo Button" }, -- in/out unavailable  -- Logic-Mode 47		
-			{ id=from_hex("33"), name="Redo Button" }, -- in/out unavailable  -- Logic-Mode 33
-			{ id=from_hex("49"), name="Save Button" }, -- in/out unavailable
+			{ id=from_hex("47"), name="Undo Button" },
+			{ id=from_hex("33"), name="Redo Button" },
+			{ id=from_hex("49"), name="Save Button" },
 
-			{ id=from_hex("36"), name="F1 Button" }, -- in/out unavailable
+			{ id=from_hex("36"), name="F1 Button" },
 			{ id=from_hex("37"), name="F2 Button" },
 			{ id=from_hex("38"), name="F3 Button" },
 			{ id=from_hex("39"), name="F4 Button" },
@@ -436,28 +436,25 @@ function remote_init(manufacturer,model)
 			{ id=from_hex("3c"), name="F7 Button" },
 			{ id=from_hex("3d"), name="F8 Button" },
 
-			{ id=from_hex("46"), name="Layer Button", type="inout" }, -- Logic-Mode only
+			{ id=from_hex("46"), name="Layer Button", type="inout" },
 
-			{ id=from_hex("4f"), name="Read/Off Button", type="inout" }, -- Logic-Mode: 4f
-			{ id=from_hex("4a"), name="Write Button", type="inout" },    -- Logic-Mode: 4a
-			{ id=from_hex("4b"), name="Sends Button", type="inout" },    -- Logic-Mode: 4b
+			{ id=from_hex("4f"), name="Read/Off Button", type="inout" },
+			{ id=from_hex("4a"), name="Write Button", type="inout" },
+			{ id=from_hex("4b"), name="Sends Button", type="inout" },
 			{ id=from_hex("4d"), name="Project Button", type="inout" }, 
 			{ id=from_hex("4e"), name="Mixer Button", type="inout" },
-			{ id=from_hex("4c"), name="Motors Button", type="inout" },   -- Logic-Mode: 4c
+			{ id=from_hex("4c"), name="Motors Button", type="inout" },
 
-			{ id=from_hex("54"), name="VST Button", type="inout" },      -- Logic-Mode: 54
-			{ id=from_hex("55"), name="Master Button", type="inout" },   -- Logic-Mode: 55
+			{ id=from_hex("54"), name="VST Button", type="inout" },
+			{ id=from_hex("55"), name="Master Button", type="inout" },
 
-			{ id=from_hex("5a"), name="Clr Solo Button", type="inout" }, -- in/out unavailable  -- Logic-Mode: 5a
-			{ id=from_hex("59"), name="Shift Button", type="inout" },                   -- Logic-Mode: 59
+			{ id=from_hex("5a"), name="Clr Solo Button", type="inout" },
+			{ id=from_hex("59"), name="Shift Button", type="inout" },
 
-			{ id=from_hex("57"), name="Frm Left Button", type="inout" },  -- Logic-Mode: 57
-			{ id=from_hex("58"), name="Frm Right Button", type="inout" }, -- in/out unavailable  -- Logic-Mode: 58
+			{ id=from_hex("57"), name="Frm Left Button", type="inout" },
+			{ id=from_hex("58"), name="Frm Right Button", type="inout" },
 			{ id=from_hex("56"), name="Loop Button", type="inout" },
 			{ id=from_hex("57"), name="PI Button", type="inout" },
-			--{ id=from_hex("58"), name="Prev Button", type="inout" }, -- Layer 2 Button - (Left)
-			--{ id=from_hex("59"), name="Add Button", type="inout" },  -- Layer 2 Button - (Right) in/out unavailable
-			--{ id=from_hex("5a"), name="Next Button", type="inout" }, -- Layer 2 Button - (Solo)  in/out unavailable
 
 			{ id=from_hex("5b"), name="Rewind Button", type="inout" },
 			{ id=from_hex("5c"), name="Fast Fwd Button", type="inout" },
