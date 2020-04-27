@@ -27,13 +27,17 @@ Map	Name/Value Button		Display=DeviceName			ParaName
 Map	Name/Value Button		Display=ParaName			DeviceName
 
 //	Assignment Buttons
-//	Disable the buttons we don't use at this time by setting it to static 0
-Map	Page Up Button 1		0
-Map	Page Down Button 2		0
 Map	Pan Button		Rotaries=Pan
 Map	Inserts Button		Rotaries=Inserts
 Map	EQ Button		Rotaries=EQ
 Map	FX Send Button		Rotaries=FX Send
+
+//	Disable the buttons in certain modes
+Map	Page Up Button 1		0
+Map	Page Down Button 2		0
+Map	EQ Button		0			Multi-Channel
+Map	FX Send Button		0			Multi-Channel
+Map	Pan Button		0			Master
 
 Map	Channel Left Button		Previous Remote Base Channel
 Map	Channel Right Button		Next Remote Base Channel
