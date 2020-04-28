@@ -56,8 +56,8 @@ So I tried to make sense of the button texts with regards of what's remotable in
 - Lower LCD Row shows the mapped record button function
 - Pan:      no functions
 - Insert:   Rotaries = Compressor and Gate Settings
-- EQ:       diverse master section settings
-- FX Send:
+- EQ:       no functions
+- FX Send:  Rotaries = Master FX Return Level + Mute On/Off
 
 #### Known Issues
 - The Record Buttons are not working, because the 'Record Arm' command is not remotable (=not supported by Reason)
@@ -69,8 +69,6 @@ So I tried to make sense of the button texts with regards of what's remotable in
     - Page Up/Down
     - Name/Value
     - Sends
-- TODO: set LED-Displays back to SMPT/Beats
-- TODO: Copy functions from channel 1 to channels 2-7 
 
 ### Installation
 #### Mac:

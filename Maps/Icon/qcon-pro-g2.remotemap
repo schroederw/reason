@@ -32,12 +32,13 @@ Map	Inserts Button		Rotaries=Inserts
 Map	EQ Button		Rotaries=EQ
 Map	FX Send Button		Rotaries=FX Send
 
-//	Disable the buttons in certain modes
+//	Disable some buttons in certain modes, so you can't enter this mode
 Map	Page Up Button 1		0
 Map	Page Down Button 2		0
 Map	EQ Button		0			Multi-Channel
 Map	FX Send Button		0			Multi-Channel
 Map	Pan Button		0			Master
+Map	EQ Button		0			Master
 
 Map	Channel Left Button		Previous Remote Base Channel
 Map	Channel Right Button		Next Remote Base Channel
@@ -143,132 +144,11 @@ Map	Peak Meter 8		Channel 8 VU Meter
 
 
 
-// Pan variation (Pan in multi-channel mode):
+// ---------------------------------------------------------------------------------------
+//  Rotaries, Buttons and Diaplays in Multi-Channel Mode
+// ---------------------------------------------------------------------------------------
 
-Map	Rotary 1		Channel 1 Pan		Boost/Cut	Multi-Channel	Pan	Normal
-Map	Rotary 2		Channel 2 Pan		Boost/Cut	Multi-Channel	Pan	Normal
-Map	Rotary 3		Channel 3 Pan		Boost/Cut	Multi-Channel	Pan	Normal
-Map	Rotary 4		Channel 4 Pan		Boost/Cut	Multi-Channel	Pan	Normal
-Map	Rotary 5		Channel 5 Pan		Boost/Cut	Multi-Channel	Pan	Normal
-Map	Rotary 6		Channel 6 Pan		Boost/Cut	Multi-Channel	Pan	Normal
-Map	Rotary 7		Channel 7 Pan		Boost/Cut	Multi-Channel	Pan	Normal
-Map	Rotary 8		Channel 8 Pan		Boost/Cut	Multi-Channel	Pan	Normal
-
-// Inserts variation (Input Gain in multi-channel mode):
-
-Map	Rotary 1		Channel 1 Input Gain		Boost/Cut	Multi-Channel	Inserts	Normal
-Map	Rotary 2		Channel 2 Input Gain		Boost/Cut	Multi-Channel	Inserts	Normal
-Map	Rotary 3		Channel 3 Input Gain		Boost/Cut	Multi-Channel	Inserts	Normal
-Map	Rotary 4		Channel 4 Input Gain		Boost/Cut	Multi-Channel	Inserts	Normal
-Map	Rotary 5		Channel 5 Input Gain		Boost/Cut	Multi-Channel	Inserts	Normal
-Map	Rotary 6		Channel 6 Input Gain		Boost/Cut	Multi-Channel	Inserts	Normal
-Map	Rotary 7		Channel 7 Input Gain		Boost/Cut	Multi-Channel	Inserts	Normal
-Map	Rotary 8		Channel 8 Input Gain		Boost/Cut	Multi-Channel	Inserts	Normal
-
-Map	Record 1		Channel 1 Invert Phase			Multi-Channel	Inserts
-Map	Record 2		Channel 2 Invert Phase			Multi-Channel	Inserts
-Map	Record 3		Channel 3 Invert Phase			Multi-Channel	Inserts
-Map	Record 4		Channel 4 Invert Phase			Multi-Channel	Inserts
-Map	Record 5		Channel 5 Invert Phase			Multi-Channel	Inserts
-Map	Record 6		Channel 6 Invert Phase			Multi-Channel	Inserts
-Map	Record 7		Channel 7 Invert Phase			Multi-Channel	Inserts
-Map	Record 8		Channel 8 Invert Phase			Multi-Channel	Inserts
-
-// FXSends variation (FX Send 1 in multi-channel mode):
-
-//Map	Rotary 1		Channel 1 FX1 Send Level		Wrap	Multi-Channel	FXSends	Normal
-//Map	Rotary 2		Channel 2 FX1 Send Level		Wrap	Multi-Channel	FXSends	Normal
-//Map	Rotary 3		Channel 3 FX1 Send Level		Wrap	Multi-Channel	FXSends	Normal
-//Map	Rotary 4		Channel 4 FX1 Send Level		Wrap	Multi-Channel	FXSends	Normal
-//Map	Rotary 5		Channel 5 FX1 Send Level		Wrap	Multi-Channel	FXSends	Normal
-//Map	Rotary 6		Channel 6 FX1 Send Level		Wrap	Multi-Channel	FXSends	Normal
-//Map	Rotary 7		Channel 7 FX1 Send Level		Wrap	Multi-Channel	FXSends	Normal
-//Map	Rotary 8		Channel 8 FX1 Send Level		Wrap	Multi-Channel	FXSends	Normal
-//
-//Map	Record 1		Channel 1 FX1 Send On			Multi-Channel	FXSends
-//Map	Record 2		Channel 2 FX1 Send On			Multi-Channel	FXSends
-//Map	Record 3		Channel 3 FX1 Send On			Multi-Channel	FXSends
-//Map	Record 4		Channel 4 FX1 Send On			Multi-Channel	FXSends
-//Map	Record 5		Channel 5 FX1 Send On			Multi-Channel	FXSends
-//Map	Record 6		Channel 6 FX1 Send On			Multi-Channel	FXSends
-//Map	Record 7		Channel 7 FX1 Send On			Multi-Channel	FXSends
-//Map	Record 8		Channel 8 FX1 Send On			Multi-Channel	FXSends
-//
-//Map	Rotary Button 1		Channel 1 FX1 Pre Fader			Multi-Channel	FXSends
-//Map	Rotary Button 2		Channel 2 FX1 Pre Fader			Multi-Channel	FXSends
-//Map	Rotary Button 3		Channel 3 FX1 Pre Fader			Multi-Channel	FXSends
-//Map	Rotary Button 4		Channel 4 FX1 Pre Fader			Multi-Channel	FXSends
-//Map	Rotary Button 5		Channel 5 FX1 Pre Fader			Multi-Channel	FXSends
-//Map	Rotary Button 6		Channel 6 FX1 Pre Fader			Multi-Channel	FXSends
-//Map	Rotary Button 7		Channel 7 FX1 Pre Fader			Multi-Channel	FXSends
-//Map	Rotary Button 8		Channel 8 FX1 Pre Fader			Multi-Channel	FXSends
-
-// EQ variation (FX Send 2 in multi-channel mode):
-
-//Map	Rotary 1		Channel 1 FX2 Send Level		Wrap	Multi-Channel	EQ	Normal
-//Map	Rotary 2		Channel 2 FX2 Send Level		Wrap	Multi-Channel	EQ	Normal
-//Map	Rotary 3		Channel 3 FX2 Send Level		Wrap	Multi-Channel	EQ	Normal
-//Map	Rotary 4		Channel 4 FX2 Send Level		Wrap	Multi-Channel	EQ	Normal
-//Map	Rotary 5		Channel 5 FX2 Send Level		Wrap	Multi-Channel	EQ	Normal
-//Map	Rotary 6		Channel 6 FX2 Send Level		Wrap	Multi-Channel	EQ	Normal
-//Map	Rotary 7		Channel 7 FX2 Send Level		Wrap	Multi-Channel	EQ	Normal
-//Map	Rotary 8		Channel 8 FX2 Send Level		Wrap	Multi-Channel	EQ	Normal
-
-Map	Record 1		Channel 1 FX2 Send On			Multi-Channel	EQ
-Map	Record 2		Channel 2 FX2 Send On			Multi-Channel	EQ
-Map	Record 3		Channel 3 FX2 Send On			Multi-Channel	EQ
-Map	Record 4		Channel 4 FX2 Send On			Multi-Channel	EQ
-Map	Record 5		Channel 5 FX2 Send On			Multi-Channel	EQ
-Map	Record 6		Channel 6 FX2 Send On			Multi-Channel	EQ
-Map	Record 7		Channel 7 FX2 Send On			Multi-Channel	EQ
-Map	Record 8		Channel 8 FX2 Send On			Multi-Channel	EQ
-
-Map	Rotary Button 1		Channel 1 FX2 Pre Fader			Multi-Channel	EQ
-Map	Rotary Button 2		Channel 2 FX2 Pre Fader			Multi-Channel	EQ
-Map	Rotary Button 3		Channel 3 FX2 Pre Fader			Multi-Channel	EQ
-Map	Rotary Button 4		Channel 4 FX2 Pre Fader			Multi-Channel	EQ
-Map	Rotary Button 5		Channel 5 FX2 Pre Fader			Multi-Channel	EQ
-Map	Rotary Button 6		Channel 6 FX2 Pre Fader			Multi-Channel	EQ
-Map	Rotary Button 7		Channel 7 FX2 Pre Fader			Multi-Channel	EQ
-Map	Rotary Button 8		Channel 8 FX2 Pre Fader			Multi-Channel	EQ
-
-
-
-// FX Send variation
-
-Map	Rotary 1		FX1 Return Level		Wrap	Master	FX Send	Normal
-Map	Rotary 2		FX2 Return Level		Wrap	Master	FX Send	Normal
-Map	Rotary 3		FX3 Return Level		Wrap	Master	FX Send	Normal
-Map	Rotary 4		FX4 Return Level		Wrap	Master	FX Send	Normal
-Map	Rotary 5		FX5 Return Level		Wrap	Master	FX Send	Normal
-Map	Rotary 6		FX6 Return Level		Wrap	Master	FX Send	Normal
-Map	Rotary 7		FX7 Return Level		Wrap	Master	FX Send	Normal
-Map	Rotary 8		FX8 Return Level		Wrap	Master	FX Send	Normal
-
-Map	Record 1		FX1 Mute			Master	FX Send
-Map	Record 2		FX2 Mute			Master	FX Send
-Map	Record 3		FX3 Mute			Master	FX Send
-Map	Record 4		FX4 Mute			Master	FX Send
-Map	Record 5		FX5 Mute			Master	FX Send
-Map	Record 6		FX6 Mute			Master	FX Send
-Map	Record 7		FX7 Mute			Master	FX Send
-Map	Record 8		FX8 Mute			Master	FX Send
-
-Map	Rotary Button 1		0			Master	FX Send
-Map	Rotary Button 2		0			Master	FX Send
-Map	Rotary Button 3		0			Master	FX Send
-Map	Rotary Button 4		0			Master	FX Send
-Map	Rotary Button 5		0			Master	FX Send
-Map	Rotary Button 6		0			Master	FX Send
-Map	Rotary Button 7		0			Master	FX Send
-Map	Rotary Button 8		0			Master	FX Send
-
-
-
-// All displays
-
-// Upper row
-// Multi-Channel mode, upper row shows rotary explanation text (except in Master/FX Send mode)
+// Pan in multi-channel mode:
 
 Map	LCD Row 1 Channel 1		"Rotarie"			Multi-Channel	Pan	Normal
 Map	LCD Row 1 Channel 2		"s = Pan"			Multi-Channel	Pan	Normal
@@ -281,17 +161,54 @@ Map	LCD Row 1 Channel 6		""			Multi-Channel	Pan
 Map	LCD Row 1 Channel 7		""			Multi-Channel	Pan
 Map	LCD Row 1 Channel 8		""			Multi-Channel	Pan
 
+Map	Rotary 1		Channel 1 Pan		Boost/Cut	Multi-Channel	Pan	Normal
+Map	Rotary 2		Channel 2 Pan		Boost/Cut	Multi-Channel	Pan	Normal
+Map	Rotary 3		Channel 3 Pan		Boost/Cut	Multi-Channel	Pan	Normal
+Map	Rotary 4		Channel 4 Pan		Boost/Cut	Multi-Channel	Pan	Normal
+Map	Rotary 5		Channel 5 Pan		Boost/Cut	Multi-Channel	Pan	Normal
+Map	Rotary 6		Channel 6 Pan		Boost/Cut	Multi-Channel	Pan	Normal
+Map	Rotary 7		Channel 7 Pan		Boost/Cut	Multi-Channel	Pan	Normal
+Map	Rotary 8		Channel 8 Pan		Boost/Cut	Multi-Channel	Pan	Normal
+
+// Inserts: Input Gain in multi-channel mode:
+
 Map	LCD Row 1 Channel 1		"Rotarie"			Multi-Channel	Inserts	Normal
 Map	LCD Row 1 Channel 2		"s = Inp"			Multi-Channel	Inserts	Normal
 Map	LCD Row 1 Channel 3		"ut Gain"			Multi-Channel	Inserts	Normal
+Map	LCD Row 1 Channel 4		" / Butt"			Multi-Channel	Inserts	Normal
+Map	LCD Row 1 Channel 5		"ons = I"			Multi-Channel	Inserts	Normal
+Map	LCD Row 1 Channel 6		"nvert P"			Multi-Channel	Inserts	Normal
+Map	LCD Row 1 Channel 7		"hase   "			Multi-Channel	Inserts	Normal
+
 Map	LCD Row 1 Channel 1		"Faders "			Multi-Channel	Inserts	Flipped
 Map	LCD Row 1 Channel 2		"= Input"			Multi-Channel	Inserts	Flipped
-Map	LCD Row 1 Channel 3		" Gain"			Multi-Channel	Inserts	Flipped
-Map	LCD Row 1 Channel 4		""			Multi-Channel	Inserts
-Map	LCD Row 1 Channel 5		""			Multi-Channel	Inserts
-Map	LCD Row 1 Channel 6		""			Multi-Channel	Inserts
-Map	LCD Row 1 Channel 7		""			Multi-Channel	Inserts
+Map	LCD Row 1 Channel 3		" Gain /"			Multi-Channel	Inserts	Flipped
+Map	LCD Row 1 Channel 4		" Button"			Multi-Channel	Inserts	Flipped
+Map	LCD Row 1 Channel 5		"s = Inv"			Multi-Channel	Inserts	Flipped
+Map	LCD Row 1 Channel 6		"ert Pha"			Multi-Channel	Inserts	Flipped
+Map	LCD Row 1 Channel 7		"se     "			Multi-Channel	Inserts	Flipped
+
 Map	LCD Row 1 Channel 8		""			Multi-Channel	Inserts
+
+Map	Rotary 1		Channel 1 Input Gain		Boost/Cut	Multi-Channel	Inserts	Normal
+Map	Rotary 2		Channel 2 Input Gain		Boost/Cut	Multi-Channel	Inserts	Normal
+Map	Rotary 3		Channel 3 Input Gain		Boost/Cut	Multi-Channel	Inserts	Normal
+Map	Rotary 4		Channel 4 Input Gain		Boost/Cut	Multi-Channel	Inserts	Normal
+Map	Rotary 5		Channel 5 Input Gain		Boost/Cut	Multi-Channel	Inserts	Normal
+Map	Rotary 6		Channel 6 Input Gain		Boost/Cut	Multi-Channel	Inserts	Normal
+Map	Rotary 7		Channel 7 Input Gain		Boost/Cut	Multi-Channel	Inserts	Normal
+Map	Rotary 8		Channel 8 Input Gain		Boost/Cut	Multi-Channel	Inserts	Normal
+
+Map	Rotary Button 1		Channel 1 Invert Phase			Multi-Channel	Inserts
+Map	Rotary Button 2		Channel 2 Invert Phase			Multi-Channel	Inserts
+Map	Rotary Button 3		Channel 3 Invert Phase			Multi-Channel	Inserts
+Map	Rotary Button 4		Channel 4 Invert Phase			Multi-Channel	Inserts
+Map	Rotary Button 5		Channel 5 Invert Phase			Multi-Channel	Inserts
+Map	Rotary Button 6		Channel 6 Invert Phase			Multi-Channel	Inserts
+Map	Rotary Button 7		Channel 7 Invert Phase			Multi-Channel	Inserts
+Map	Rotary Button 8		Channel 8 Invert Phase			Multi-Channel	Inserts
+
+// Clear Displays in EQ and FX Send Mode (maybe activated in Single-Channel or Master Mode)
 
 Map	LCD Row 1 Channel 1		""			Multi-Channel	EQ
 Map	LCD Row 1 Channel 2		""			Multi-Channel	EQ
@@ -311,56 +228,7 @@ Map	LCD Row 1 Channel 6		""			Multi-Channel	FX Send
 Map	LCD Row 1 Channel 7		""			Multi-Channel	FX Send
 Map	LCD Row 1 Channel 8		""			Multi-Channel	FX Send
 
-
-// Otherwise, upper row shows short parameter names. This happens in Select modes or when rotaries are Master
-
-Map	LCD Row 1 Channel 1		"LPF"			Pan
-Map	LCD Row 1 Channel 2		"HPF"			Pan
-Map	LCD Row 1 Channel 3		"Ins 1"			Pan
-Map	LCD Row 1 Channel 4		"Ins 2"			Pan
-Map	LCD Row 1 Channel 5		"Ins 3"			Pan
-Map	LCD Row 1 Channel 6		"Ins 4"			Pan
-Map	LCD Row 1 Channel 7		"Width"			Pan
-Map	LCD Row 1 Channel 8		"Pan"			Pan
-
-Map	LCD Row 1 Channel 1		"Gain"			Inserts
-Map	LCD Row 1 Channel 2		"C Rati"			Inserts
-Map	LCD Row 1 Channel 3		"C Thr"			Inserts
-Map	LCD Row 1 Channel 4		"C Rel"			Inserts
-Map	LCD Row 1 Channel 5		"G Rang"			Inserts
-Map	LCD Row 1 Channel 6		"G Thr"			Inserts
-Map	LCD Row 1 Channel 7		"G Rel"			Inserts
-Map	LCD Row 1 Channel 8		"G Hold"			Inserts
-
-Map	LCD Row 1 Channel 1		"HF"			EQ
-Map	LCD Row 1 Channel 2		"Freq"			EQ
-Map	LCD Row 1 Channel 3		"HMF"			EQ
-Map	LCD Row 1 Channel 4		"Freq"			EQ
-Map	LCD Row 1 Channel 5		"LMF"			EQ
-Map	LCD Row 1 Channel 6		"Freq"			EQ
-Map	LCD Row 1 Channel 7		"LF"			EQ
-Map	LCD Row 1 Channel 8		"Freq"			EQ
-
-Map	LCD Row 1 Channel 1		"FX1Snd"			FX Send
-Map	LCD Row 1 Channel 2		"FX2Snd"			FX Send
-Map	LCD Row 1 Channel 3		"FX3Snd"			FX Send
-Map	LCD Row 1 Channel 4		"FX4Snd"			FX Send
-Map	LCD Row 1 Channel 5		"FX5Snd"			FX Send
-Map	LCD Row 1 Channel 6		"FX6Snd"			FX Send
-Map	LCD Row 1 Channel 7		"FX7Snd"			FX Send
-Map	LCD Row 1 Channel 8		"FX8Snd"			FX Send
-
-Map	LCD Row 1 Channel 1		FX1 Name			Master	FX Send
-Map	LCD Row 1 Channel 2		FX2 Name			Master	FX Send
-Map	LCD Row 1 Channel 3		FX3 Name			Master	FX Send
-Map	LCD Row 1 Channel 4		FX4 Name			Master	FX Send
-Map	LCD Row 1 Channel 5		FX5 Name			Master	FX Send
-Map	LCD Row 1 Channel 6		FX6 Name			Master	FX Send
-Map	LCD Row 1 Channel 7		FX7 Name			Master	FX Send
-Map	LCD Row 1 Channel 8		FX8 Name			Master	FX Send
-
-
-// Multi-Channel mode, lower row show channel names - except in Master / FX Send mode
+// Multi-Channel mode, lower row show channel names
 
 Map	LCD Row 2 Channel 1		Channel 1 Channel Name			Multi-Channel
 Map	LCD Row 2 Channel 2		Channel 2 Channel Name			Multi-Channel
@@ -373,22 +241,11 @@ Map	LCD Row 2 Channel 8		Channel 8 Channel Name			Multi-Channel
 
 
 
-// Channel Select mode, lower row shows the channel name of the selected channel (in the right position)
-// Except if Rotaries are in Master or FX Send mode
-// Disabled in favor for lower row button names
+// ---------------------------------------------------------------------------------------
+//  Rotaries, Buttons and Displays in Master Mode
+// ---------------------------------------------------------------------------------------
 
-//Map	LCD Row 2 Channel 1		Channel 1 Channel Name			Select1
-//Map	LCD Row 2 Channel 2		Channel 2 Channel Name			Select2
-//Map	LCD Row 2 Channel 3		Channel 3 Channel Name			Select3
-//Map	LCD Row 2 Channel 4		Channel 4 Channel Name			Select4
-//Map	LCD Row 2 Channel 5		Channel 5 Channel Name			Select5
-//Map	LCD Row 2 Channel 6		Channel 6 Channel Name			Select6
-//Map	LCD Row 2 Channel 7		Channel 7 Channel Name			Select7
-//Map	LCD Row 2 Channel 8		Channel 8 Channel Name			Select8
-
-
-
-// Master + Pan
+// Master + Pan (Disabled)
 
 Map	Rotary 1		0			Pan	Master
 Map	Rotary 2		0			Pan	Master
@@ -399,14 +256,14 @@ Map	Rotary 6		0			Pan	Master
 Map	Rotary 7		0			Pan	Master
 Map	Rotary 8		0			Pan	Master
 
-Map	Record 1		0			Pan	Master
-Map	Record 2		0			Pan	Master
-Map	Record 3		0			Pan	Master
-Map	Record 4		0			Pan	Master
-Map	Record 5		0			Pan	Master
-Map	Record 6		0			Pan	Master
-Map	Record 7		0			Pan	Master
-Map	Record 8		0			Pan	Master
+Map	Rotary Button 1		0			Pan	Master
+Map	Rotary Button 2		0			Pan	Master
+Map	Rotary Button 3		0			Pan	Master
+Map	Rotary Button 4		0			Pan	Master
+Map	Rotary Button 5		0			Pan	Master
+Map	Rotary Button 6		0			Pan	Master
+Map	Rotary Button 7		0			Pan	Master
+Map	Rotary Button 8		0			Pan	Master
 
 Map	LCD Row 1 Channel 1		""			Pan	Master
 Map	LCD Row 1 Channel 2		""			Pan	Master
@@ -426,816 +283,971 @@ Map	LCD Row 2 Channel 6		""			Pan	Master
 Map	LCD Row 2 Channel 7		""			Pan	Master
 Map	LCD Row 2 Channel 8		""			Pan	Master
 
-// Master + EQ
-
-Map	Rotary 1		Threshold		Wrap	Master	EQ
-Map	Rotary 2		Ratio		Wrap	Master	EQ
-Map	Rotary 3		Make-Up Gain		Wrap	Master	EQ
-Map	Rotary 4		Rotary 1		Boost/Cut	Master	EQ
-Map	Rotary 5		Rotary 2		Boost/Cut	Master	EQ
-Map	Rotary 6		Rotary 3		Boost/Cut	Master	EQ
-Map	Rotary 7		Rotary 4		Boost/Cut	Master	EQ
-Map	Rotary 8		Ctrl Room Level		Wrap	Master	EQ
-
-Map	LCD Row 1 Channel 1		"Thresh"			Master	EQ
-Map	LCD Row 1 Channel 2		"Ratio"			Master	EQ
-Map	LCD Row 1 Channel 3		"Makeup"			Master	EQ
-Map	LCD Row 1 Channel 4		"Rot 1"			Master	EQ
-Map	LCD Row 1 Channel 5		"Rot 2"			Master	EQ
-Map	LCD Row 1 Channel 6		"Rot 3"			Master	EQ
-Map	LCD Row 1 Channel 7		"Rot 4"			Master	EQ
-Map	LCD Row 1 Channel 8		"CR Lvl"			Master	EQ
-
-Map	Record 1		Compressor On			Master	EQ
-Map	Record 2		Key On			Master	EQ
-Map	Record 3		Inserts Pre			Master	EQ
-Map	Record 4		Button 1			Master	EQ
-Map	Record 5		Button 2			Master	EQ
-Map	Record 6		Button 3			Master	EQ
-Map	Record 7		Button 4			Master	EQ
-Map	Record 8		Bypass Insert FX			Master	EQ
-
-Map	LCD Row 2 Channel 1		"Comp"			Master	EQ
-Map	LCD Row 2 Channel 2		"Key"			Master	EQ
-Map	LCD Row 2 Channel 3		"InsPre"			Master	EQ
-Map	LCD Row 2 Channel 4		"Btn 1"			Master	EQ
-Map	LCD Row 2 Channel 5		"Btn 2"			Master	EQ
-Map	LCD Row 2 Channel 6		"Btn 3"			Master	EQ
-Map	LCD Row 2 Channel 7		"Btn 4"			Master	EQ
-Map	LCD Row 2 Channel 8		"By Ins"			Master	EQ
-
-
-// Channel 1 Selected + Pan
-
-Map	Rotary 1		Channel 1 LPF Frequency		Wrap	Pan	Normal	Select1
-Map	Rotary 2		Channel 1 HPF Frequency		Wrap	Pan	Normal	Select1
-Map	Rotary 3		Channel 1 Rotary 1		Boost/Cut	Pan	Normal	Select1
-Map	Rotary 4		Channel 1 Rotary 2		Boost/Cut	Pan	Normal	Select1
-Map	Rotary 5		Channel 1 Rotary 3		Boost/Cut	Pan	Normal	Select1
-Map	Rotary 6		Channel 1 Rotary 4		Boost/Cut	Pan	Normal	Select1
-Map	Rotary 7		Channel 1 Width		Wrap	Pan	Normal	Select1
-Map	Rotary 8		Channel 1 Pan		Boost/Cut	Pan	Normal	Select1
-
-Map	Record 1		Channel 1 LPF On			Pan	Select1
-Map	Record 2		Channel 1 HPF On			Pan	Select1
-Map	Record 3		Channel 1 Button 1			Pan	Select1
-Map	Record 4		Channel 1 Button 2			Pan	Select1
-Map	Record 5		Channel 1 Button 3			Pan	Select1
-Map	Record 6		Channel 1 Button 4			Pan	Select1
-Map	Record 7		Channel 1 Bypass Insert FX			Pan	Select1
-Map	Record 8		Channel 1 Insert Pre			Pan	Select1
-
-Map	LCD Row 2 Channel 1		"On/Off"			Pan	Select1
-Map	LCD Row 2 Channel 2		"On/Off"			Pan	Select1
-Map	LCD Row 2 Channel 3		"On/Off"			Pan	Select1
-Map	LCD Row 2 Channel 4		"On/Off"			Pan	Select1
-Map	LCD Row 2 Channel 5		"On/Off"			Pan	Select1
-Map	LCD Row 2 Channel 6		"On/Off"			Pan	Select1
-Map	LCD Row 2 Channel 7		"By Ins"			Pan	Select1
-Map	LCD Row 2 Channel 8		"Dyn/Ins"			Pan	Select1
-
-Map	Rotary Button 1		Channel 1 Filters Inserts S/C			Pan	Select1
-
-// Channel 1 Selected + Inserts
-
-Map	Rotary 1		Channel 1 Input Gain		Boost/Cut	Inserts	Normal	Select1
-Map	Rotary 2		Channel 1 C Ratio		Wrap	Inserts	Normal	Select1
-Map	Rotary 3		Channel 1 C Threshold		Wrap	Inserts	Normal	Select1
-Map	Rotary 4		Channel 1 C Release		Wrap	Inserts	Normal	Select1
-Map	Rotary 5		Channel 1 G Range		Wrap	Inserts	Normal	Select1
-Map	Rotary 6		Channel 1 G Threshold		Wrap	Inserts	Normal	Select1
-Map	Rotary 7		Channel 1 G Release		Wrap	Inserts	Normal	Select1
-Map	Rotary 8		Channel 1 G Hold		Wrap	Inserts	Normal	Select1
-
-Map	Record 1		Channel 1 Invert Phase			Inserts	Select1
-Map	Record 2		Channel 1 Comp On			Inserts	Select1
-Map	Record 3		Channel 1 C Peak			Inserts	Select1
-Map	Record 4		Channel 1 C Fast Atk			Inserts	Select1
-Map	Record 5		Channel 1 Key On			Inserts	Select1
-Map	Record 6		Channel 1 Gate On			Inserts	Select1
-Map	Record 7		Channel 1 G Fast Atk			Inserts	Select1
-Map	Record 8		0			Inserts	Select1
-
-Map	LCD Row 2 Channel 1		"InvPha"			Inserts	Select1
-Map	LCD Row 2 Channel 2		"Comp"			Inserts	Select1
-Map	LCD Row 2 Channel 3		"C Peak"			Inserts	Select1
-Map	LCD Row 2 Channel 4		"C Fast"			Inserts	Select1
-Map	LCD Row 2 Channel 5		"Key"			Inserts	Select1
-Map	LCD Row 2 Channel 6		"Gate"			Inserts	Select1
-Map	LCD Row 2 Channel 7		"G Fast"			Inserts	Select1
-Map	LCD Row 2 Channel 8		""			Inserts	Select1
-
-// Channel 1 Selected + EQ
-
-Map	Rotary 1		Channel 1 HF Gain		Boost/Cut	EQ	Normal	Select1
-Map	Rotary 2		Channel 1 HF Frequency		Wrap	EQ	Normal	Select1
-Map	Rotary 3		Channel 1 HMF Gain		Boost/Cut	EQ	Normal	Select1
-Map	Rotary 4		Channel 1 HMF Frequency		Wrap	EQ	Normal	Select1
-Map	Rotary 5		Channel 1 LMF Gain		Boost/Cut	EQ	Normal	Select1
-Map	Rotary 6		Channel 1 LMF Frequency		Wrap	EQ	Normal	Select1
-Map	Rotary 7		Channel 1 LF Gain		Boost/Cut	EQ	Normal	Select1
-Map	Rotary 8		Channel 1 LF Frequency		Wrap	EQ	Normal	Select1
-
-Map	Record 1		Channel 1 EQ On			EQ	Select1
-Map	Record 2		Channel 1 EQ E Mode			EQ	Select1
-Map	Record 3		Channel 1 HF Bell			EQ	Select1
-Map	Record 4		Channel 1 LF Bell			EQ	Select1
-Map	Record 5		0			EQ	Select1
-Map	Record 6		0			EQ	Select1
-Map	Record 7		0			EQ	Select1
-Map	Record 8		0			EQ	Select1
-
-Map	LCD Row 2 Channel 1		"EQ On"			EQ	Select1
-Map	LCD Row 2 Channel 2		"EQMode"			EQ	Select1
-Map	LCD Row 2 Channel 3		"HF Bel"			EQ	Select1
-Map	LCD Row 2 Channel 4		"LF Bel"			EQ	Select1
-Map	LCD Row 2 Channel 5		""			EQ	Select1
-Map	LCD Row 2 Channel 6		""			EQ	Select1
-Map	LCD Row 2 Channel 7		""			EQ	Select1
-Map	LCD Row 2 Channel 8		""			EQ	Select1
-
-// Channel 1 Selected + FX Send
-
-Map	Rotary 1		Channel 1 FX1 Send Level		Wrap	FX Send	Normal	Select1
-Map	Rotary 2		Channel 1 FX2 Send Level		Wrap	FX Send	Normal	Select1
-Map	Rotary 3		Channel 1 FX3 Send Level		Wrap	FX Send	Normal	Select1
-Map	Rotary 4		Channel 1 FX4 Send Level		Wrap	FX Send	Normal	Select1
-Map	Rotary 5		Channel 1 FX5 Send Level		Wrap	FX Send	Normal	Select1
-Map	Rotary 6		Channel 1 FX6 Send Level		Wrap	FX Send	Normal	Select1
-Map	Rotary 7		Channel 1 FX7 Send Level		Wrap	FX Send	Normal	Select1
-Map	Rotary 8		Channel 1 FX8 Send Level		Wrap	FX Send	Normal	Select1
-
-Map	Record 1		Channel 1 FX1 Send On			FX Send	Select1
-Map	Record 2		Channel 1 FX2 Send On			FX Send	Select1
-Map	Record 3		Channel 1 FX3 Send On			FX Send	Select1
-Map	Record 4		Channel 1 FX4 Send On			FX Send	Select1
-Map	Record 5		Channel 1 FX5 Send On			FX Send	Select1
-Map	Record 6		Channel 1 FX6 Send On			FX Send	Select1
-Map	Record 7		Channel 1 FX7 Send On			FX Send	Select1
-Map	Record 8		Channel 1 FX8 Send On			FX Send	Select1
-
-Map	LCD Row 2 Channel 1		"On/Off"			FX Send	Select1
-Map	LCD Row 2 Channel 2		"On/Off"			FX Send	Select1
-Map	LCD Row 2 Channel 3		"On/Off"			FX Send	Select1
-Map	LCD Row 2 Channel 4		"On/Off"			FX Send	Select1
-Map	LCD Row 2 Channel 5		"On/Off"			FX Send	Select1
-Map	LCD Row 2 Channel 6		"On/Off"			FX Send	Select1
-Map	LCD Row 2 Channel 7		"On/Off"			FX Send	Select1
-Map	LCD Row 2 Channel 8		"On/Off"			FX Send	Select1
-
-Map	Rotary Button 1		Channel 1 FX1 Pre Fader			FX Send	Select1
-Map	Rotary Button 2		Channel 1 FX2 Pre Fader			FX Send	Select1
-Map	Rotary Button 3		Channel 1 FX3 Pre Fader			FX Send	Select1
-Map	Rotary Button 4		Channel 1 FX4 Pre Fader			FX Send	Select1
-Map	Rotary Button 5		Channel 1 FX5 Pre Fader			FX Send	Select1
-Map	Rotary Button 6		Channel 1 FX6 Pre Fader			FX Send	Select1
-Map	Rotary Button 7		Channel 1 FX7 Pre Fader			FX Send	Select1
-Map	Rotary Button 8		Channel 1 FX8 Pre Fader			FX Send	Select1
-
-
-
-
-
-
-// Channel 2 Selected
-
-Map	Rotary 1		Channel 2 LPF Frequency		Wrap	Pan	Normal	Select2
-Map	Rotary 2		Channel 2 HPF Frequency		Wrap	Pan	Normal	Select2
-Map	Rotary 3		Channel 2 Rotary 1		Boost/Cut	Pan	Normal	Select2
-Map	Rotary 4		Channel 2 Rotary 2		Boost/Cut	Pan	Normal	Select2
-Map	Rotary 5		Channel 2 Rotary 3		Boost/Cut	Pan	Normal	Select2
-Map	Rotary 6		Channel 2 Rotary 4		Boost/Cut	Pan	Normal	Select2
-Map	Rotary 7		Channel 2 Width		Wrap	Pan	Normal	Select2
-Map	Rotary 8		Channel 2 Pan		Boost/Cut	Pan	Normal	Select2
-
-Map	Record 1		Channel 2 LPF On			Pan	Select2
-Map	Record 2		Channel 2 HPF On			Pan	Select2
-Map	Record 3		Channel 2 Button 1			Pan	Select2
-Map	Record 4		Channel 2 Button 2			Pan	Select2
-Map	Record 5		Channel 2 Button 3			Pan	Select2
-Map	Record 6		Channel 2 Button 4			Pan	Select2
-Map	Record 7		Channel 2 Bypass Insert FX			Pan	Select2
-Map	Record 8		Channel 2 Insert Pre			Pan	Select2
-
-Map	Rotary Button 1		Channel 2 Filters Inserts S/C			Pan	Select2
-
-
-Map	Rotary 1		Channel 2 FX1 Send Level		Wrap	FXSends	Normal	Select2
-Map	Rotary 2		Channel 2 FX2 Send Level		Wrap	FXSends	Normal	Select2
-Map	Rotary 3		Channel 2 FX3 Send Level		Wrap	FXSends	Normal	Select2
-Map	Rotary 4		Channel 2 FX4 Send Level		Wrap	FXSends	Normal	Select2
-Map	Rotary 5		Channel 2 FX5 Send Level		Wrap	FXSends	Normal	Select2
-Map	Rotary 6		Channel 2 FX6 Send Level		Wrap	FXSends	Normal	Select2
-Map	Rotary 7		Channel 2 FX7 Send Level		Wrap	FXSends	Normal	Select2
-Map	Rotary 8		Channel 2 FX8 Send Level		Wrap	FXSends	Normal	Select2
-
-Map	Record 1		Channel 2 FX1 Send On			FXSends	Select2
-Map	Record 2		Channel 2 FX2 Send On			FXSends	Select2
-Map	Record 3		Channel 2 FX3 Send On			FXSends	Select2
-Map	Record 4		Channel 2 FX4 Send On			FXSends	Select2
-Map	Record 5		Channel 2 FX5 Send On			FXSends	Select2
-Map	Record 6		Channel 2 FX6 Send On			FXSends	Select2
-Map	Record 7		Channel 2 FX7 Send On			FXSends	Select2
-Map	Record 8		Channel 2 FX8 Send On			FXSends	Select2
-
-Map	Rotary Button 1		Channel 2 FX1 Pre Fader			FXSends	Select2
-Map	Rotary Button 2		Channel 2 FX2 Pre Fader			FXSends	Select2
-Map	Rotary Button 3		Channel 2 FX3 Pre Fader			FXSends	Select2
-Map	Rotary Button 4		Channel 2 FX4 Pre Fader			FXSends	Select2
-Map	Rotary Button 5		Channel 2 FX5 Pre Fader			FXSends	Select2
-Map	Rotary Button 6		Channel 2 FX6 Pre Fader			FXSends	Select2
-Map	Rotary Button 7		Channel 2 FX7 Pre Fader			FXSends	Select2
-Map	Rotary Button 8		Channel 2 FX8 Pre Fader			FXSends	Select2
-
-
-Map	Rotary 1		Channel 2 HF Gain		Boost/Cut	EQ	Normal	Select2
-Map	Rotary 2		Channel 2 HF Frequency		Wrap	EQ	Normal	Select2
-Map	Rotary 3		Channel 2 HMF Gain		Boost/Cut	EQ	Normal	Select2
-Map	Rotary 4		Channel 2 HMF Frequency		Wrap	EQ	Normal	Select2
-Map	Rotary 5		Channel 2 LMF Gain		Boost/Cut	EQ	Normal	Select2
-Map	Rotary 6		Channel 2 LMF Frequency		Wrap	EQ	Normal	Select2
-Map	Rotary 7		Channel 2 LF Gain		Boost/Cut	EQ	Normal	Select2
-Map	Rotary 8		Channel 2 LF Frequency		Wrap	EQ	Normal	Select2
-
-Map	Record 1		Channel 2 EQ On			EQ	Select2
-Map	Record 2		Channel 2 EQ E Mode			EQ	Select2
-Map	Record 3		Channel 2 HF Bell			EQ	Select2
-Map	Record 4		Channel 2 LF Bell			EQ	Select2
-Map	Record 5		0			EQ	Select2
-Map	Record 6		0			EQ	Select2
-Map	Record 7		0			EQ	Select2
-Map	Record 8		Channel 2 Inserts Post EQ			EQ	Select2
-
-
-Map	Rotary 1		Channel 2 Input Gain		Boost/Cut	Inserts	Normal	Select2
-Map	Rotary 2		Channel 2 C Ratio		Wrap	Inserts	Normal	Select2
-Map	Rotary 3		Channel 2 C Threshold		Wrap	Inserts	Normal	Select2
-Map	Rotary 4		Channel 2 C Release		Wrap	Inserts	Normal	Select2
-Map	Rotary 5		Channel 2 G Range		Wrap	Inserts	Normal	Select2
-Map	Rotary 6		Channel 2 G Threshold		Wrap	Inserts	Normal	Select2
-Map	Rotary 7		Channel 2 G Release		Wrap	Inserts	Normal	Select2
-Map	Rotary 8		Channel 2 G Hold		Wrap	Inserts	Normal	Select2
-
-Map	Record 1		Channel 2 Invert Phase			Inserts	Select2
-Map	Record 2		Channel 2 Comp On			Inserts	Select2
-Map	Record 3		Channel 2 C Peak			Inserts	Select2
-Map	Record 4		Channel 2 C Fast Atk			Inserts	Select2
-Map	Record 5		Channel 2 Key On			Inserts	Select2
-Map	Record 6		Channel 2 Gate On			Inserts	Select2
-Map	Record 7		Channel 2 G Fast Atk			Inserts	Select2
-Map	Record 8		Channel 2 Inserts Post EQ			Inserts	Select2
-
-
-// Channel 3 Selected
-
-Map	Rotary 1		Channel 3 LPF Frequency		Wrap	Pan	Normal	Select3
-Map	Rotary 2		Channel 3 HPF Frequency		Wrap	Pan	Normal	Select3
-Map	Rotary 3		Channel 3 Rotary 1		Boost/Cut	Pan	Normal	Select3
-Map	Rotary 4		Channel 3 Rotary 2		Boost/Cut	Pan	Normal	Select3
-Map	Rotary 5		Channel 3 Rotary 3		Boost/Cut	Pan	Normal	Select3
-Map	Rotary 6		Channel 3 Rotary 4		Boost/Cut	Pan	Normal	Select3
-Map	Rotary 7		Channel 3 Width		Wrap	Pan	Normal	Select3
-Map	Rotary 8		Channel 3 Pan		Boost/Cut	Pan	Normal	Select3
-
-Map	Record 1		Channel 3 LPF On			Pan	Select3
-Map	Record 2		Channel 3 HPF On			Pan	Select3
-Map	Record 3		Channel 3 Button 1			Pan	Select3
-Map	Record 4		Channel 3 Button 2			Pan	Select3
-Map	Record 5		Channel 3 Button 3			Pan	Select3
-Map	Record 6		Channel 3 Button 4			Pan	Select3
-Map	Record 7		Channel 3 Bypass Insert FX			Pan	Select3
-Map	Record 8		Channel 3 Insert Pre			Pan	Select3
-
-Map	Rotary Button 1		Channel 3 Filters Inserts S/C			Pan	Select3
-
-
-Map	Rotary 1		Channel 3 FX1 Send Level		Wrap	FXSends	Normal	Select3
-Map	Rotary 2		Channel 3 FX2 Send Level		Wrap	FXSends	Normal	Select3
-Map	Rotary 3		Channel 3 FX3 Send Level		Wrap	FXSends	Normal	Select3
-Map	Rotary 4		Channel 3 FX4 Send Level		Wrap	FXSends	Normal	Select3
-Map	Rotary 5		Channel 3 FX5 Send Level		Wrap	FXSends	Normal	Select3
-Map	Rotary 6		Channel 3 FX6 Send Level		Wrap	FXSends	Normal	Select3
-Map	Rotary 7		Channel 3 FX7 Send Level		Wrap	FXSends	Normal	Select3
-Map	Rotary 8		Channel 3 FX8 Send Level		Wrap	FXSends	Normal	Select3
-
-Map	Record 1		Channel 3 FX1 Send On			FXSends	Select3
-Map	Record 2		Channel 3 FX2 Send On			FXSends	Select3
-Map	Record 3		Channel 3 FX3 Send On			FXSends	Select3
-Map	Record 4		Channel 3 FX4 Send On			FXSends	Select3
-Map	Record 5		Channel 3 FX5 Send On			FXSends	Select3
-Map	Record 6		Channel 3 FX6 Send On			FXSends	Select3
-Map	Record 7		Channel 3 FX7 Send On			FXSends	Select3
-Map	Record 8		Channel 3 FX8 Send On			FXSends	Select3
-
-Map	Rotary Button 1		Channel 3 FX1 Pre Fader			FXSends	Select3
-Map	Rotary Button 2		Channel 3 FX2 Pre Fader			FXSends	Select3
-Map	Rotary Button 3		Channel 3 FX3 Pre Fader			FXSends	Select3
-Map	Rotary Button 4		Channel 3 FX4 Pre Fader			FXSends	Select3
-Map	Rotary Button 5		Channel 3 FX5 Pre Fader			FXSends	Select3
-Map	Rotary Button 6		Channel 3 FX6 Pre Fader			FXSends	Select3
-Map	Rotary Button 7		Channel 3 FX7 Pre Fader			FXSends	Select3
-Map	Rotary Button 8		Channel 3 FX8 Pre Fader			FXSends	Select3
-
-
-Map	Rotary 1		Channel 3 HF Gain		Boost/Cut	EQ	Normal	Select3
-Map	Rotary 2		Channel 3 HF Frequency		Wrap	EQ	Normal	Select3
-Map	Rotary 3		Channel 3 HMF Gain		Boost/Cut	EQ	Normal	Select3
-Map	Rotary 4		Channel 3 HMF Frequency		Wrap	EQ	Normal	Select3
-Map	Rotary 5		Channel 3 LMF Gain		Boost/Cut	EQ	Normal	Select3
-Map	Rotary 6		Channel 3 LMF Frequency		Wrap	EQ	Normal	Select3
-Map	Rotary 7		Channel 3 LF Gain		Boost/Cut	EQ	Normal	Select3
-Map	Rotary 8		Channel 3 LF Frequency		Wrap	EQ	Normal	Select3
-
-Map	Record 1		Channel 3 EQ On			EQ	Select3
-Map	Record 2		Channel 3 EQ E Mode			EQ	Select3
-Map	Record 3		Channel 3 HF Bell			EQ	Select3
-Map	Record 4		Channel 3 LF Bell			EQ	Select3
-Map	Record 5		0			EQ	Select3
-Map	Record 6		0			EQ	Select3
-Map	Record 7		0			EQ	Select3
-Map	Record 8		Channel 3 Inserts Post EQ			EQ	Select3
-
-
-
-Map	Rotary 1		Channel 3 Input Gain		Boost/Cut	Inserts	Normal	Select3
-Map	Rotary 2		Channel 3 C Ratio		Wrap	Inserts	Normal	Select3
-Map	Rotary 3		Channel 3 C Threshold		Wrap	Inserts	Normal	Select3
-Map	Rotary 4		Channel 3 C Release		Wrap	Inserts	Normal	Select3
-Map	Rotary 5		Channel 3 G Range		Wrap	Inserts	Normal	Select3
-Map	Rotary 6		Channel 3 G Threshold		Wrap	Inserts	Normal	Select3
-Map	Rotary 7		Channel 3 G Release		Wrap	Inserts	Normal	Select3
-Map	Rotary 8		Channel 3 G Hold		Wrap	Inserts	Normal	Select3
-
-Map	Record 1		Channel 3 Invert Phase			Inserts	Select3
-Map	Record 2		Channel 3 Comp On			Inserts	Select3
-Map	Record 3		Channel 3 C Peak			Inserts	Select3
-Map	Record 4		Channel 3 C Fast Atk			Inserts	Select3
-Map	Record 5		Channel 3 Key On			Inserts	Select3
-Map	Record 6		Channel 3 Gate On			Inserts	Select3
-Map	Record 7		Channel 3 G Fast Atk			Inserts	Select3
-Map	Record 8		Channel 3 Inserts Post EQ			Inserts	Select3
-
-
-
-// Channel 4 Selected
-
-Map	Rotary 1		Channel 4 LPF Frequency		Wrap	Pan	Normal	Select4
-Map	Rotary 2		Channel 4 HPF Frequency		Wrap	Pan	Normal	Select4
-Map	Rotary 3		Channel 4 Rotary 1		Boost/Cut	Pan	Normal	Select4
-Map	Rotary 4		Channel 4 Rotary 2		Boost/Cut	Pan	Normal	Select4
-Map	Rotary 5		Channel 4 Rotary 3		Boost/Cut	Pan	Normal	Select4
-Map	Rotary 6		Channel 4 Rotary 4		Boost/Cut	Pan	Normal	Select4
-Map	Rotary 7		Channel 4 Width		Wrap	Pan	Normal	Select4
-Map	Rotary 8		Channel 4 Pan		Boost/Cut	Pan	Normal	Select4
-
-Map	Record 1		Channel 4 LPF On			Pan	Select4
-Map	Record 2		Channel 4 HPF On			Pan	Select4
-Map	Record 3		Channel 4 Button 1			Pan	Select4
-Map	Record 4		Channel 4 Button 2			Pan	Select4
-Map	Record 5		Channel 4 Button 3			Pan	Select4
-Map	Record 6		Channel 4 Button 4			Pan	Select4
-Map	Record 7		Channel 4 Bypass Insert FX			Pan	Select4
-Map	Record 8		Channel 4 Insert Pre			Pan	Select4
-
-Map	Rotary Button 1		Channel 4 Filters Inserts S/C			Pan	Select4
-
-
-Map	Rotary 1		Channel 4 FX1 Send Level		Wrap	FXSends	Normal	Select4
-Map	Rotary 2		Channel 4 FX2 Send Level		Wrap	FXSends	Normal	Select4
-Map	Rotary 3		Channel 4 FX3 Send Level		Wrap	FXSends	Normal	Select4
-Map	Rotary 4		Channel 4 FX4 Send Level		Wrap	FXSends	Normal	Select4
-Map	Rotary 5		Channel 4 FX5 Send Level		Wrap	FXSends	Normal	Select4
-Map	Rotary 6		Channel 4 FX6 Send Level		Wrap	FXSends	Normal	Select4
-Map	Rotary 7		Channel 4 FX7 Send Level		Wrap	FXSends	Normal	Select4
-Map	Rotary 8		Channel 4 FX8 Send Level		Wrap	FXSends	Normal	Select4
-
-Map	Record 1		Channel 4 FX1 Send On			FXSends	Select4
-Map	Record 2		Channel 4 FX2 Send On			FXSends	Select4
-Map	Record 3		Channel 4 FX3 Send On			FXSends	Select4
-Map	Record 4		Channel 4 FX4 Send On			FXSends	Select4
-Map	Record 5		Channel 4 FX5 Send On			FXSends	Select4
-Map	Record 6		Channel 4 FX6 Send On			FXSends	Select4
-Map	Record 7		Channel 4 FX7 Send On			FXSends	Select4
-Map	Record 8		Channel 4 FX8 Send On			FXSends	Select4
-
-Map	Rotary Button 1		Channel 4 FX1 Pre Fader			FXSends	Select4
-Map	Rotary Button 2		Channel 4 FX2 Pre Fader			FXSends	Select4
-Map	Rotary Button 3		Channel 4 FX3 Pre Fader			FXSends	Select4
-Map	Rotary Button 4		Channel 4 FX4 Pre Fader			FXSends	Select4
-Map	Rotary Button 5		Channel 4 FX5 Pre Fader			FXSends	Select4
-Map	Rotary Button 6		Channel 4 FX6 Pre Fader			FXSends	Select4
-Map	Rotary Button 7		Channel 4 FX7 Pre Fader			FXSends	Select4
-Map	Rotary Button 8		Channel 4 FX8 Pre Fader			FXSends	Select4
-
-
-Map	Rotary 1		Channel 4 HF Gain		Boost/Cut	EQ	Normal	Select4
-Map	Rotary 2		Channel 4 HF Frequency		Wrap	EQ	Normal	Select4
-Map	Rotary 3		Channel 4 HMF Gain		Boost/Cut	EQ	Normal	Select4
-Map	Rotary 4		Channel 4 HMF Frequency		Wrap	EQ	Normal	Select4
-Map	Rotary 5		Channel 4 LMF Gain		Boost/Cut	EQ	Normal	Select4
-Map	Rotary 6		Channel 4 LMF Frequency		Wrap	EQ	Normal	Select4
-Map	Rotary 7		Channel 4 LF Gain		Boost/Cut	EQ	Normal	Select4
-Map	Rotary 8		Channel 4 LF Frequency		Wrap	EQ	Normal	Select4
-
-Map	Record 1		Channel 4 EQ On			EQ	Select4
-Map	Record 2		Channel 4 EQ E Mode			EQ	Select4
-Map	Record 3		Channel 4 HF Bell			EQ	Select4
-Map	Record 4		Channel 4 LF Bell			EQ	Select4
-Map	Record 5		0			EQ	Select4
-Map	Record 6		0			EQ	Select4
-Map	Record 7		0			EQ	Select4
-Map	Record 8		Channel 4 Inserts Post EQ			EQ	Select4
-
-
-Map	Rotary 1		Channel 4 Input Gain		Boost/Cut	Inserts	Normal	Select4
-Map	Rotary 2		Channel 4 C Ratio		Wrap	Inserts	Normal	Select4
-Map	Rotary 3		Channel 4 C Threshold		Wrap	Inserts	Normal	Select4
-Map	Rotary 4		Channel 4 C Release		Wrap	Inserts	Normal	Select4
-Map	Rotary 5		Channel 4 G Range		Wrap	Inserts	Normal	Select4
-Map	Rotary 6		Channel 4 G Threshold		Wrap	Inserts	Normal	Select4
-Map	Rotary 7		Channel 4 G Release		Wrap	Inserts	Normal	Select4
-Map	Rotary 8		Channel 4 G Hold		Wrap	Inserts	Normal	Select4
-
-Map	Record 1		Channel 4 Invert Phase			Inserts	Select4
-Map	Record 2		Channel 4 Comp On			Inserts	Select4
-Map	Record 3		Channel 4 C Peak			Inserts	Select4
-Map	Record 4		Channel 4 C Fast Atk			Inserts	Select4
-Map	Record 5		Channel 4 Key On			Inserts	Select4
-Map	Record 6		Channel 4 Gate On			Inserts	Select4
-Map	Record 7		Channel 4 G Fast Atk			Inserts	Select4
-Map	Record 8		Channel 4 Inserts Post EQ			Inserts	Select4
-
-
-//Channel 5 Selected
-
-Map	Rotary 1		Channel 5 LPF Frequency		Wrap	Pan	Normal	Select5
-Map	Rotary 2		Channel 5 HPF Frequency		Wrap	Pan	Normal	Select5
-Map	Rotary 3		Channel 5 Rotary 1		Boost/Cut	Pan	Normal	Select5
-Map	Rotary 4		Channel 5 Rotary 2		Boost/Cut	Pan	Normal	Select5
-Map	Rotary 5		Channel 5 Rotary 3		Boost/Cut	Pan	Normal	Select5
-Map	Rotary 6		Channel 5 Rotary 4		Boost/Cut	Pan	Normal	Select5
-Map	Rotary 7		Channel 5 Width		Wrap	Pan	Normal	Select5
-Map	Rotary 8		Channel 5 Pan		Boost/Cut	Pan	Normal	Select5
-
-Map	Record 1		Channel 5 LPF On			Pan	Select5
-Map	Record 2		Channel 5 HPF On			Pan	Select5
-Map	Record 3		Channel 5 Button 1			Pan	Select5
-Map	Record 4		Channel 5 Button 2			Pan	Select5
-Map	Record 5		Channel 5 Button 3			Pan	Select5
-Map	Record 6		Channel 5 Button 4			Pan	Select5
-Map	Record 7		Channel 5 Bypass Insert FX			Pan	Select5
-Map	Record 8		Channel 5 Insert Pre			Pan	Select5
-
-Map	Rotary Button 1		Channel 5 Filters Inserts S/C			Pan	Select5
-
-
-Map	Rotary 1		Channel 5 FX1 Send Level		Wrap	FXSends	Normal	Select5
-Map	Rotary 2		Channel 5 FX2 Send Level		Wrap	FXSends	Normal	Select5
-Map	Rotary 3		Channel 5 FX3 Send Level		Wrap	FXSends	Normal	Select5
-Map	Rotary 4		Channel 5 FX4 Send Level		Wrap	FXSends	Normal	Select5
-Map	Rotary 5		Channel 5 FX5 Send Level		Wrap	FXSends	Normal	Select5
-Map	Rotary 6		Channel 5 FX6 Send Level		Wrap	FXSends	Normal	Select5
-Map	Rotary 7		Channel 5 FX7 Send Level		Wrap	FXSends	Normal	Select5
-Map	Rotary 8		Channel 5 FX8 Send Level		Wrap	FXSends	Normal	Select5
-
-Map	Record 1		Channel 5 FX1 Send On			FXSends	Select5
-Map	Record 2		Channel 5 FX2 Send On			FXSends	Select5
-Map	Record 3		Channel 5 FX3 Send On			FXSends	Select5
-Map	Record 4		Channel 5 FX4 Send On			FXSends	Select5
-Map	Record 5		Channel 5 FX5 Send On			FXSends	Select5
-Map	Record 6		Channel 5 FX6 Send On			FXSends	Select5
-Map	Record 7		Channel 5 FX7 Send On			FXSends	Select5
-Map	Record 8		Channel 5 FX8 Send On			FXSends	Select5
-
-Map	Rotary Button 1		Channel 5 FX1 Pre Fader			FXSends	Select5
-Map	Rotary Button 2		Channel 5 FX2 Pre Fader			FXSends	Select5
-Map	Rotary Button 3		Channel 5 FX3 Pre Fader			FXSends	Select5
-Map	Rotary Button 4		Channel 5 FX4 Pre Fader			FXSends	Select5
-Map	Rotary Button 5		Channel 5 FX5 Pre Fader			FXSends	Select5
-Map	Rotary Button 6		Channel 5 FX6 Pre Fader			FXSends	Select5
-Map	Rotary Button 7		Channel 5 FX7 Pre Fader			FXSends	Select5
-Map	Rotary Button 8		Channel 5 FX8 Pre Fader			FXSends	Select5
-
-
-
-Map	Rotary 1		Channel 5 HF Gain		Boost/Cut	EQ	Normal	Select5
-Map	Rotary 2		Channel 5 HF Frequency		Wrap	EQ	Normal	Select5
-Map	Rotary 3		Channel 5 HMF Gain		Boost/Cut	EQ	Normal	Select5
-Map	Rotary 4		Channel 5 HMF Frequency		Wrap	EQ	Normal	Select5
-Map	Rotary 5		Channel 5 LMF Gain		Boost/Cut	EQ	Normal	Select5
-Map	Rotary 6		Channel 5 LMF Frequency		Wrap	EQ	Normal	Select5
-Map	Rotary 7		Channel 5 LF Gain		Boost/Cut	EQ	Normal	Select5
-Map	Rotary 8		Channel 5 LF Frequency		Wrap	EQ	Normal	Select5
-
-Map	Record 1		Channel 5 EQ On			EQ	Select5
-Map	Record 2		Channel 5 EQ E Mode			EQ	Select5
-Map	Record 3		Channel 5 HF Bell			EQ	Select5
-Map	Record 4		Channel 5 LF Bell			EQ	Select5
-Map	Record 5		0			EQ	Select5
-Map	Record 6		0			EQ	Select5
-Map	Record 7		0			EQ	Select5
-Map	Record 8		Channel 5 Inserts Post EQ			EQ	Select5
-
-
-Map	Rotary 1		Channel 5 Input Gain		Boost/Cut	Inserts	Normal	Select5
-Map	Rotary 2		Channel 5 C Ratio		Wrap	Inserts	Normal	Select5
-Map	Rotary 3		Channel 5 C Threshold		Wrap	Inserts	Normal	Select5
-Map	Rotary 4		Channel 5 C Release		Wrap	Inserts	Normal	Select5
-Map	Rotary 5		Channel 5 G Range		Wrap	Inserts	Normal	Select5
-Map	Rotary 6		Channel 5 G Threshold		Wrap	Inserts	Normal	Select5
-Map	Rotary 7		Channel 5 G Release		Wrap	Inserts	Normal	Select5
-Map	Rotary 8		Channel 5 G Hold		Wrap	Inserts	Normal	Select5
-
-Map	Record 1		Channel 5 Invert Phase			Inserts	Select5
-Map	Record 2		Channel 5 Comp On			Inserts	Select5
-Map	Record 3		Channel 5 C Peak			Inserts	Select5
-Map	Record 4		Channel 5 C Fast Atk			Inserts	Select5
-Map	Record 5		Channel 5 Key On			Inserts	Select5
-Map	Record 6		Channel 5 Gate On			Inserts	Select5
-Map	Record 7		Channel 5 G Fast Atk			Inserts	Select5
-Map	Record 8		Channel 5 Inserts Post EQ			Inserts	Select5
-
-
-
-//Channel 6 Selected
-
-Map	Rotary 1		Channel 6 LPF Frequency		Wrap	Pan	Normal	Select6
-Map	Rotary 2		Channel 6 HPF Frequency		Wrap	Pan	Normal	Select6
-Map	Rotary 3		Channel 6 Rotary 1		Boost/Cut	Pan	Normal	Select6
-Map	Rotary 4		Channel 6 Rotary 2		Boost/Cut	Pan	Normal	Select6
-Map	Rotary 5		Channel 6 Rotary 3		Boost/Cut	Pan	Normal	Select6
-Map	Rotary 6		Channel 6 Rotary 4		Boost/Cut	Pan	Normal	Select6
-Map	Rotary 7		Channel 6 Width		Wrap	Pan	Normal	Select6
-Map	Rotary 8		Channel 6 Pan		Boost/Cut	Pan	Normal	Select6
-
-Map	Record 1		Channel 6 LPF On			Pan	Select6
-Map	Record 2		Channel 6 HPF On			Pan	Select6
-Map	Record 3		Channel 6 Button 1			Pan	Select6
-Map	Record 4		Channel 6 Button 2			Pan	Select6
-Map	Record 5		Channel 6 Button 3			Pan	Select6
-Map	Record 6		Channel 6 Button 4			Pan	Select6
-Map	Record 7		Channel 6 Bypass Insert FX			Pan	Select6
-Map	Record 8		Channel 6 Insert Pre			Pan	Select6
-
-Map	Rotary Button 1		Channel 6 Filters Inserts S/C			Pan	Select6
-
-
-
-Map	Rotary 1		Channel 6 FX1 Send Level		Wrap	FXSends	Normal	Select6
-Map	Rotary 2		Channel 6 FX2 Send Level		Wrap	FXSends	Normal	Select6
-Map	Rotary 3		Channel 6 FX3 Send Level		Wrap	FXSends	Normal	Select6
-Map	Rotary 4		Channel 6 FX4 Send Level		Wrap	FXSends	Normal	Select6
-Map	Rotary 5		Channel 6 FX5 Send Level		Wrap	FXSends	Normal	Select6
-Map	Rotary 6		Channel 6 FX6 Send Level		Wrap	FXSends	Normal	Select6
-Map	Rotary 7		Channel 6 FX7 Send Level		Wrap	FXSends	Normal	Select6
-Map	Rotary 8		Channel 6 FX8 Send Level		Wrap	FXSends	Normal	Select6
-
-Map	Record 1		Channel 6 FX1 Send On			FXSends	Select6
-Map	Record 2		Channel 6 FX2 Send On			FXSends	Select6
-Map	Record 3		Channel 6 FX3 Send On			FXSends	Select6
-Map	Record 4		Channel 6 FX4 Send On			FXSends	Select6
-Map	Record 5		Channel 6 FX5 Send On			FXSends	Select6
-Map	Record 6		Channel 6 FX6 Send On			FXSends	Select6
-Map	Record 7		Channel 6 FX7 Send On			FXSends	Select6
-Map	Record 8		Channel 6 FX8 Send On			FXSends	Select6
-
-Map	Rotary Button 1		Channel 6 FX1 Pre Fader			FXSends	Select6
-Map	Rotary Button 2		Channel 6 FX2 Pre Fader			FXSends	Select6
-Map	Rotary Button 3		Channel 6 FX3 Pre Fader			FXSends	Select6
-Map	Rotary Button 4		Channel 6 FX4 Pre Fader			FXSends	Select6
-Map	Rotary Button 5		Channel 6 FX5 Pre Fader			FXSends	Select6
-Map	Rotary Button 6		Channel 6 FX6 Pre Fader			FXSends	Select6
-Map	Rotary Button 7		Channel 6 FX7 Pre Fader			FXSends	Select6
-Map	Rotary Button 8		Channel 6 FX8 Pre Fader			FXSends	Select6
-
-
-
-Map	Rotary 1		Channel 6 HF Gain		Boost/Cut	EQ	Normal	Select6
-Map	Rotary 2		Channel 6 HF Frequency		Wrap	EQ	Normal	Select6
-Map	Rotary 3		Channel 6 HMF Gain		Boost/Cut	EQ	Normal	Select6
-Map	Rotary 4		Channel 6 HMF Frequency		Wrap	EQ	Normal	Select6
-Map	Rotary 5		Channel 6 LMF Gain		Boost/Cut	EQ	Normal	Select6
-Map	Rotary 6		Channel 6 LMF Frequency		Wrap	EQ	Normal	Select6
-Map	Rotary 7		Channel 6 LF Gain		Boost/Cut	EQ	Normal	Select6
-Map	Rotary 8		Channel 6 LF Frequency		Wrap	EQ	Normal	Select6
-
-Map	Record 1		Channel 6 EQ On			EQ	Select6
-Map	Record 2		Channel 6 EQ E Mode			EQ	Select6
-Map	Record 3		Channel 6 HF Bell			EQ	Select6
-Map	Record 4		Channel 6 LF Bell			EQ	Select6
-Map	Record 5		0			EQ	Select6
-Map	Record 6		0			EQ	Select6
-Map	Record 7		0			EQ	Select6
-Map	Record 8		Channel 6 Inserts Post EQ			EQ	Select6
-
-
-
-Map	Rotary 1		Channel 6 Input Gain		Boost/Cut	Inserts	Normal	Select6
-Map	Rotary 2		Channel 6 C Ratio		Wrap	Inserts	Normal	Select6
-Map	Rotary 3		Channel 6 C Threshold		Wrap	Inserts	Normal	Select6
-Map	Rotary 4		Channel 6 C Release		Wrap	Inserts	Normal	Select6
-Map	Rotary 5		Channel 6 G Range		Wrap	Inserts	Normal	Select6
-Map	Rotary 6		Channel 6 G Threshold		Wrap	Inserts	Normal	Select6
-Map	Rotary 7		Channel 6 G Release		Wrap	Inserts	Normal	Select6
-Map	Rotary 8		Channel 6 G Hold		Wrap	Inserts	Normal	Select6
-
-Map	Record 1		Channel 6 Invert Phase			Inserts	Select6
-Map	Record 2		Channel 6 Comp On			Inserts	Select6
-Map	Record 3		Channel 6 C Peak			Inserts	Select6
-Map	Record 4		Channel 6 C Fast Atk			Inserts	Select6
-Map	Record 5		Channel 6 Key On			Inserts	Select6
-Map	Record 6		Channel 6 Gate On			Inserts	Select6
-Map	Record 7		Channel 6 G Fast Atk			Inserts	Select6
-Map	Record 8		Channel 6 Inserts Post EQ			Inserts	Select6
-
-
-
-
-// Channel 7 Selected
-
-Map	Rotary 1		Channel 7 LPF Frequency		Wrap	Pan	Normal	Select7
-Map	Rotary 2		Channel 7 HPF Frequency		Wrap	Pan	Normal	Select7
-Map	Rotary 3		Channel 7 Rotary 1		Boost/Cut	Pan	Normal	Select7
-Map	Rotary 4		Channel 7 Rotary 2		Boost/Cut	Pan	Normal	Select7
-Map	Rotary 5		Channel 7 Rotary 3		Boost/Cut	Pan	Normal	Select7
-Map	Rotary 6		Channel 7 Rotary 4		Boost/Cut	Pan	Normal	Select7
-Map	Rotary 7		Channel 7 Width		Wrap	Pan	Normal	Select7
-Map	Rotary 8		Channel 7 Pan		Boost/Cut	Pan	Normal	Select7
-
-Map	Record 1		Channel 7 LPF On			Pan	Select7
-Map	Record 2		Channel 7 HPF On			Pan	Select7
-Map	Record 3		Channel 7 Button 1			Pan	Select7
-Map	Record 4		Channel 7 Button 2			Pan	Select7
-Map	Record 5		Channel 7 Button 3			Pan	Select7
-Map	Record 6		Channel 7 Button 4			Pan	Select7
-Map	Record 7		Channel 7 Bypass Insert FX			Pan	Select7
-Map	Record 8		Channel 7 Insert Pre			Pan	Select7
-
-Map	Rotary Button 1		Channel 7 Filters Inserts S/C			Pan	Select7
-
-
-
-Map	Rotary 1		Channel 7 FX1 Send Level		Wrap	FXSends	Normal	Select7
-Map	Rotary 2		Channel 7 FX2 Send Level		Wrap	FXSends	Normal	Select7
-Map	Rotary 3		Channel 7 FX3 Send Level		Wrap	FXSends	Normal	Select7
-Map	Rotary 4		Channel 7 FX4 Send Level		Wrap	FXSends	Normal	Select7
-Map	Rotary 5		Channel 7 FX5 Send Level		Wrap	FXSends	Normal	Select7
-Map	Rotary 6		Channel 7 FX6 Send Level		Wrap	FXSends	Normal	Select7
-Map	Rotary 7		Channel 7 FX7 Send Level		Wrap	FXSends	Normal	Select7
-Map	Rotary 8		Channel 7 FX8 Send Level		Wrap	FXSends	Normal	Select7
-
-Map	Record 1		Channel 7 FX1 Send On			FXSends	Select7
-Map	Record 2		Channel 7 FX2 Send On			FXSends	Select7
-Map	Record 3		Channel 7 FX3 Send On			FXSends	Select7
-Map	Record 4		Channel 7 FX4 Send On			FXSends	Select7
-Map	Record 5		Channel 7 FX5 Send On			FXSends	Select7
-Map	Record 6		Channel 7 FX6 Send On			FXSends	Select7
-Map	Record 7		Channel 7 FX7 Send On			FXSends	Select7
-Map	Record 8		Channel 7 FX8 Send On			FXSends	Select7
-
-Map	Rotary Button 1		Channel 7 FX1 Pre Fader			FXSends	Select7
-Map	Rotary Button 2		Channel 7 FX2 Pre Fader			FXSends	Select7
-Map	Rotary Button 3		Channel 7 FX3 Pre Fader			FXSends	Select7
-Map	Rotary Button 4		Channel 7 FX4 Pre Fader			FXSends	Select7
-Map	Rotary Button 5		Channel 7 FX5 Pre Fader			FXSends	Select7
-Map	Rotary Button 6		Channel 7 FX6 Pre Fader			FXSends	Select7
-Map	Rotary Button 7		Channel 7 FX7 Pre Fader			FXSends	Select7
-Map	Rotary Button 8		Channel 7 FX8 Pre Fader			FXSends	Select7
-
-
-
-Map	Rotary 1		Channel 7 HF Gain		Boost/Cut	EQ	Normal	Select7
-Map	Rotary 2		Channel 7 HF Frequency		Wrap	EQ	Normal	Select7
-Map	Rotary 3		Channel 7 HMF Gain		Boost/Cut	EQ	Normal	Select7
-Map	Rotary 4		Channel 7 HMF Frequency		Wrap	EQ	Normal	Select7
-Map	Rotary 5		Channel 7 LMF Gain		Boost/Cut	EQ	Normal	Select7
-Map	Rotary 6		Channel 7 LMF Frequency		Wrap	EQ	Normal	Select7
-Map	Rotary 7		Channel 7 LF Gain		Boost/Cut	EQ	Normal	Select7
-Map	Rotary 8		Channel 7 LF Frequency		Wrap	EQ	Normal	Select7
-
-Map	Record 1		Channel 7 EQ On			EQ	Select7
-Map	Record 2		Channel 7 EQ E Mode			EQ	Select7
-Map	Record 3		Channel 7 HF Bell			EQ	Select7
-Map	Record 4		Channel 7 LF Bell			EQ	Select7
-Map	Record 5		0			EQ	Select7
-Map	Record 6		0			EQ	Select7
-Map	Record 7		0			EQ	Select7
-Map	Record 8		Channel 7 Inserts Post EQ			EQ	Select7
-
-
-
-Map	Rotary 1		Channel 7 Input Gain		Boost/Cut	Inserts	Normal	Select7
-Map	Rotary 2		Channel 7 C Ratio		Wrap	Inserts	Normal	Select7
-Map	Rotary 3		Channel 7 C Threshold		Wrap	Inserts	Normal	Select7
-Map	Rotary 4		Channel 7 C Release		Wrap	Inserts	Normal	Select7
-Map	Rotary 5		Channel 7 G Range		Wrap	Inserts	Normal	Select7
-Map	Rotary 6		Channel 7 G Threshold		Wrap	Inserts	Normal	Select7
-Map	Rotary 7		Channel 7 G Release		Wrap	Inserts	Normal	Select7
-Map	Rotary 8		Channel 7 G Hold		Wrap	Inserts	Normal	Select7
-
-Map	Record 1		Channel 7 Invert Phase			Inserts	Select7
-Map	Record 2		Channel 7 Comp On			Inserts	Select7
-Map	Record 3		Channel 7 C Peak			Inserts	Select7
-Map	Record 4		Channel 7 C Fast Atk			Inserts	Select7
-Map	Record 5		Channel 7 Key On			Inserts	Select7
-Map	Record 6		Channel 7 Gate On			Inserts	Select7
-Map	Record 7		Channel 7 G Fast Atk			Inserts	Select7
-Map	Record 8		Channel 7 Inserts Post EQ			Inserts	Select7
-
-
-
-// Channel 8 Selected
-
-Map	Rotary 1		Channel 8 LPF Frequency		Wrap	Pan	Normal	Select8
-Map	Rotary 2		Channel 8 HPF Frequency		Wrap	Pan	Normal	Select8
-Map	Rotary 3		Channel 8 Rotary 1		Boost/Cut	Pan	Normal	Select8
-Map	Rotary 4		Channel 8 Rotary 2		Boost/Cut	Pan	Normal	Select8
-Map	Rotary 5		Channel 8 Rotary 3		Boost/Cut	Pan	Normal	Select8
-Map	Rotary 6		Channel 8 Rotary 4		Boost/Cut	Pan	Normal	Select8
-Map	Rotary 7		Channel 8 Width		Wrap	Pan	Normal	Select8
-Map	Rotary 8		Channel 8 Pan		Boost/Cut	Pan	Normal	Select8
-
-Map	Record 1		Channel 8 LPF On			Pan	Select8
-Map	Record 2		Channel 8 HPF On			Pan	Select8
-Map	Record 3		Channel 8 Button 1			Pan	Select8
-Map	Record 4		Channel 8 Button 2			Pan	Select8
-Map	Record 5		Channel 8 Button 3			Pan	Select8
-Map	Record 6		Channel 8 Button 4			Pan	Select8
-Map	Record 7		Channel 8 Bypass Insert FX			Pan	Select8
-Map	Record 8		Channel 8 Insert Pre			Pan	Select8
-
-Map	Rotary Button 1		Channel 8 Filters Inserts S/C			Pan	Select8
-
-
-
-Map	Rotary 1		Channel 8 FX1 Send Level		Wrap	FXSends	Normal	Select8
-Map	Rotary 2		Channel 8 FX2 Send Level		Wrap	FXSends	Normal	Select8
-Map	Rotary 3		Channel 8 FX3 Send Level		Wrap	FXSends	Normal	Select8
-Map	Rotary 4		Channel 8 FX4 Send Level		Wrap	FXSends	Normal	Select8
-Map	Rotary 5		Channel 8 FX5 Send Level		Wrap	FXSends	Normal	Select8
-Map	Rotary 6		Channel 8 FX6 Send Level		Wrap	FXSends	Normal	Select8
-Map	Rotary 7		Channel 8 FX7 Send Level		Wrap	FXSends	Normal	Select8
-Map	Rotary 8		Channel 8 FX8 Send Level		Wrap	FXSends	Normal	Select8
-
-Map	Record 1		Channel 8 FX1 Send On			FXSends	Select8
-Map	Record 2		Channel 8 FX2 Send On			FXSends	Select8
-Map	Record 3		Channel 8 FX3 Send On			FXSends	Select8
-Map	Record 4		Channel 8 FX4 Send On			FXSends	Select8
-Map	Record 5		Channel 8 FX5 Send On			FXSends	Select8
-Map	Record 6		Channel 8 FX6 Send On			FXSends	Select8
-Map	Record 7		Channel 8 FX7 Send On			FXSends	Select8
-Map	Record 8		Channel 8 FX8 Send On			FXSends	Select8
-
-Map	Rotary Button 1		Channel 8 FX1 Pre Fader			FXSends	Select8
-Map	Rotary Button 2		Channel 8 FX2 Pre Fader			FXSends	Select8
-Map	Rotary Button 3		Channel 8 FX3 Pre Fader			FXSends	Select8
-Map	Rotary Button 4		Channel 8 FX4 Pre Fader			FXSends	Select8
-Map	Rotary Button 5		Channel 8 FX5 Pre Fader			FXSends	Select8
-Map	Rotary Button 6		Channel 8 FX6 Pre Fader			FXSends	Select8
-Map	Rotary Button 7		Channel 8 FX7 Pre Fader			FXSends	Select8
-Map	Rotary Button 8		Channel 8 FX8 Pre Fader			FXSends	Select8
-
-
-Map	Rotary 1		Channel 8 HF Gain		Boost/Cut	EQ	Normal	Select8
-Map	Rotary 2		Channel 8 HF Frequency		Wrap	EQ	Normal	Select8
-Map	Rotary 3		Channel 8 HMF Gain		Boost/Cut	EQ	Normal	Select8
-Map	Rotary 4		Channel 8 HMF Frequency		Wrap	EQ	Normal	Select8
-Map	Rotary 5		Channel 8 LMF Gain		Boost/Cut	EQ	Normal	Select8
-Map	Rotary 6		Channel 8 LMF Frequency		Wrap	EQ	Normal	Select8
-Map	Rotary 7		Channel 8 LF Gain		Boost/Cut	EQ	Normal	Select8
-Map	Rotary 8		Channel 8 LF Frequency		Wrap	EQ	Normal	Select8
-
-Map	Record 1		Channel 8 EQ On			EQ	Select8
-Map	Record 2		Channel 8 EQ E Mode			EQ	Select8
-Map	Record 3		Channel 8 HF Bell			EQ	Select8
-Map	Record 4		Channel 8 LF Bell			EQ	Select8
-Map	Record 5		0			EQ	Select8
-Map	Record 6		0			EQ	Select8
-Map	Record 7		0			EQ	Select8
-Map	Record 8		Channel 8 Inserts Post EQ			EQ	Select8
-
-
-
-Map	Rotary 1		Channel 8 Input Gain		Boost/Cut	Inserts	Normal	Select8
-Map	Rotary 2		Channel 8 C Ratio		Wrap	Inserts	Normal	Select8
-Map	Rotary 3		Channel 8 C Threshold		Wrap	Inserts	Normal	Select8
-Map	Rotary 4		Channel 8 C Release		Wrap	Inserts	Normal	Select8
-Map	Rotary 5		Channel 8 G Range		Wrap	Inserts	Normal	Select8
-Map	Rotary 6		Channel 8 G Threshold		Wrap	Inserts	Normal	Select8
-Map	Rotary 7		Channel 8 G Release		Wrap	Inserts	Normal	Select8
-Map	Rotary 8		Channel 8 G Hold		Wrap	Inserts	Normal	Select8
-
-Map	Record 1		Channel 8 Invert Phase			Inserts	Select8
-Map	Record 2		Channel 8 Comp On			Inserts	Select8
-Map	Record 3		Channel 8 C Peak			Inserts	Select8
-Map	Record 4		Channel 8 C Fast Atk			Inserts	Select8
-Map	Record 5		Channel 8 Key On			Inserts	Select8
-Map	Record 6		Channel 8 Gate On			Inserts	Select8
-Map	Record 7		Channel 8 G Fast Atk			Inserts	Select8
-Map	Record 8		Channel 8 Inserts Post EQ			Inserts	Select8
-
-
-// Flipped!
+// Master + Inserts
+
+Map	Rotary 1		Threshold		Wrap	Master	Inserts	Normal
+Map	Rotary 2		Ratio		Wrap	Master	Inserts	Normal
+Map	Rotary 3		Make-Up Gain		Wrap	Master	Inserts	Normal
+Map	Rotary 4		Rotary 1		Boost/Cut	Master	Inserts	Normal
+Map	Rotary 5		Rotary 2		Boost/Cut	Master	Inserts	Normal
+Map	Rotary 6		Rotary 3		Boost/Cut	Master	Inserts	Normal
+Map	Rotary 7		Rotary 4		Boost/Cut	Master	Inserts	Normal
+Map	Rotary 8		Ctrl Room Level		Wrap	Master	Inserts	Normal
+
+Map	LCD Row 1 Channel 1		"Thresh"			Master	Inserts
+Map	LCD Row 1 Channel 2		"Ratio"			Master	Inserts
+Map	LCD Row 1 Channel 3		"Makeup"			Master	Inserts
+Map	LCD Row 1 Channel 4		"Rot 1"			Master	Inserts
+Map	LCD Row 1 Channel 5		"Rot 2"			Master	Inserts
+Map	LCD Row 1 Channel 6		"Rot 3"			Master	Inserts
+Map	LCD Row 1 Channel 7		"Rot 4"			Master	Inserts
+Map	LCD Row 1 Channel 8		"CR Lvl"			Master	Inserts
+
+Map	Rotary Button 1		Compressor On			Master	Inserts
+Map	Rotary Button 2		Key On			Master	Inserts
+Map	Rotary Button 3		Inserts Pre			Master	Inserts
+Map	Rotary Button 4		Button 1			Master	Inserts
+Map	Rotary Button 5		Button 2			Master	Inserts
+Map	Rotary Button 6		Button 3			Master	Inserts
+Map	Rotary Button 7		Button 4			Master	Inserts
+Map	Rotary Button 8		Bypass Insert FX			Master	Inserts
+
+Map	LCD Row 2 Channel 1		"Comp"			Master	Inserts
+Map	LCD Row 2 Channel 2		"Key"			Master	Inserts
+Map	LCD Row 2 Channel 3		"InsPre"			Master	Inserts
+Map	LCD Row 2 Channel 4		"Btn 1"			Master	Inserts
+Map	LCD Row 2 Channel 5		"Btn 2"			Master	Inserts
+Map	LCD Row 2 Channel 6		"Btn 3"			Master	Inserts
+Map	LCD Row 2 Channel 7		"Btn 4"			Master	Inserts
+Map	LCD Row 2 Channel 8		"Bypass"			Master	Inserts
+
+// Master + EQ (Disabled)
+
+Map	Rotary 1		0			EQ	Master
+Map	Rotary 2		0			EQ	Master
+Map	Rotary 3		0			EQ	Master
+Map	Rotary 4		0			EQ	Master
+Map	Rotary 5		0			EQ	Master
+Map	Rotary 6		0			EQ	Master
+Map	Rotary 7		0			EQ	Master
+Map	Rotary 8		0			EQ	Master
+
+Map	Rotary Button 1		0			EQ	Master
+Map	Rotary Button 2		0			EQ	Master
+Map	Rotary Button 3		0			EQ	Master
+Map	Rotary Button 4		0			EQ	Master
+Map	Rotary Button 5		0			EQ	Master
+Map	Rotary Button 6		0			EQ	Master
+Map	Rotary Button 7		0			EQ	Master
+Map	Rotary Button 8		0			EQ	Master
+
+Map	LCD Row 1 Channel 1		""			EQ	Master
+Map	LCD Row 1 Channel 2		""			EQ	Master
+Map	LCD Row 1 Channel 3		""			EQ	Master
+Map	LCD Row 1 Channel 4		""			EQ	Master
+Map	LCD Row 1 Channel 5		""			EQ	Master
+Map	LCD Row 1 Channel 6		""			EQ	Master
+Map	LCD Row 1 Channel 7		""			EQ	Master
+Map	LCD Row 1 Channel 8		""			EQ	Master
+
+Map	LCD Row 2 Channel 1		""			EQ	Master
+Map	LCD Row 2 Channel 2		""			EQ	Master
+Map	LCD Row 2 Channel 3		""			EQ	Master
+Map	LCD Row 2 Channel 4		""			EQ	Master
+Map	LCD Row 2 Channel 5		""			EQ	Master
+Map	LCD Row 2 Channel 6		""			EQ	Master
+Map	LCD Row 2 Channel 7		""			EQ	Master
+Map	LCD Row 2 Channel 8		""			EQ	Master
+
+// Master Mode + FX Sends, lower row show Master FX names
+
+Map	Rotary 1		FX1 Return Level		Wrap	Master	FX Send	Normal
+Map	Rotary 2		FX2 Return Level		Wrap	Master	FX Send	Normal
+Map	Rotary 3		FX3 Return Level		Wrap	Master	FX Send	Normal
+Map	Rotary 4		FX4 Return Level		Wrap	Master	FX Send	Normal
+Map	Rotary 5		FX5 Return Level		Wrap	Master	FX Send	Normal
+Map	Rotary 6		FX6 Return Level		Wrap	Master	FX Send	Normal
+Map	Rotary 7		FX7 Return Level		Wrap	Master	FX Send	Normal
+Map	Rotary 8		FX8 Return Level		Wrap	Master	FX Send	Normal
+
+Map	LCD Row 1 Channel 1		"Rotarie"			Master	FX Send
+Map	LCD Row 1 Channel 2		"s = FX "			Master	FX Send
+Map	LCD Row 1 Channel 3		"Return "			Master	FX Send
+Map	LCD Row 1 Channel 4		"Levels "			Master	FX Send
+Map	LCD Row 1 Channel 5		"/ Butto"			Master	FX Send
+Map	LCD Row 1 Channel 6		"ns = FX"			Master	FX Send
+Map	LCD Row 1 Channel 7		" Mute  "			Master	FX Send
+Map	LCD Row 1 Channel 8		""			Master	FX Send
+
+Map	Rotary Button 1		FX1 Mute			Master	FX Send
+Map	Rotary Button 2		FX2 Mute			Master	FX Send
+Map	Rotary Button 3		FX3 Mute			Master	FX Send
+Map	Rotary Button 4		FX4 Mute			Master	FX Send
+Map	Rotary Button 5		FX5 Mute			Master	FX Send
+Map	Rotary Button 6		FX6 Mute			Master	FX Send
+Map	Rotary Button 7		FX7 Mute			Master	FX Send
+Map	Rotary Button 8		FX8 Mute			Master	FX Send
+
+Map	LCD Row 2 Channel 1		FX1 Name			Master	FX Send
+Map	LCD Row 2 Channel 2		FX2 Name			Master	FX Send
+Map	LCD Row 2 Channel 3		FX3 Name			Master	FX Send
+Map	LCD Row 2 Channel 4		FX4 Name			Master	FX Send
+Map	LCD Row 2 Channel 5		FX5 Name			Master	FX Send
+Map	LCD Row 2 Channel 6		FX6 Name			Master	FX Send
+Map	LCD Row 2 Channel 7		FX7 Name			Master	FX Send
+Map	LCD Row 2 Channel 8		FX8 Name			Master	FX Send
+
+
+
+// ---------------------------------------------------------------------------------------
+//  Rotaries, Buttons and Displays in Single Channel Mode
+// ---------------------------------------------------------------------------------------
+
+// ---------------------------------------------------------------------------------------
+//  All Displays Otherwise: This happens in Select modes
+//  Upper Row: Rotary Encoder Names / Lower Row Rotary Button Names
+// ---------------------------------------------------------------------------------------
+
+Map	LCD Row 1 Channel 1		"LPF"			Pan
+Map	LCD Row 1 Channel 2		"HPF"			Pan
+Map	LCD Row 1 Channel 3		"Ins 1"			Pan
+Map	LCD Row 1 Channel 4		"Ins 2"			Pan
+Map	LCD Row 1 Channel 5		"Ins 3"			Pan
+Map	LCD Row 1 Channel 6		"Ins 4"			Pan
+Map	LCD Row 1 Channel 7		"Width"			Pan
+Map	LCD Row 1 Channel 8		"Pan"			Pan
+
+Map	LCD Row 2 Channel 1		"On/Off"			Pan
+Map	LCD Row 2 Channel 2		"On/Off"			Pan
+Map	LCD Row 2 Channel 3		"On/Off"			Pan
+Map	LCD Row 2 Channel 4		"On/Off"			Pan
+Map	LCD Row 2 Channel 5		"On/Off"			Pan
+Map	LCD Row 2 Channel 6		"On/Off"			Pan
+Map	LCD Row 2 Channel 7		"Bypass"			Pan
+Map	LCD Row 2 Channel 8		"Ins/Pre"			Pan
+
+Map	LCD Row 1 Channel 1		"Gain"			Inserts
+Map	LCD Row 1 Channel 2		"C Rati"			Inserts
+Map	LCD Row 1 Channel 3		"C Thr"			Inserts
+Map	LCD Row 1 Channel 4		"C Rel"			Inserts
+Map	LCD Row 1 Channel 5		"G Rang"			Inserts
+Map	LCD Row 1 Channel 6		"G Thr"			Inserts
+Map	LCD Row 1 Channel 7		"G Rel"			Inserts
+Map	LCD Row 1 Channel 8		"G Hold"			Inserts
+
+Map	LCD Row 2 Channel 1		"InvPha"			Inserts
+Map	LCD Row 2 Channel 2		"Comp"			Inserts
+Map	LCD Row 2 Channel 3		"C Peak"			Inserts
+Map	LCD Row 2 Channel 4		"C Fast"			Inserts
+Map	LCD Row 2 Channel 5		"Key"			Inserts
+Map	LCD Row 2 Channel 6		"Gate"			Inserts
+Map	LCD Row 2 Channel 7		"G Fast"			Inserts
+Map	LCD Row 2 Channel 8		""			Inserts
+
+Map	LCD Row 1 Channel 1		"HF"			EQ
+Map	LCD Row 1 Channel 2		"Freq"			EQ
+Map	LCD Row 1 Channel 3		"HMF"			EQ
+Map	LCD Row 1 Channel 4		"Freq"			EQ
+Map	LCD Row 1 Channel 5		"LMF"			EQ
+Map	LCD Row 1 Channel 6		"Freq"			EQ
+Map	LCD Row 1 Channel 7		"LF"			EQ
+Map	LCD Row 1 Channel 8		"Freq"			EQ
+
+Map	LCD Row 2 Channel 1		"EQ On"			EQ
+Map	LCD Row 2 Channel 2		"EQMode"			EQ
+Map	LCD Row 2 Channel 3		"HF Bel"			EQ
+Map	LCD Row 2 Channel 4		"LF Bel"			EQ
+Map	LCD Row 2 Channel 5		""			EQ
+Map	LCD Row 2 Channel 6		""			EQ
+Map	LCD Row 2 Channel 7		""			EQ
+Map	LCD Row 2 Channel 8		""			EQ
+
+Map	LCD Row 1 Channel 1		"FX1Snd"			FX Send
+Map	LCD Row 1 Channel 2		"FX2Snd"			FX Send
+Map	LCD Row 1 Channel 3		"FX3Snd"			FX Send
+Map	LCD Row 1 Channel 4		"FX4Snd"			FX Send
+Map	LCD Row 1 Channel 5		"FX5Snd"			FX Send
+Map	LCD Row 1 Channel 6		"FX6Snd"			FX Send
+Map	LCD Row 1 Channel 7		"FX7Snd"			FX Send
+Map	LCD Row 1 Channel 8		"FX8Snd"			FX Send
+
+Map	LCD Row 2 Channel 1		"On/Off"			FX Send
+Map	LCD Row 2 Channel 2		"On/Off"			FX Send
+Map	LCD Row 2 Channel 3		"On/Off"			FX Send
+Map	LCD Row 2 Channel 4		"On/Off"			FX Send
+Map	LCD Row 2 Channel 5		"On/Off"			FX Send
+Map	LCD Row 2 Channel 6		"On/Off"			FX Send
+Map	LCD Row 2 Channel 7		"On/Off"			FX Send
+Map	LCD Row 2 Channel 8		"On/Off"			FX Send
+
+
+
+
+// ---------------------------------------------------------------------------------------
+//  Channel 1 Selected
+// ---------------------------------------------------------------------------------------
+
+//  Pan
+
+Map	Rotary 1		Channel 1 LPF Frequency		Wrap	Pan	Select1	Normal
+Map	Rotary 2		Channel 1 HPF Frequency		Wrap	Pan	Select1	Normal
+Map	Rotary 3		Channel 1 Rotary 1		Boost/Cut	Pan	Select1	Normal
+Map	Rotary 4		Channel 1 Rotary 2		Boost/Cut	Pan	Select1	Normal
+Map	Rotary 5		Channel 1 Rotary 3		Boost/Cut	Pan	Select1	Normal
+Map	Rotary 6		Channel 1 Rotary 4		Boost/Cut	Pan	Select1	Normal
+Map	Rotary 7		Channel 1 Width		Wrap	Pan	Select1	Normal
+Map	Rotary 8		Channel 1 Pan		Boost/Cut	Pan	Select1	Normal
+
+Map	Rotary Button 1		Channel 1 LPF On			Pan	Select1
+Map	Rotary Button 2		Channel 1 HPF On			Pan	Select1
+Map	Rotary Button 3		Channel 1 Button 1			Pan	Select1
+Map	Rotary Button 4		Channel 1 Button 2			Pan	Select1
+Map	Rotary Button 5		Channel 1 Button 3			Pan	Select1
+Map	Rotary Button 6		Channel 1 Button 4			Pan	Select1
+Map	Rotary Button 7		Channel 1 Bypass Insert FX			Pan	Select1
+Map	Rotary Button 8		Channel 1 Insert Pre			Pan	Select1
+
+//  Inserts
+
+Map	Rotary 1		Channel 1 Input Gain		Boost/Cut	Inserts	Select1	Normal
+Map	Rotary 2		Channel 1 C Ratio		Wrap	Inserts	Select1	Normal
+Map	Rotary 3		Channel 1 C Threshold		Wrap	Inserts	Select1	Normal
+Map	Rotary 4		Channel 1 C Release		Wrap	Inserts	Select1	Normal
+Map	Rotary 5		Channel 1 G Range		Wrap	Inserts	Select1	Normal
+Map	Rotary 6		Channel 1 G Threshold		Wrap	Inserts	Select1	Normal
+Map	Rotary 7		Channel 1 G Release		Wrap	Inserts	Select1	Normal
+Map	Rotary 8		Channel 1 G Hold		Wrap	Inserts	Select1	Normal
+
+Map	Rotary Button 1		Channel 1 Invert Phase			Inserts	Select1
+Map	Rotary Button 2		Channel 1 Comp On			Inserts	Select1
+Map	Rotary Button 3		Channel 1 C Peak			Inserts	Select1
+Map	Rotary Button 4		Channel 1 C Fast Atk			Inserts	Select1
+Map	Rotary Button 5		Channel 1 Key On			Inserts	Select1
+Map	Rotary Button 6		Channel 1 Gate On			Inserts	Select1
+Map	Rotary Button 7		Channel 1 G Fast Atk			Inserts	Select1
+Map	Rotary Button 8		0			Inserts	Select1
+
+//  EQ
+
+Map	Rotary 1		Channel 1 HF Gain		Boost/Cut	EQ	Select1	Normal
+Map	Rotary 2		Channel 1 HF Frequency		Wrap	EQ	Select1	Normal
+Map	Rotary 3		Channel 1 HMF Gain		Boost/Cut	EQ	Select1	Normal
+Map	Rotary 4		Channel 1 HMF Frequency		Wrap	EQ	Select1	Normal
+Map	Rotary 5		Channel 1 LMF Gain		Boost/Cut	EQ	Select1	Normal
+Map	Rotary 6		Channel 1 LMF Frequency		Wrap	EQ	Select1	Normal
+Map	Rotary 7		Channel 1 LF Gain		Boost/Cut	EQ	Select1	Normal
+Map	Rotary 8		Channel 1 LF Frequency		Wrap	EQ	Select1	Normal
+
+Map	Rotary Button 1		Channel 1 EQ On			EQ	Select1
+Map	Rotary Button 2		Channel 1 EQ E Mode			EQ	Select1
+Map	Rotary Button 3		Channel 1 HF Bell			EQ	Select1
+Map	Rotary Button 4		Channel 1 LF Bell			EQ	Select1
+Map	Rotary Button 5		0			EQ	Select1
+Map	Rotary Button 6		0			EQ	Select1
+Map	Rotary Button 7		0			EQ	Select1
+Map	Rotary Button 8		0			EQ	Select1
+
+// FX Send
+
+Map	Rotary 1		Channel 1 FX1 Send Level		Wrap	FX Send	Select1	Normal
+Map	Rotary 2		Channel 1 FX2 Send Level		Wrap	FX Send	Select1	Normal
+Map	Rotary 3		Channel 1 FX3 Send Level		Wrap	FX Send	Select1	Normal
+Map	Rotary 4		Channel 1 FX4 Send Level		Wrap	FX Send	Select1	Normal
+Map	Rotary 5		Channel 1 FX5 Send Level		Wrap	FX Send	Select1	Normal
+Map	Rotary 6		Channel 1 FX6 Send Level		Wrap	FX Send	Select1	Normal
+Map	Rotary 7		Channel 1 FX7 Send Level		Wrap	FX Send	Select1	Normal
+Map	Rotary 8		Channel 1 FX8 Send Level		Wrap	FX Send	Select1	Normal
+
+Map	Rotary Button 1		Channel 1 FX1 Send On			FX Send	Select1
+Map	Rotary Button 2		Channel 1 FX2 Send On			FX Send	Select1
+Map	Rotary Button 3		Channel 1 FX3 Send On			FX Send	Select1
+Map	Rotary Button 4		Channel 1 FX4 Send On			FX Send	Select1
+Map	Rotary Button 5		Channel 1 FX5 Send On			FX Send	Select1
+Map	Rotary Button 6		Channel 1 FX6 Send On			FX Send	Select1
+Map	Rotary Button 7		Channel 1 FX7 Send On			FX Send	Select1
+Map	Rotary Button 8		Channel 1 FX8 Send On			FX Send	Select1
+
+//Map	Rotary Button 1		Channel 1 FX1 Pre Fader			FX Send	Select1
+//Map	Rotary Button 2		Channel 1 FX2 Pre Fader			FX Send	Select1
+//Map	Rotary Button 3		Channel 1 FX3 Pre Fader			FX Send	Select1
+//Map	Rotary Button 4		Channel 1 FX4 Pre Fader			FX Send	Select1
+//Map	Rotary Button 5		Channel 1 FX5 Pre Fader			FX Send	Select1
+//Map	Rotary Button 6		Channel 1 FX6 Pre Fader			FX Send	Select1
+//Map	Rotary Button 7		Channel 1 FX7 Pre Fader			FX Send	Select1
+//Map	Rotary Button 8		Channel 1 FX8 Pre Fader			FX Send	Select1
+
+
+
+
+// ---------------------------------------------------------------------------------------
+//  Channel 2 Selected
+// ---------------------------------------------------------------------------------------
+
+//  Pan
+
+Map	Rotary 1		Channel 2 LPF Frequency		Wrap	Pan	Select2	Normal
+Map	Rotary 2		Channel 2 HPF Frequency		Wrap	Pan	Select2	Normal
+Map	Rotary 3		Channel 2 Rotary 1		Boost/Cut	Pan	Select2	Normal
+Map	Rotary 4		Channel 2 Rotary 2		Boost/Cut	Pan	Select2	Normal
+Map	Rotary 5		Channel 2 Rotary 3		Boost/Cut	Pan	Select2	Normal
+Map	Rotary 6		Channel 2 Rotary 4		Boost/Cut	Pan	Select2	Normal
+Map	Rotary 7		Channel 2 Width		Wrap	Pan	Select2	Normal
+Map	Rotary 8		Channel 2 Pan		Boost/Cut	Pan	Select2	Normal
+
+Map	Rotary Button 1		Channel 2 LPF On			Pan	Select2
+Map	Rotary Button 2		Channel 2 HPF On			Pan	Select2
+Map	Rotary Button 3		Channel 2 Button 1			Pan	Select2
+Map	Rotary Button 4		Channel 2 Button 2			Pan	Select2
+Map	Rotary Button 5		Channel 2 Button 3			Pan	Select2
+Map	Rotary Button 6		Channel 2 Button 4			Pan	Select2
+Map	Rotary Button 7		Channel 2 Bypass Insert FX			Pan	Select2
+Map	Rotary Button 8		Channel 2 Insert Pre			Pan	Select2
+
+//  Inserts
+
+Map	Rotary 1		Channel 2 Input Gain		Boost/Cut	Inserts	Select2	Normal
+Map	Rotary 2		Channel 2 C Ratio		Wrap	Inserts	Select2	Normal
+Map	Rotary 3		Channel 2 C Threshold		Wrap	Inserts	Select2	Normal
+Map	Rotary 4		Channel 2 C Release		Wrap	Inserts	Select2	Normal
+Map	Rotary 5		Channel 2 G Range		Wrap	Inserts	Select2	Normal
+Map	Rotary 6		Channel 2 G Threshold		Wrap	Inserts	Select2	Normal
+Map	Rotary 7		Channel 2 G Release		Wrap	Inserts	Select2	Normal
+Map	Rotary 8		Channel 2 G Hold		Wrap	Inserts	Select2	Normal
+
+Map	Rotary Button 1		Channel 2 Invert Phase			Inserts	Select2
+Map	Rotary Button 2		Channel 2 Comp On			Inserts	Select2
+Map	Rotary Button 3		Channel 2 C Peak			Inserts	Select2
+Map	Rotary Button 4		Channel 2 C Fast Atk			Inserts	Select2
+Map	Rotary Button 5		Channel 2 Key On			Inserts	Select2
+Map	Rotary Button 6		Channel 2 Gate On			Inserts	Select2
+Map	Rotary Button 7		Channel 2 G Fast Atk			Inserts	Select2
+Map	Rotary Button 8		0			Inserts	Select2
+
+//  EQ
+
+Map	Rotary 1		Channel 2 HF Gain		Boost/Cut	EQ	Select2	Normal
+Map	Rotary 2		Channel 2 HF Frequency		Wrap	EQ	Select2	Normal
+Map	Rotary 3		Channel 2 HMF Gain		Boost/Cut	EQ	Select2	Normal
+Map	Rotary 4		Channel 2 HMF Frequency		Wrap	EQ	Select2	Normal
+Map	Rotary 5		Channel 2 LMF Gain		Boost/Cut	EQ	Select2	Normal
+Map	Rotary 6		Channel 2 LMF Frequency		Wrap	EQ	Select2	Normal
+Map	Rotary 7		Channel 2 LF Gain		Boost/Cut	EQ	Select2	Normal
+Map	Rotary 8		Channel 2 LF Frequency		Wrap	EQ	Select2	Normal
+
+Map	Rotary Button 1		Channel 2 EQ On			EQ	Select2
+Map	Rotary Button 2		Channel 2 EQ E Mode			EQ	Select2
+Map	Rotary Button 3		Channel 2 HF Bell			EQ	Select2
+Map	Rotary Button 4		Channel 2 LF Bell			EQ	Select2
+Map	Rotary Button 5		0			EQ	Select2
+Map	Rotary Button 6		0			EQ	Select2
+Map	Rotary Button 7		0			EQ	Select2
+Map	Rotary Button 8		0			EQ	Select2
+
+// FX Send
+
+Map	Rotary 1		Channel 2 FX1 Send Level		Wrap	FX Send	Select2	Normal
+Map	Rotary 2		Channel 2 FX2 Send Level		Wrap	FX Send	Select2	Normal
+Map	Rotary 3		Channel 2 FX3 Send Level		Wrap	FX Send	Select2	Normal
+Map	Rotary 4		Channel 2 FX4 Send Level		Wrap	FX Send	Select2	Normal
+Map	Rotary 5		Channel 2 FX5 Send Level		Wrap	FX Send	Select2	Normal
+Map	Rotary 6		Channel 2 FX6 Send Level		Wrap	FX Send	Select2	Normal
+Map	Rotary 7		Channel 2 FX7 Send Level		Wrap	FX Send	Select2	Normal
+Map	Rotary 8		Channel 2 FX8 Send Level		Wrap	FX Send	Select2	Normal
+
+Map	Rotary Button 1		Channel 2 FX1 Send On			FX Send	Select2
+Map	Rotary Button 2		Channel 2 FX2 Send On			FX Send	Select2
+Map	Rotary Button 3		Channel 2 FX3 Send On			FX Send	Select2
+Map	Rotary Button 4		Channel 2 FX4 Send On			FX Send	Select2
+Map	Rotary Button 5		Channel 2 FX5 Send On			FX Send	Select2
+Map	Rotary Button 6		Channel 2 FX6 Send On			FX Send	Select2
+Map	Rotary Button 7		Channel 2 FX7 Send On			FX Send	Select2
+Map	Rotary Button 8		Channel 2 FX8 Send On			FX Send	Select2
+
+//Map	Rotary Button 1		Channel 2 FX1 Pre Fader			FX Send	Select2
+//Map	Rotary Button 2		Channel 2 FX2 Pre Fader			FX Send	Select2
+//Map	Rotary Button 3		Channel 2 FX3 Pre Fader			FX Send	Select2
+//Map	Rotary Button 4		Channel 2 FX4 Pre Fader			FX Send	Select2
+//Map	Rotary Button 5		Channel 2 FX5 Pre Fader			FX Send	Select2
+//Map	Rotary Button 6		Channel 2 FX6 Pre Fader			FX Send	Select2
+//Map	Rotary Button 7		Channel 2 FX7 Pre Fader			FX Send	Select2
+//Map	Rotary Button 8		Channel 2 FX8 Pre Fader			FX Send	Select2
+
+
+
+// ---------------------------------------------------------------------------------------
+//  Channel 3 Selected
+// ---------------------------------------------------------------------------------------
+
+//  Pan
+
+Map	Rotary 1		Channel 3 LPF Frequency		Wrap	Pan	Select3	Normal
+Map	Rotary 2		Channel 3 HPF Frequency		Wrap	Pan	Select3	Normal
+Map	Rotary 3		Channel 3 Rotary 1		Boost/Cut	Pan	Select3	Normal
+Map	Rotary 4		Channel 3 Rotary 2		Boost/Cut	Pan	Select3	Normal
+Map	Rotary 5		Channel 3 Rotary 3		Boost/Cut	Pan	Select3	Normal
+Map	Rotary 6		Channel 3 Rotary 4		Boost/Cut	Pan	Select3	Normal
+Map	Rotary 7		Channel 3 Width		Wrap	Pan	Select3	Normal
+Map	Rotary 8		Channel 3 Pan		Boost/Cut	Pan	Select3	Normal
+
+Map	Rotary Button 1		Channel 3 LPF On			Pan	Select3
+Map	Rotary Button 2		Channel 3 HPF On			Pan	Select3
+Map	Rotary Button 3		Channel 3 Button 1			Pan	Select3
+Map	Rotary Button 4		Channel 3 Button 2			Pan	Select3
+Map	Rotary Button 5		Channel 3 Button 3			Pan	Select3
+Map	Rotary Button 6		Channel 3 Button 4			Pan	Select3
+Map	Rotary Button 7		Channel 3 Bypass Insert FX			Pan	Select3
+Map	Rotary Button 8		Channel 3 Insert Pre			Pan	Select3
+
+//  Inserts
+
+Map	Rotary 1		Channel 3 Input Gain		Boost/Cut	Inserts	Select3	Normal
+Map	Rotary 2		Channel 3 C Ratio		Wrap	Inserts	Select3	Normal
+Map	Rotary 3		Channel 3 C Threshold		Wrap	Inserts	Select3	Normal
+Map	Rotary 4		Channel 3 C Release		Wrap	Inserts	Select3	Normal
+Map	Rotary 5		Channel 3 G Range		Wrap	Inserts	Select3	Normal
+Map	Rotary 6		Channel 3 G Threshold		Wrap	Inserts	Select3	Normal
+Map	Rotary 7		Channel 3 G Release		Wrap	Inserts	Select3	Normal
+Map	Rotary 8		Channel 3 G Hold		Wrap	Inserts	Select3	Normal
+
+Map	Rotary Button 1		Channel 3 Invert Phase			Inserts	Select3
+Map	Rotary Button 2		Channel 3 Comp On			Inserts	Select3
+Map	Rotary Button 3		Channel 3 C Peak			Inserts	Select3
+Map	Rotary Button 4		Channel 3 C Fast Atk			Inserts	Select3
+Map	Rotary Button 5		Channel 3 Key On			Inserts	Select3
+Map	Rotary Button 6		Channel 3 Gate On			Inserts	Select3
+Map	Rotary Button 7		Channel 3 G Fast Atk			Inserts	Select3
+Map	Rotary Button 8		0			Inserts	Select3
+
+//  EQ
+
+Map	Rotary 1		Channel 3 HF Gain		Boost/Cut	EQ	Select3	Normal
+Map	Rotary 2		Channel 3 HF Frequency		Wrap	EQ	Select3	Normal
+Map	Rotary 3		Channel 3 HMF Gain		Boost/Cut	EQ	Select3	Normal
+Map	Rotary 4		Channel 3 HMF Frequency		Wrap	EQ	Select3	Normal
+Map	Rotary 5		Channel 3 LMF Gain		Boost/Cut	EQ	Select3	Normal
+Map	Rotary 6		Channel 3 LMF Frequency		Wrap	EQ	Select3	Normal
+Map	Rotary 7		Channel 3 LF Gain		Boost/Cut	EQ	Select3	Normal
+Map	Rotary 8		Channel 3 LF Frequency		Wrap	EQ	Select3	Normal
+
+Map	Rotary Button 1		Channel 3 EQ On			EQ	Select3
+Map	Rotary Button 2		Channel 3 EQ E Mode			EQ	Select3
+Map	Rotary Button 3		Channel 3 HF Bell			EQ	Select3
+Map	Rotary Button 4		Channel 3 LF Bell			EQ	Select3
+Map	Rotary Button 5		0			EQ	Select3
+Map	Rotary Button 6		0			EQ	Select3
+Map	Rotary Button 7		0			EQ	Select3
+Map	Rotary Button 8		0			EQ	Select3
+
+// FX Send
+
+Map	Rotary 1		Channel 3 FX1 Send Level		Wrap	FX Send	Select3	Normal
+Map	Rotary 2		Channel 3 FX2 Send Level		Wrap	FX Send	Select3	Normal
+Map	Rotary 3		Channel 3 FX3 Send Level		Wrap	FX Send	Select3	Normal
+Map	Rotary 4		Channel 3 FX4 Send Level		Wrap	FX Send	Select3	Normal
+Map	Rotary 5		Channel 3 FX5 Send Level		Wrap	FX Send	Select3	Normal
+Map	Rotary 6		Channel 3 FX6 Send Level		Wrap	FX Send	Select3	Normal
+Map	Rotary 7		Channel 3 FX7 Send Level		Wrap	FX Send	Select3	Normal
+Map	Rotary 8		Channel 3 FX8 Send Level		Wrap	FX Send	Select3	Normal
+
+Map	Rotary Button 1		Channel 3 FX1 Send On			FX Send	Select3
+Map	Rotary Button 2		Channel 3 FX2 Send On			FX Send	Select3
+Map	Rotary Button 3		Channel 3 FX3 Send On			FX Send	Select3
+Map	Rotary Button 4		Channel 3 FX4 Send On			FX Send	Select3
+Map	Rotary Button 5		Channel 3 FX5 Send On			FX Send	Select3
+Map	Rotary Button 6		Channel 3 FX6 Send On			FX Send	Select3
+Map	Rotary Button 7		Channel 3 FX7 Send On			FX Send	Select3
+Map	Rotary Button 8		Channel 3 FX8 Send On			FX Send	Select3
+
+//Map	Rotary Button 1		Channel 3 FX1 Pre Fader			FX Send	Select3
+//Map	Rotary Button 2		Channel 3 FX2 Pre Fader			FX Send	Select3
+//Map	Rotary Button 3		Channel 3 FX3 Pre Fader			FX Send	Select3
+//Map	Rotary Button 4		Channel 3 FX4 Pre Fader			FX Send	Select3
+//Map	Rotary Button 5		Channel 3 FX5 Pre Fader			FX Send	Select3
+//Map	Rotary Button 6		Channel 3 FX6 Pre Fader			FX Send	Select3
+//Map	Rotary Button 7		Channel 3 FX7 Pre Fader			FX Send	Select3
+//Map	Rotary Button 8		Channel 3 FX8 Pre Fader			FX Send	Select3
+
+
+
+// ---------------------------------------------------------------------------------------
+//  Channel 4 Selected
+// ---------------------------------------------------------------------------------------
+
+//  Pan
+
+Map	Rotary 1		Channel 4 LPF Frequency		Wrap	Pan	Select4	Normal
+Map	Rotary 2		Channel 4 HPF Frequency		Wrap	Pan	Select4	Normal
+Map	Rotary 3		Channel 4 Rotary 1		Boost/Cut	Pan	Select4	Normal
+Map	Rotary 4		Channel 4 Rotary 2		Boost/Cut	Pan	Select4	Normal
+Map	Rotary 5		Channel 4 Rotary 3		Boost/Cut	Pan	Select4	Normal
+Map	Rotary 6		Channel 4 Rotary 4		Boost/Cut	Pan	Select4	Normal
+Map	Rotary 7		Channel 4 Width		Wrap	Pan	Select4	Normal
+Map	Rotary 8		Channel 4 Pan		Boost/Cut	Pan	Select4	Normal
+
+Map	Rotary Button 1		Channel 4 LPF On			Pan	Select4
+Map	Rotary Button 2		Channel 4 HPF On			Pan	Select4
+Map	Rotary Button 3		Channel 4 Button 1			Pan	Select4
+Map	Rotary Button 4		Channel 4 Button 2			Pan	Select4
+Map	Rotary Button 5		Channel 4 Button 3			Pan	Select4
+Map	Rotary Button 6		Channel 4 Button 4			Pan	Select4
+Map	Rotary Button 7		Channel 4 Bypass Insert FX			Pan	Select4
+Map	Rotary Button 8		Channel 4 Insert Pre			Pan	Select4
+
+//  Inserts
+
+Map	Rotary 1		Channel 4 Input Gain		Boost/Cut	Inserts	Select4	Normal
+Map	Rotary 2		Channel 4 C Ratio		Wrap	Inserts	Select4	Normal
+Map	Rotary 3		Channel 4 C Threshold		Wrap	Inserts	Select4	Normal
+Map	Rotary 4		Channel 4 C Release		Wrap	Inserts	Select4	Normal
+Map	Rotary 5		Channel 4 G Range		Wrap	Inserts	Select4	Normal
+Map	Rotary 6		Channel 4 G Threshold		Wrap	Inserts	Select4	Normal
+Map	Rotary 7		Channel 4 G Release		Wrap	Inserts	Select4	Normal
+Map	Rotary 8		Channel 4 G Hold		Wrap	Inserts	Select4	Normal
+
+Map	Rotary Button 1		Channel 4 Invert Phase			Inserts	Select4
+Map	Rotary Button 2		Channel 4 Comp On			Inserts	Select4
+Map	Rotary Button 3		Channel 4 C Peak			Inserts	Select4
+Map	Rotary Button 4		Channel 4 C Fast Atk			Inserts	Select4
+Map	Rotary Button 5		Channel 4 Key On			Inserts	Select4
+Map	Rotary Button 6		Channel 4 Gate On			Inserts	Select4
+Map	Rotary Button 7		Channel 4 G Fast Atk			Inserts	Select4
+Map	Rotary Button 8		0			Inserts	Select4
+
+//  EQ
+
+Map	Rotary 1		Channel 4 HF Gain		Boost/Cut	EQ	Select4	Normal
+Map	Rotary 2		Channel 4 HF Frequency		Wrap	EQ	Select4	Normal
+Map	Rotary 3		Channel 4 HMF Gain		Boost/Cut	EQ	Select4	Normal
+Map	Rotary 4		Channel 4 HMF Frequency		Wrap	EQ	Select4	Normal
+Map	Rotary 5		Channel 4 LMF Gain		Boost/Cut	EQ	Select4	Normal
+Map	Rotary 6		Channel 4 LMF Frequency		Wrap	EQ	Select4	Normal
+Map	Rotary 7		Channel 4 LF Gain		Boost/Cut	EQ	Select4	Normal
+Map	Rotary 8		Channel 4 LF Frequency		Wrap	EQ	Select4	Normal
+
+Map	Rotary Button 1		Channel 4 EQ On			EQ	Select4
+Map	Rotary Button 2		Channel 4 EQ E Mode			EQ	Select4
+Map	Rotary Button 3		Channel 4 HF Bell			EQ	Select4
+Map	Rotary Button 4		Channel 4 LF Bell			EQ	Select4
+Map	Rotary Button 5		0			EQ	Select4
+Map	Rotary Button 6		0			EQ	Select4
+Map	Rotary Button 7		0			EQ	Select4
+Map	Rotary Button 8		0			EQ	Select4
+
+// FX Send
+
+Map	Rotary 1		Channel 4 FX1 Send Level		Wrap	FX Send	Select4	Normal
+Map	Rotary 2		Channel 4 FX2 Send Level		Wrap	FX Send	Select4	Normal
+Map	Rotary 3		Channel 4 FX3 Send Level		Wrap	FX Send	Select4	Normal
+Map	Rotary 4		Channel 4 FX4 Send Level		Wrap	FX Send	Select4	Normal
+Map	Rotary 5		Channel 4 FX5 Send Level		Wrap	FX Send	Select4	Normal
+Map	Rotary 6		Channel 4 FX6 Send Level		Wrap	FX Send	Select4	Normal
+Map	Rotary 7		Channel 4 FX7 Send Level		Wrap	FX Send	Select4	Normal
+Map	Rotary 8		Channel 4 FX8 Send Level		Wrap	FX Send	Select4	Normal
+
+Map	Rotary Button 1		Channel 4 FX1 Send On			FX Send	Select4
+Map	Rotary Button 2		Channel 4 FX2 Send On			FX Send	Select4
+Map	Rotary Button 3		Channel 4 FX3 Send On			FX Send	Select4
+Map	Rotary Button 4		Channel 4 FX4 Send On			FX Send	Select4
+Map	Rotary Button 5		Channel 4 FX5 Send On			FX Send	Select4
+Map	Rotary Button 6		Channel 4 FX6 Send On			FX Send	Select4
+Map	Rotary Button 7		Channel 4 FX7 Send On			FX Send	Select4
+Map	Rotary Button 8		Channel 4 FX8 Send On			FX Send	Select4
+
+//Map	Rotary Button 1		Channel 4 FX1 Pre Fader			FX Send	Select4
+//Map	Rotary Button 2		Channel 4 FX2 Pre Fader			FX Send	Select4
+//Map	Rotary Button 3		Channel 4 FX3 Pre Fader			FX Send	Select4
+//Map	Rotary Button 4		Channel 4 FX4 Pre Fader			FX Send	Select4
+//Map	Rotary Button 5		Channel 4 FX5 Pre Fader			FX Send	Select4
+//Map	Rotary Button 6		Channel 4 FX6 Pre Fader			FX Send	Select4
+//Map	Rotary Button 7		Channel 4 FX7 Pre Fader			FX Send	Select4
+//Map	Rotary Button 8		Channel 4 FX8 Pre Fader			FX Send	Select4
+
+
+
+// ---------------------------------------------------------------------------------------
+//  Channel 5 Selected
+// ---------------------------------------------------------------------------------------
+
+//  Pan
+
+Map	Rotary 1		Channel 5 LPF Frequency		Wrap	Pan	Select5	Normal
+Map	Rotary 2		Channel 5 HPF Frequency		Wrap	Pan	Select5	Normal
+Map	Rotary 3		Channel 5 Rotary 1		Boost/Cut	Pan	Select5	Normal
+Map	Rotary 4		Channel 5 Rotary 2		Boost/Cut	Pan	Select5	Normal
+Map	Rotary 5		Channel 5 Rotary 3		Boost/Cut	Pan	Select5	Normal
+Map	Rotary 6		Channel 5 Rotary 4		Boost/Cut	Pan	Select5	Normal
+Map	Rotary 7		Channel 5 Width		Wrap	Pan	Select5	Normal
+Map	Rotary 8		Channel 5 Pan		Boost/Cut	Pan	Select5	Normal
+
+Map	Rotary Button 1		Channel 5 LPF On			Pan	Select5
+Map	Rotary Button 2		Channel 5 HPF On			Pan	Select5
+Map	Rotary Button 3		Channel 5 Button 1			Pan	Select5
+Map	Rotary Button 4		Channel 5 Button 2			Pan	Select5
+Map	Rotary Button 5		Channel 5 Button 3			Pan	Select5
+Map	Rotary Button 6		Channel 5 Button 4			Pan	Select5
+Map	Rotary Button 7		Channel 5 Bypass Insert FX			Pan	Select5
+Map	Rotary Button 8		Channel 5 Insert Pre			Pan	Select5
+
+//  Inserts
+
+Map	Rotary 1		Channel 5 Input Gain		Boost/Cut	Inserts	Select5	Normal
+Map	Rotary 2		Channel 5 C Ratio		Wrap	Inserts	Select5	Normal
+Map	Rotary 3		Channel 5 C Threshold		Wrap	Inserts	Select5	Normal
+Map	Rotary 4		Channel 5 C Release		Wrap	Inserts	Select5	Normal
+Map	Rotary 5		Channel 5 G Range		Wrap	Inserts	Select5	Normal
+Map	Rotary 6		Channel 5 G Threshold		Wrap	Inserts	Select5	Normal
+Map	Rotary 7		Channel 5 G Release		Wrap	Inserts	Select5	Normal
+Map	Rotary 8		Channel 5 G Hold		Wrap	Inserts	Select5	Normal
+
+Map	Rotary Button 1		Channel 5 Invert Phase			Inserts	Select5
+Map	Rotary Button 2		Channel 5 Comp On			Inserts	Select5
+Map	Rotary Button 3		Channel 5 C Peak			Inserts	Select5
+Map	Rotary Button 4		Channel 5 C Fast Atk			Inserts	Select5
+Map	Rotary Button 5		Channel 5 Key On			Inserts	Select5
+Map	Rotary Button 6		Channel 5 Gate On			Inserts	Select5
+Map	Rotary Button 7		Channel 5 G Fast Atk			Inserts	Select5
+Map	Rotary Button 8		0			Inserts	Select5
+
+//  EQ
+
+Map	Rotary 1		Channel 5 HF Gain		Boost/Cut	EQ	Select5	Normal
+Map	Rotary 2		Channel 5 HF Frequency		Wrap	EQ	Select5	Normal
+Map	Rotary 3		Channel 5 HMF Gain		Boost/Cut	EQ	Select5	Normal
+Map	Rotary 4		Channel 5 HMF Frequency		Wrap	EQ	Select5	Normal
+Map	Rotary 5		Channel 5 LMF Gain		Boost/Cut	EQ	Select5	Normal
+Map	Rotary 6		Channel 5 LMF Frequency		Wrap	EQ	Select5	Normal
+Map	Rotary 7		Channel 5 LF Gain		Boost/Cut	EQ	Select5	Normal
+Map	Rotary 8		Channel 5 LF Frequency		Wrap	EQ	Select5	Normal
+
+Map	Rotary Button 1		Channel 5 EQ On			EQ	Select5
+Map	Rotary Button 2		Channel 5 EQ E Mode			EQ	Select5
+Map	Rotary Button 3		Channel 5 HF Bell			EQ	Select5
+Map	Rotary Button 4		Channel 5 LF Bell			EQ	Select5
+Map	Rotary Button 5		0			EQ	Select5
+Map	Rotary Button 6		0			EQ	Select5
+Map	Rotary Button 7		0			EQ	Select5
+Map	Rotary Button 8		0			EQ	Select5
+
+// FX Send
+
+Map	Rotary 1		Channel 5 FX1 Send Level		Wrap	FX Send	Select5	Normal
+Map	Rotary 2		Channel 5 FX2 Send Level		Wrap	FX Send	Select5	Normal
+Map	Rotary 3		Channel 5 FX3 Send Level		Wrap	FX Send	Select5	Normal
+Map	Rotary 4		Channel 5 FX4 Send Level		Wrap	FX Send	Select5	Normal
+Map	Rotary 5		Channel 5 FX5 Send Level		Wrap	FX Send	Select5	Normal
+Map	Rotary 6		Channel 5 FX6 Send Level		Wrap	FX Send	Select5	Normal
+Map	Rotary 7		Channel 5 FX7 Send Level		Wrap	FX Send	Select5	Normal
+Map	Rotary 8		Channel 5 FX8 Send Level		Wrap	FX Send	Select5	Normal
+
+Map	Rotary Button 1		Channel 5 FX1 Send On			FX Send	Select5
+Map	Rotary Button 2		Channel 5 FX2 Send On			FX Send	Select5
+Map	Rotary Button 3		Channel 5 FX3 Send On			FX Send	Select5
+Map	Rotary Button 4		Channel 5 FX4 Send On			FX Send	Select5
+Map	Rotary Button 5		Channel 5 FX5 Send On			FX Send	Select5
+Map	Rotary Button 6		Channel 5 FX6 Send On			FX Send	Select5
+Map	Rotary Button 7		Channel 5 FX7 Send On			FX Send	Select5
+Map	Rotary Button 8		Channel 5 FX8 Send On			FX Send	Select5
+
+//Map	Rotary Button 1		Channel 5 FX1 Pre Fader			FX Send	Select5
+//Map	Rotary Button 2		Channel 5 FX2 Pre Fader			FX Send	Select5
+//Map	Rotary Button 3		Channel 5 FX3 Pre Fader			FX Send	Select5
+//Map	Rotary Button 4		Channel 5 FX4 Pre Fader			FX Send	Select5
+//Map	Rotary Button 5		Channel 5 FX5 Pre Fader			FX Send	Select5
+//Map	Rotary Button 6		Channel 5 FX6 Pre Fader			FX Send	Select5
+//Map	Rotary Button 7		Channel 5 FX7 Pre Fader			FX Send	Select5
+//Map	Rotary Button 8		Channel 5 FX8 Pre Fader			FX Send	Select5
+
+
+
+// ---------------------------------------------------------------------------------------
+//  Channel 6 Selected
+// ---------------------------------------------------------------------------------------
+
+//  Pan
+
+Map	Rotary 1		Channel 6 LPF Frequency		Wrap	Pan	Select6	Normal
+Map	Rotary 2		Channel 6 HPF Frequency		Wrap	Pan	Select6	Normal
+Map	Rotary 3		Channel 6 Rotary 1		Boost/Cut	Pan	Select6	Normal
+Map	Rotary 4		Channel 6 Rotary 2		Boost/Cut	Pan	Select6	Normal
+Map	Rotary 5		Channel 6 Rotary 3		Boost/Cut	Pan	Select6	Normal
+Map	Rotary 6		Channel 6 Rotary 4		Boost/Cut	Pan	Select6	Normal
+Map	Rotary 7		Channel 6 Width		Wrap	Pan	Select6	Normal
+Map	Rotary 8		Channel 6 Pan		Boost/Cut	Pan	Select6	Normal
+
+Map	Rotary Button 1		Channel 6 LPF On			Pan	Select6
+Map	Rotary Button 2		Channel 6 HPF On			Pan	Select6
+Map	Rotary Button 3		Channel 6 Button 1			Pan	Select6
+Map	Rotary Button 4		Channel 6 Button 2			Pan	Select6
+Map	Rotary Button 5		Channel 6 Button 3			Pan	Select6
+Map	Rotary Button 6		Channel 6 Button 4			Pan	Select6
+Map	Rotary Button 7		Channel 6 Bypass Insert FX			Pan	Select6
+Map	Rotary Button 8		Channel 6 Insert Pre			Pan	Select6
+
+//  Inserts
+
+Map	Rotary 1		Channel 6 Input Gain		Boost/Cut	Inserts	Select6	Normal
+Map	Rotary 2		Channel 6 C Ratio		Wrap	Inserts	Select6	Normal
+Map	Rotary 3		Channel 6 C Threshold		Wrap	Inserts	Select6	Normal
+Map	Rotary 4		Channel 6 C Release		Wrap	Inserts	Select6	Normal
+Map	Rotary 5		Channel 6 G Range		Wrap	Inserts	Select6	Normal
+Map	Rotary 6		Channel 6 G Threshold		Wrap	Inserts	Select6	Normal
+Map	Rotary 7		Channel 6 G Release		Wrap	Inserts	Select6	Normal
+Map	Rotary 8		Channel 6 G Hold		Wrap	Inserts	Select6	Normal
+
+Map	Rotary Button 1		Channel 6 Invert Phase			Inserts	Select6
+Map	Rotary Button 2		Channel 6 Comp On			Inserts	Select6
+Map	Rotary Button 3		Channel 6 C Peak			Inserts	Select6
+Map	Rotary Button 4		Channel 6 C Fast Atk			Inserts	Select6
+Map	Rotary Button 5		Channel 6 Key On			Inserts	Select6
+Map	Rotary Button 6		Channel 6 Gate On			Inserts	Select6
+Map	Rotary Button 7		Channel 6 G Fast Atk			Inserts	Select6
+Map	Rotary Button 8		0			Inserts	Select6
+
+//  EQ
+
+Map	Rotary 1		Channel 6 HF Gain		Boost/Cut	EQ	Select6	Normal
+Map	Rotary 2		Channel 6 HF Frequency		Wrap	EQ	Select6	Normal
+Map	Rotary 3		Channel 6 HMF Gain		Boost/Cut	EQ	Select6	Normal
+Map	Rotary 4		Channel 6 HMF Frequency		Wrap	EQ	Select6	Normal
+Map	Rotary 5		Channel 6 LMF Gain		Boost/Cut	EQ	Select6	Normal
+Map	Rotary 6		Channel 6 LMF Frequency		Wrap	EQ	Select6	Normal
+Map	Rotary 7		Channel 6 LF Gain		Boost/Cut	EQ	Select6	Normal
+Map	Rotary 8		Channel 6 LF Frequency		Wrap	EQ	Select6	Normal
+
+Map	Rotary Button 1		Channel 6 EQ On			EQ	Select6
+Map	Rotary Button 2		Channel 6 EQ E Mode			EQ	Select6
+Map	Rotary Button 3		Channel 6 HF Bell			EQ	Select6
+Map	Rotary Button 4		Channel 6 LF Bell			EQ	Select6
+Map	Rotary Button 5		0			EQ	Select6
+Map	Rotary Button 6		0			EQ	Select6
+Map	Rotary Button 7		0			EQ	Select6
+Map	Rotary Button 8		0			EQ	Select6
+
+// FX Send
+
+Map	Rotary 1		Channel 6 FX1 Send Level		Wrap	FX Send	Select6	Normal
+Map	Rotary 2		Channel 6 FX2 Send Level		Wrap	FX Send	Select6	Normal
+Map	Rotary 3		Channel 6 FX3 Send Level		Wrap	FX Send	Select6	Normal
+Map	Rotary 4		Channel 6 FX4 Send Level		Wrap	FX Send	Select6	Normal
+Map	Rotary 5		Channel 6 FX5 Send Level		Wrap	FX Send	Select6	Normal
+Map	Rotary 6		Channel 6 FX6 Send Level		Wrap	FX Send	Select6	Normal
+Map	Rotary 7		Channel 6 FX7 Send Level		Wrap	FX Send	Select6	Normal
+Map	Rotary 8		Channel 6 FX8 Send Level		Wrap	FX Send	Select6	Normal
+
+Map	Rotary Button 1		Channel 6 FX1 Send On			FX Send	Select6
+Map	Rotary Button 2		Channel 6 FX2 Send On			FX Send	Select6
+Map	Rotary Button 3		Channel 6 FX3 Send On			FX Send	Select6
+Map	Rotary Button 4		Channel 6 FX4 Send On			FX Send	Select6
+Map	Rotary Button 5		Channel 6 FX5 Send On			FX Send	Select6
+Map	Rotary Button 6		Channel 6 FX6 Send On			FX Send	Select6
+Map	Rotary Button 7		Channel 6 FX7 Send On			FX Send	Select6
+Map	Rotary Button 8		Channel 6 FX8 Send On			FX Send	Select6
+
+//Map	Rotary Button 1		Channel 6 FX1 Pre Fader			FX Send	Select6
+//Map	Rotary Button 2		Channel 6 FX2 Pre Fader			FX Send	Select6
+//Map	Rotary Button 3		Channel 6 FX3 Pre Fader			FX Send	Select6
+//Map	Rotary Button 4		Channel 6 FX4 Pre Fader			FX Send	Select6
+//Map	Rotary Button 5		Channel 6 FX5 Pre Fader			FX Send	Select6
+//Map	Rotary Button 6		Channel 6 FX6 Pre Fader			FX Send	Select6
+//Map	Rotary Button 7		Channel 6 FX7 Pre Fader			FX Send	Select6
+//Map	Rotary Button 8		Channel 6 FX8 Pre Fader			FX Send	Select6
+
+
+
+// ---------------------------------------------------------------------------------------
+//  Channel 7 Selected
+// ---------------------------------------------------------------------------------------
+
+//  Pan
+
+Map	Rotary 1		Channel 7 LPF Frequency		Wrap	Pan	Select7	Normal
+Map	Rotary 2		Channel 7 HPF Frequency		Wrap	Pan	Select7	Normal
+Map	Rotary 3		Channel 7 Rotary 1		Boost/Cut	Pan	Select7	Normal
+Map	Rotary 4		Channel 7 Rotary 2		Boost/Cut	Pan	Select7	Normal
+Map	Rotary 5		Channel 7 Rotary 3		Boost/Cut	Pan	Select7	Normal
+Map	Rotary 6		Channel 7 Rotary 4		Boost/Cut	Pan	Select7	Normal
+Map	Rotary 7		Channel 7 Width		Wrap	Pan	Select7	Normal
+Map	Rotary 8		Channel 7 Pan		Boost/Cut	Pan	Select7	Normal
+
+Map	Rotary Button 1		Channel 7 LPF On			Pan	Select7
+Map	Rotary Button 2		Channel 7 HPF On			Pan	Select7
+Map	Rotary Button 3		Channel 7 Button 1			Pan	Select7
+Map	Rotary Button 4		Channel 7 Button 2			Pan	Select7
+Map	Rotary Button 5		Channel 7 Button 3			Pan	Select7
+Map	Rotary Button 6		Channel 7 Button 4			Pan	Select7
+Map	Rotary Button 7		Channel 7 Bypass Insert FX			Pan	Select7
+Map	Rotary Button 8		Channel 7 Insert Pre			Pan	Select7
+
+//  Inserts
+
+Map	Rotary 1		Channel 7 Input Gain		Boost/Cut	Inserts	Select7	Normal
+Map	Rotary 2		Channel 7 C Ratio		Wrap	Inserts	Select7	Normal
+Map	Rotary 3		Channel 7 C Threshold		Wrap	Inserts	Select7	Normal
+Map	Rotary 4		Channel 7 C Release		Wrap	Inserts	Select7	Normal
+Map	Rotary 5		Channel 7 G Range		Wrap	Inserts	Select7	Normal
+Map	Rotary 6		Channel 7 G Threshold		Wrap	Inserts	Select7	Normal
+Map	Rotary 7		Channel 7 G Release		Wrap	Inserts	Select7	Normal
+Map	Rotary 8		Channel 7 G Hold		Wrap	Inserts	Select7	Normal
+
+Map	Rotary Button 1		Channel 7 Invert Phase			Inserts	Select7
+Map	Rotary Button 2		Channel 7 Comp On			Inserts	Select7
+Map	Rotary Button 3		Channel 7 C Peak			Inserts	Select7
+Map	Rotary Button 4		Channel 7 C Fast Atk			Inserts	Select7
+Map	Rotary Button 5		Channel 7 Key On			Inserts	Select7
+Map	Rotary Button 6		Channel 7 Gate On			Inserts	Select7
+Map	Rotary Button 7		Channel 7 G Fast Atk			Inserts	Select7
+Map	Rotary Button 8		0			Inserts	Select7
+
+//  EQ
+
+Map	Rotary 1		Channel 7 HF Gain		Boost/Cut	EQ	Select7	Normal
+Map	Rotary 2		Channel 7 HF Frequency		Wrap	EQ	Select7	Normal
+Map	Rotary 3		Channel 7 HMF Gain		Boost/Cut	EQ	Select7	Normal
+Map	Rotary 4		Channel 7 HMF Frequency		Wrap	EQ	Select7	Normal
+Map	Rotary 5		Channel 7 LMF Gain		Boost/Cut	EQ	Select7	Normal
+Map	Rotary 6		Channel 7 LMF Frequency		Wrap	EQ	Select7	Normal
+Map	Rotary 7		Channel 7 LF Gain		Boost/Cut	EQ	Select7	Normal
+Map	Rotary 8		Channel 7 LF Frequency		Wrap	EQ	Select7	Normal
+
+Map	Rotary Button 1		Channel 7 EQ On			EQ	Select7
+Map	Rotary Button 2		Channel 7 EQ E Mode			EQ	Select7
+Map	Rotary Button 3		Channel 7 HF Bell			EQ	Select7
+Map	Rotary Button 4		Channel 7 LF Bell			EQ	Select7
+Map	Rotary Button 5		0			EQ	Select7
+Map	Rotary Button 6		0			EQ	Select7
+Map	Rotary Button 7		0			EQ	Select7
+Map	Rotary Button 8		0			EQ	Select7
+
+// FX Send
+
+Map	Rotary 1		Channel 7 FX1 Send Level		Wrap	FX Send	Select7	Normal
+Map	Rotary 2		Channel 7 FX2 Send Level		Wrap	FX Send	Select7	Normal
+Map	Rotary 3		Channel 7 FX3 Send Level		Wrap	FX Send	Select7	Normal
+Map	Rotary 4		Channel 7 FX4 Send Level		Wrap	FX Send	Select7	Normal
+Map	Rotary 5		Channel 7 FX5 Send Level		Wrap	FX Send	Select7	Normal
+Map	Rotary 6		Channel 7 FX6 Send Level		Wrap	FX Send	Select7	Normal
+Map	Rotary 7		Channel 7 FX7 Send Level		Wrap	FX Send	Select7	Normal
+Map	Rotary 8		Channel 7 FX8 Send Level		Wrap	FX Send	Select7	Normal
+
+Map	Rotary Button 1		Channel 7 FX1 Send On			FX Send	Select7
+Map	Rotary Button 2		Channel 7 FX2 Send On			FX Send	Select7
+Map	Rotary Button 3		Channel 7 FX3 Send On			FX Send	Select7
+Map	Rotary Button 4		Channel 7 FX4 Send On			FX Send	Select7
+Map	Rotary Button 5		Channel 7 FX5 Send On			FX Send	Select7
+Map	Rotary Button 6		Channel 7 FX6 Send On			FX Send	Select7
+Map	Rotary Button 7		Channel 7 FX7 Send On			FX Send	Select7
+Map	Rotary Button 8		Channel 7 FX8 Send On			FX Send	Select7
+
+//Map	Rotary Button 1		Channel 7 FX1 Pre Fader			FX Send	Select7
+//Map	Rotary Button 2		Channel 7 FX2 Pre Fader			FX Send	Select7
+//Map	Rotary Button 3		Channel 7 FX3 Pre Fader			FX Send	Select7
+//Map	Rotary Button 4		Channel 7 FX4 Pre Fader			FX Send	Select7
+//Map	Rotary Button 5		Channel 7 FX5 Pre Fader			FX Send	Select7
+//Map	Rotary Button 6		Channel 7 FX6 Pre Fader			FX Send	Select7
+//Map	Rotary Button 7		Channel 7 FX7 Pre Fader			FX Send	Select7
+//Map	Rotary Button 8		Channel 7 FX8 Pre Fader			FX Send	Select7
+
+
+
+// ---------------------------------------------------------------------------------------
+//  Channel 8 Selected
+// ---------------------------------------------------------------------------------------
+
+//  Pan
+
+Map	Rotary 1		Channel 8 LPF Frequency		Wrap	Pan	Select8	Normal
+Map	Rotary 2		Channel 8 HPF Frequency		Wrap	Pan	Select8	Normal
+Map	Rotary 3		Channel 8 Rotary 1		Boost/Cut	Pan	Select8	Normal
+Map	Rotary 4		Channel 8 Rotary 2		Boost/Cut	Pan	Select8	Normal
+Map	Rotary 5		Channel 8 Rotary 3		Boost/Cut	Pan	Select8	Normal
+Map	Rotary 6		Channel 8 Rotary 4		Boost/Cut	Pan	Select8	Normal
+Map	Rotary 7		Channel 8 Width		Wrap	Pan	Select8	Normal
+Map	Rotary 8		Channel 8 Pan		Boost/Cut	Pan	Select8	Normal
+
+Map	Rotary Button 1		Channel 8 LPF On			Pan	Select8
+Map	Rotary Button 2		Channel 8 HPF On			Pan	Select8
+Map	Rotary Button 3		Channel 8 Button 1			Pan	Select8
+Map	Rotary Button 4		Channel 8 Button 2			Pan	Select8
+Map	Rotary Button 5		Channel 8 Button 3			Pan	Select8
+Map	Rotary Button 6		Channel 8 Button 4			Pan	Select8
+Map	Rotary Button 7		Channel 8 Bypass Insert FX			Pan	Select8
+Map	Rotary Button 8		Channel 8 Insert Pre			Pan	Select8
+
+//  Inserts
+
+Map	Rotary 1		Channel 8 Input Gain		Boost/Cut	Inserts	Select8	Normal
+Map	Rotary 2		Channel 8 C Ratio		Wrap	Inserts	Select8	Normal
+Map	Rotary 3		Channel 8 C Threshold		Wrap	Inserts	Select8	Normal
+Map	Rotary 4		Channel 8 C Release		Wrap	Inserts	Select8	Normal
+Map	Rotary 5		Channel 8 G Range		Wrap	Inserts	Select8	Normal
+Map	Rotary 6		Channel 8 G Threshold		Wrap	Inserts	Select8	Normal
+Map	Rotary 7		Channel 8 G Release		Wrap	Inserts	Select8	Normal
+Map	Rotary 8		Channel 8 G Hold		Wrap	Inserts	Select8	Normal
+
+Map	Rotary Button 1		Channel 8 Invert Phase			Inserts	Select8
+Map	Rotary Button 2		Channel 8 Comp On			Inserts	Select8
+Map	Rotary Button 3		Channel 8 C Peak			Inserts	Select8
+Map	Rotary Button 4		Channel 8 C Fast Atk			Inserts	Select8
+Map	Rotary Button 5		Channel 8 Key On			Inserts	Select8
+Map	Rotary Button 6		Channel 8 Gate On			Inserts	Select8
+Map	Rotary Button 7		Channel 8 G Fast Atk			Inserts	Select8
+Map	Rotary Button 8		0			Inserts	Select8
+
+//  EQ
+
+Map	Rotary 1		Channel 8 HF Gain		Boost/Cut	EQ	Select8	Normal
+Map	Rotary 2		Channel 8 HF Frequency		Wrap	EQ	Select8	Normal
+Map	Rotary 3		Channel 8 HMF Gain		Boost/Cut	EQ	Select8	Normal
+Map	Rotary 4		Channel 8 HMF Frequency		Wrap	EQ	Select8	Normal
+Map	Rotary 5		Channel 8 LMF Gain		Boost/Cut	EQ	Select8	Normal
+Map	Rotary 6		Channel 8 LMF Frequency		Wrap	EQ	Select8	Normal
+Map	Rotary 7		Channel 8 LF Gain		Boost/Cut	EQ	Select8	Normal
+Map	Rotary 8		Channel 8 LF Frequency		Wrap	EQ	Select8	Normal
+
+Map	Rotary Button 1		Channel 8 EQ On			EQ	Select8
+Map	Rotary Button 2		Channel 8 EQ E Mode			EQ	Select8
+Map	Rotary Button 3		Channel 8 HF Bell			EQ	Select8
+Map	Rotary Button 4		Channel 8 LF Bell			EQ	Select8
+Map	Rotary Button 5		0			EQ	Select8
+Map	Rotary Button 6		0			EQ	Select8
+Map	Rotary Button 7		0			EQ	Select8
+Map	Rotary Button 8		0			EQ	Select8
+
+// FX Send
+
+Map	Rotary 1		Channel 8 FX1 Send Level		Wrap	FX Send	Select8	Normal
+Map	Rotary 2		Channel 8 FX2 Send Level		Wrap	FX Send	Select8	Normal
+Map	Rotary 3		Channel 8 FX3 Send Level		Wrap	FX Send	Select8	Normal
+Map	Rotary 4		Channel 8 FX4 Send Level		Wrap	FX Send	Select8	Normal
+Map	Rotary 5		Channel 8 FX5 Send Level		Wrap	FX Send	Select8	Normal
+Map	Rotary 6		Channel 8 FX6 Send Level		Wrap	FX Send	Select8	Normal
+Map	Rotary 7		Channel 8 FX7 Send Level		Wrap	FX Send	Select8	Normal
+Map	Rotary 8		Channel 8 FX8 Send Level		Wrap	FX Send	Select8	Normal
+
+Map	Rotary Button 1		Channel 8 FX1 Send On			FX Send	Select8
+Map	Rotary Button 2		Channel 8 FX2 Send On			FX Send	Select8
+Map	Rotary Button 3		Channel 8 FX3 Send On			FX Send	Select8
+Map	Rotary Button 4		Channel 8 FX4 Send On			FX Send	Select8
+Map	Rotary Button 5		Channel 8 FX5 Send On			FX Send	Select8
+Map	Rotary Button 6		Channel 8 FX6 Send On			FX Send	Select8
+Map	Rotary Button 7		Channel 8 FX7 Send On			FX Send	Select8
+Map	Rotary Button 8		Channel 8 FX8 Send On			FX Send	Select8
+
+//Map	Rotary Button 1		Channel 8 FX1 Pre Fader			FX Send	Select8
+//Map	Rotary Button 2		Channel 8 FX2 Pre Fader			FX Send	Select8
+//Map	Rotary Button 3		Channel 8 FX3 Pre Fader			FX Send	Select8
+//Map	Rotary Button 4		Channel 8 FX4 Pre Fader			FX Send	Select8
+//Map	Rotary Button 5		Channel 8 FX5 Pre Fader			FX Send	Select8
+//Map	Rotary Button 6		Channel 8 FX6 Pre Fader			FX Send	Select8
+//Map	Rotary Button 7		Channel 8 FX7 Pre Fader			FX Send	Select8
+//Map	Rotary Button 8		Channel 8 FX8 Pre Fader			FX Send	Select8
+
+
+
+
+// ---------------------------------------------------------------------------------------
+//  Flipped Mode
+// ---------------------------------------------------------------------------------------
 
 Map	Rotary 1		Channel 1 Level		Wrap	Flipped
 Map	Rotary 2		Channel 2 Level		Wrap	Flipped
