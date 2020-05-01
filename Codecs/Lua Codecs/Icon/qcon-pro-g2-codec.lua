@@ -16,11 +16,8 @@ k_min_peak_value=0
 k_max_peak_value=14
 k_peak_meter_update_interval=50
 
+-- 56 = Mackie Control
 k_control_model=56
-k_extender_model=57
-k_combo_model=58
-k_combo_left_model=59
-k_c4_model=60
 
 k_unit_channel_count=8
 
@@ -251,17 +248,10 @@ function remote_init(manufacturer,model)
 	------------------------------------------------- Rotaries ------------------------------------------------
 
 	local function MakeRotaryMIDIInputMask(channel)
-		if g_selected_model==k_c4_model then
-			assert(channel>=1)
-			assert(channel<=k_unit_channel_count*4)
-			local mask="b0"..to_hex(channel-1).."<?y??>x"
-			return mask
-		else
-			assert(channel>=1)
-			assert(channel<=k_unit_channel_count)
-			local mask="b01"..(channel-1).."<?y??>x"
-			return mask
-		end
+		assert(channel>=1)
+		assert(channel<=k_unit_channel_count)
+		local mask="b01"..(channel-1).."<?y??>x"
+		return mask
 	end
 
 	local function MakeRotaryMIDIInputValueFormula()
@@ -269,17 +259,10 @@ function remote_init(manufacturer,model)
 	end
 
 	local function MakeRotaryMIDIOutputMask(channel)
-		if g_selected_model==k_c4_model then
-			assert(channel>=1)
-			assert(channel<=k_unit_channel_count*4)
-			local mask="b0"..to_hex(32+channel-1).."xx"
-			return mask
-		else
-			assert(channel>=1)
-			assert(channel<=k_unit_channel_count)
-			local mask="b03"..(channel-1).."xx"
-			return mask
-		end
+		assert(channel>=1)
+		assert(channel<=k_unit_channel_count)
+		local mask="b03"..(channel-1).."xx"
+		return mask
 	end
 
 	local function MakeRotaryMIDIOutputXFormula()
@@ -1254,7 +1237,7 @@ function remote_release_from_use()
 end
 
 
-
+-- Note: probing seems unsupported by the qcon pro g2, so this is useless
 function remote_probe(manufacturer,model,prober)
 	assert(model=="QConProG2")
 	local controlRequest="f0 00 00 66 14 00 f7"
