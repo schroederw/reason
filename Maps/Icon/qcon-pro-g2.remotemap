@@ -1336,7 +1336,6 @@ Map	Fader 6		Channel 1 Rotary 4			Pan	Flipped	Select1
 Map	Fader 7		Channel 1 Width			Pan	Flipped	Select1
 Map	Fader 8		Channel 1 Pan			Pan	Flipped	Select1
 
-
 Map	Fader 1		Channel 1 FX1 Send Level			FXSends	Flipped	Select1
 Map	Fader 2		Channel 1 FX2 Send Level			FXSends	Flipped	Select1
 Map	Fader 3		Channel 1 FX3 Send Level			FXSends	Flipped	Select1
@@ -1346,6 +1345,7 @@ Map	Fader 6		Channel 1 FX6 Send Level			FXSends	Flipped	Select1
 Map	Fader 7		Channel 1 FX7 Send Level			FXSends	Flipped	Select1
 Map	Fader 8		Channel 1 FX8 Send Level			FXSends	Flipped	Select1
 
+Map	Master Fader		Channel 1 Level			EQ	Flipped	Select1
 
 Map	Fader 7		Channel 1 HF Gain			EQ	Flipped	Select1
 Map	Fader 8		Channel 1 HF Frequency			EQ	Flipped	Select1
@@ -1385,6 +1385,8 @@ Map	Fader 6		Channel 2 FX6 Send Level			FXSends	Flipped	Select2
 Map	Fader 7		Channel 2 FX7 Send Level			FXSends	Flipped	Select2
 Map	Fader 8		Channel 2 FX8 Send Level			FXSends	Flipped	Select2
 
+Map	Master Fader		Channel 2 Level			EQ	Flipped	Select2
+
 Map	Fader 7		Channel 2 HF Gain			EQ	Flipped	Select2
 Map	Fader 8		Channel 2 HF Frequency			EQ	Flipped	Select2
 Map	Fader 5		Channel 2 HMF Gain			EQ	Flipped	Select2
@@ -1422,6 +1424,8 @@ Map	Fader 5		Channel 3 FX5 Send Level			FXSends	Flipped	Select3
 Map	Fader 6		Channel 3 FX6 Send Level			FXSends	Flipped	Select3
 Map	Fader 7		Channel 3 FX7 Send Level			FXSends	Flipped	Select3
 Map	Fader 8		Channel 3 FX8 Send Level			FXSends	Flipped	Select3
+
+Map	Master Fader		Channel 3 Level			EQ	Flipped	Select3
 
 Map	Fader 7		Channel 3 HF Gain			EQ	Flipped	Select3
 Map	Fader 8		Channel 3 HF Frequency			EQ	Flipped	Select3
@@ -1461,6 +1465,8 @@ Map	Fader 6		Channel 4 FX6 Send Level			FXSends	Flipped	Select4
 Map	Fader 7		Channel 4 FX7 Send Level			FXSends	Flipped	Select4
 Map	Fader 8		Channel 4 FX8 Send Level			FXSends	Flipped	Select4
 
+Map	Master Fader		Channel 4 Level			EQ	Flipped	Select4
+
 Map	Fader 7		Channel 4 HF Gain			EQ	Flipped	Select4
 Map	Fader 8		Channel 4 HF Frequency			EQ	Flipped	Select4
 Map	Fader 5		Channel 4 HMF Gain			EQ	Flipped	Select4
@@ -1499,6 +1505,7 @@ Map	Fader 6		Channel 5 FX6 Send Level			FXSends	Flipped	Select5
 Map	Fader 7		Channel 5 FX7 Send Level			FXSends	Flipped	Select5
 Map	Fader 8		Channel 5 FX8 Send Level			FXSends	Flipped	Select5
 
+Map	Master Fader		Channel 5 Level			EQ	Flipped	Select5
 
 Map	Fader 7		Channel 5 HF Gain			EQ	Flipped	Select5
 Map	Fader 8		Channel 5 HF Frequency			EQ	Flipped	Select5
@@ -1529,7 +1536,6 @@ Map	Fader 6		Channel 6 Rotary 4			Pan	Flipped	Select6
 Map	Fader 7		Channel 6 Width			Pan	Flipped	Select6
 Map	Fader 8		Channel 6 Pan			Pan	Flipped	Select6
 
-
 Map	Fader 1		Channel 6 FX1 Send Level			FXSends	Flipped	Select6
 Map	Fader 2		Channel 6 FX2 Send Level			FXSends	Flipped	Select6
 Map	Fader 3		Channel 6 FX3 Send Level			FXSends	Flipped	Select6
@@ -1539,6 +1545,7 @@ Map	Fader 6		Channel 6 FX6 Send Level			FXSends	Flipped	Select6
 Map	Fader 7		Channel 6 FX7 Send Level			FXSends	Flipped	Select6
 Map	Fader 8		Channel 6 FX8 Send Level			FXSends	Flipped	Select6
 
+Map	Master Fader		Channel 6 Level			EQ	Flipped	Select6
 
 Map	Fader 7		Channel 6 HF Gain			EQ	Flipped	Select6
 Map	Fader 8		Channel 6 HF Frequency			EQ	Flipped	Select6
@@ -1569,7 +1576,6 @@ Map	Fader 6		Channel 7 Rotary 4			Pan	Flipped	Select7
 Map	Fader 7		Channel 7 Width			Pan	Flipped	Select7
 Map	Fader 8		Channel 7 Pan			Pan	Flipped	Select7
 
-
 Map	Fader 1		Channel 7 FX1 Send Level			FXSends	Flipped	Select7
 Map	Fader 2		Channel 7 FX2 Send Level			FXSends	Flipped	Select7
 Map	Fader 3		Channel 7 FX3 Send Level			FXSends	Flipped	Select7
@@ -1579,6 +1585,7 @@ Map	Fader 6		Channel 7 FX6 Send Level			FXSends	Flipped	Select7
 Map	Fader 7		Channel 7 FX7 Send Level			FXSends	Flipped	Select7
 Map	Fader 8		Channel 7 FX8 Send Level			FXSends	Flipped	Select7
 
+Map	Master Fader		Channel 7 Level			EQ	Flipped	Select7
 
 Map	Fader 7		Channel 7 HF Gain			EQ	Flipped	Select7
 Map	Fader 8		Channel 7 HF Frequency			EQ	Flipped	Select7
@@ -1609,7 +1616,6 @@ Map	Fader 6		Channel 8 Rotary 4			Pan	Flipped	Select8
 Map	Fader 7		Channel 8 Width			Pan	Flipped	Select8
 Map	Fader 8		Channel 8 Pan			Pan	Flipped	Select8
 
-
 Map	Fader 1		Channel 8 FX1 Send Level			FXSends	Flipped	Select8
 Map	Fader 2		Channel 8 FX2 Send Level			FXSends	Flipped	Select8
 Map	Fader 3		Channel 8 FX3 Send Level			FXSends	Flipped	Select8
@@ -1618,6 +1624,8 @@ Map	Fader 5		Channel 8 FX5 Send Level			FXSends	Flipped	Select8
 Map	Fader 6		Channel 8 FX6 Send Level			FXSends	Flipped	Select8
 Map	Fader 7		Channel 8 FX7 Send Level			FXSends	Flipped	Select8
 Map	Fader 8		Channel 8 FX8 Send Level			FXSends	Flipped	Select8
+
+Map	Master Fader		Channel 8 Level			EQ	Flipped	Select8
 
 Map	Fader 7		Channel 8 HF Gain			EQ	Flipped	Select8
 Map	Fader 8		Channel 8 HF Frequency			EQ	Flipped	Select8
