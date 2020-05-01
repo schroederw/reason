@@ -444,19 +444,19 @@ Map	LCD Row 2 Channel 6		"Gate"			Inserts
 Map	LCD Row 2 Channel 7		"G Fast"			Inserts
 Map	LCD Row 2 Channel 8		""			Inserts
 
-Map	LCD Row 1 Channel 1		"HF"			EQ
-Map	LCD Row 1 Channel 2		"Freq"			EQ
-Map	LCD Row 1 Channel 3		"HMF"			EQ
-Map	LCD Row 1 Channel 4		"Freq"			EQ
-Map	LCD Row 1 Channel 5		"LMF"			EQ
-Map	LCD Row 1 Channel 6		"Freq"			EQ
-Map	LCD Row 1 Channel 7		"LF"			EQ
+Map	LCD Row 1 Channel 7		"HF"			EQ
 Map	LCD Row 1 Channel 8		"Freq"			EQ
+Map	LCD Row 1 Channel 5		"HMF"			EQ
+Map	LCD Row 1 Channel 6		"Freq"			EQ
+Map	LCD Row 1 Channel 3		"LMF"			EQ
+Map	LCD Row 1 Channel 4		"Freq"			EQ
+Map	LCD Row 1 Channel 1		"LF"			EQ
+Map	LCD Row 1 Channel 2		"Freq"			EQ
 
 Map	LCD Row 2 Channel 1		"EQ On"			EQ
 Map	LCD Row 2 Channel 2		"EQMode"			EQ
-Map	LCD Row 2 Channel 3		"HF Bel"			EQ
-Map	LCD Row 2 Channel 4		"LF Bel"			EQ
+Map	LCD Row 2 Channel 3		"LF Bel"			EQ
+Map	LCD Row 2 Channel 4		"HF Bel"			EQ
 Map	LCD Row 2 Channel 5		""			EQ
 Map	LCD Row 2 Channel 6		""			EQ
 Map	LCD Row 2 Channel 7		""			EQ
@@ -529,19 +529,19 @@ Map	Rotary Button 8		0			Inserts	Select1
 
 //  EQ
 
-Map	Rotary 1		Channel 1 HF Gain		Boost/Cut	EQ	Select1	Normal
-Map	Rotary 2		Channel 1 HF Frequency		Wrap	EQ	Select1	Normal
-Map	Rotary 3		Channel 1 HMF Gain		Boost/Cut	EQ	Select1	Normal
-Map	Rotary 4		Channel 1 HMF Frequency		Wrap	EQ	Select1	Normal
-Map	Rotary 5		Channel 1 LMF Gain		Boost/Cut	EQ	Select1	Normal
-Map	Rotary 6		Channel 1 LMF Frequency		Wrap	EQ	Select1	Normal
-Map	Rotary 7		Channel 1 LF Gain		Boost/Cut	EQ	Select1	Normal
-Map	Rotary 8		Channel 1 LF Frequency		Wrap	EQ	Select1	Normal
+Map	Rotary 7		Channel 1 HF Gain		Boost/Cut	EQ	Select1	Normal
+Map	Rotary 8		Channel 1 HF Frequency		Wrap	EQ	Select1	Normal
+Map	Rotary 5		Channel 1 HMF Gain		Boost/Cut	EQ	Select1	Normal
+Map	Rotary 6		Channel 1 HMF Frequency		Wrap	EQ	Select1	Normal
+Map	Rotary 3		Channel 1 LMF Gain		Boost/Cut	EQ	Select1	Normal
+Map	Rotary 4		Channel 1 LMF Frequency		Wrap	EQ	Select1	Normal
+Map	Rotary 1		Channel 1 LF Gain		Boost/Cut	EQ	Select1	Normal
+Map	Rotary 2		Channel 1 LF Frequency		Wrap	EQ	Select1	Normal
 
 Map	Rotary Button 1		Channel 1 EQ On			EQ	Select1
 Map	Rotary Button 2		Channel 1 EQ E Mode			EQ	Select1
-Map	Rotary Button 3		Channel 1 HF Bell			EQ	Select1
-Map	Rotary Button 4		Channel 1 LF Bell			EQ	Select1
+Map	Rotary Button 4		Channel 1 HF Bell			EQ	Select1
+Map	Rotary Button 3		Channel 1 LF Bell			EQ	Select1
 Map	Rotary Button 5		0			EQ	Select1
 Map	Rotary Button 6		0			EQ	Select1
 Map	Rotary Button 7		0			EQ	Select1
@@ -625,19 +625,19 @@ Map	Rotary Button 8		0			Inserts	Select2
 
 //  EQ
 
-Map	Rotary 1		Channel 2 HF Gain		Boost/Cut	EQ	Select2	Normal
-Map	Rotary 2		Channel 2 HF Frequency		Wrap	EQ	Select2	Normal
-Map	Rotary 3		Channel 2 HMF Gain		Boost/Cut	EQ	Select2	Normal
-Map	Rotary 4		Channel 2 HMF Frequency		Wrap	EQ	Select2	Normal
-Map	Rotary 5		Channel 2 LMF Gain		Boost/Cut	EQ	Select2	Normal
-Map	Rotary 6		Channel 2 LMF Frequency		Wrap	EQ	Select2	Normal
-Map	Rotary 7		Channel 2 LF Gain		Boost/Cut	EQ	Select2	Normal
-Map	Rotary 8		Channel 2 LF Frequency		Wrap	EQ	Select2	Normal
+Map	Rotary 7		Channel 2 HF Gain		Boost/Cut	EQ	Select2	Normal
+Map	Rotary 8		Channel 2 HF Frequency		Wrap	EQ	Select2	Normal
+Map	Rotary 5		Channel 2 HMF Gain		Boost/Cut	EQ	Select2	Normal
+Map	Rotary 6		Channel 2 HMF Frequency		Wrap	EQ	Select2	Normal
+Map	Rotary 3		Channel 2 LMF Gain		Boost/Cut	EQ	Select2	Normal
+Map	Rotary 4		Channel 2 LMF Frequency		Wrap	EQ	Select2	Normal
+Map	Rotary 1		Channel 2 LF Gain		Boost/Cut	EQ	Select2	Normal
+Map	Rotary 2		Channel 2 LF Frequency		Wrap	EQ	Select2	Normal
 
 Map	Rotary Button 1		Channel 2 EQ On			EQ	Select2
 Map	Rotary Button 2		Channel 2 EQ E Mode			EQ	Select2
-Map	Rotary Button 3		Channel 2 HF Bell			EQ	Select2
-Map	Rotary Button 4		Channel 2 LF Bell			EQ	Select2
+Map	Rotary Button 4		Channel 2 HF Bell			EQ	Select2
+Map	Rotary Button 3		Channel 2 LF Bell			EQ	Select2
 Map	Rotary Button 5		0			EQ	Select2
 Map	Rotary Button 6		0			EQ	Select2
 Map	Rotary Button 7		0			EQ	Select2
@@ -720,19 +720,19 @@ Map	Rotary Button 8		0			Inserts	Select3
 
 //  EQ
 
-Map	Rotary 1		Channel 3 HF Gain		Boost/Cut	EQ	Select3	Normal
-Map	Rotary 2		Channel 3 HF Frequency		Wrap	EQ	Select3	Normal
-Map	Rotary 3		Channel 3 HMF Gain		Boost/Cut	EQ	Select3	Normal
-Map	Rotary 4		Channel 3 HMF Frequency		Wrap	EQ	Select3	Normal
-Map	Rotary 5		Channel 3 LMF Gain		Boost/Cut	EQ	Select3	Normal
-Map	Rotary 6		Channel 3 LMF Frequency		Wrap	EQ	Select3	Normal
-Map	Rotary 7		Channel 3 LF Gain		Boost/Cut	EQ	Select3	Normal
-Map	Rotary 8		Channel 3 LF Frequency		Wrap	EQ	Select3	Normal
+Map	Rotary 7		Channel 3 HF Gain		Boost/Cut	EQ	Select3	Normal
+Map	Rotary 8		Channel 3 HF Frequency		Wrap	EQ	Select3	Normal
+Map	Rotary 5		Channel 3 HMF Gain		Boost/Cut	EQ	Select3	Normal
+Map	Rotary 6		Channel 3 HMF Frequency		Wrap	EQ	Select3	Normal
+Map	Rotary 3		Channel 3 LMF Gain		Boost/Cut	EQ	Select3	Normal
+Map	Rotary 4		Channel 3 LMF Frequency		Wrap	EQ	Select3	Normal
+Map	Rotary 1		Channel 3 LF Gain		Boost/Cut	EQ	Select3	Normal
+Map	Rotary 2		Channel 3 LF Frequency		Wrap	EQ	Select3	Normal
 
 Map	Rotary Button 1		Channel 3 EQ On			EQ	Select3
 Map	Rotary Button 2		Channel 3 EQ E Mode			EQ	Select3
-Map	Rotary Button 3		Channel 3 HF Bell			EQ	Select3
-Map	Rotary Button 4		Channel 3 LF Bell			EQ	Select3
+Map	Rotary Button 4		Channel 3 HF Bell			EQ	Select3
+Map	Rotary Button 3		Channel 3 LF Bell			EQ	Select3
 Map	Rotary Button 5		0			EQ	Select3
 Map	Rotary Button 6		0			EQ	Select3
 Map	Rotary Button 7		0			EQ	Select3
@@ -815,19 +815,19 @@ Map	Rotary Button 8		0			Inserts	Select4
 
 //  EQ
 
-Map	Rotary 1		Channel 4 HF Gain		Boost/Cut	EQ	Select4	Normal
-Map	Rotary 2		Channel 4 HF Frequency		Wrap	EQ	Select4	Normal
-Map	Rotary 3		Channel 4 HMF Gain		Boost/Cut	EQ	Select4	Normal
-Map	Rotary 4		Channel 4 HMF Frequency		Wrap	EQ	Select4	Normal
-Map	Rotary 5		Channel 4 LMF Gain		Boost/Cut	EQ	Select4	Normal
-Map	Rotary 6		Channel 4 LMF Frequency		Wrap	EQ	Select4	Normal
-Map	Rotary 7		Channel 4 LF Gain		Boost/Cut	EQ	Select4	Normal
-Map	Rotary 8		Channel 4 LF Frequency		Wrap	EQ	Select4	Normal
+Map	Rotary 7		Channel 4 HF Gain		Boost/Cut	EQ	Select4	Normal
+Map	Rotary 8		Channel 4 HF Frequency		Wrap	EQ	Select4	Normal
+Map	Rotary 5		Channel 4 HMF Gain		Boost/Cut	EQ	Select4	Normal
+Map	Rotary 6		Channel 4 HMF Frequency		Wrap	EQ	Select4	Normal
+Map	Rotary 3		Channel 4 LMF Gain		Boost/Cut	EQ	Select4	Normal
+Map	Rotary 4		Channel 4 LMF Frequency		Wrap	EQ	Select4	Normal
+Map	Rotary 1		Channel 4 LF Gain		Boost/Cut	EQ	Select4	Normal
+Map	Rotary 2		Channel 4 LF Frequency		Wrap	EQ	Select4	Normal
 
 Map	Rotary Button 1		Channel 4 EQ On			EQ	Select4
 Map	Rotary Button 2		Channel 4 EQ E Mode			EQ	Select4
-Map	Rotary Button 3		Channel 4 HF Bell			EQ	Select4
-Map	Rotary Button 4		Channel 4 LF Bell			EQ	Select4
+Map	Rotary Button 4		Channel 4 HF Bell			EQ	Select4
+Map	Rotary Button 3		Channel 4 LF Bell			EQ	Select4
 Map	Rotary Button 5		0			EQ	Select4
 Map	Rotary Button 6		0			EQ	Select4
 Map	Rotary Button 7		0			EQ	Select4
@@ -910,19 +910,19 @@ Map	Rotary Button 8		0			Inserts	Select5
 
 //  EQ
 
-Map	Rotary 1		Channel 5 HF Gain		Boost/Cut	EQ	Select5	Normal
-Map	Rotary 2		Channel 5 HF Frequency		Wrap	EQ	Select5	Normal
-Map	Rotary 3		Channel 5 HMF Gain		Boost/Cut	EQ	Select5	Normal
-Map	Rotary 4		Channel 5 HMF Frequency		Wrap	EQ	Select5	Normal
-Map	Rotary 5		Channel 5 LMF Gain		Boost/Cut	EQ	Select5	Normal
-Map	Rotary 6		Channel 5 LMF Frequency		Wrap	EQ	Select5	Normal
-Map	Rotary 7		Channel 5 LF Gain		Boost/Cut	EQ	Select5	Normal
-Map	Rotary 8		Channel 5 LF Frequency		Wrap	EQ	Select5	Normal
+Map	Rotary 7		Channel 5 HF Gain		Boost/Cut	EQ	Select5	Normal
+Map	Rotary 8		Channel 5 HF Frequency		Wrap	EQ	Select5	Normal
+Map	Rotary 5		Channel 5 HMF Gain		Boost/Cut	EQ	Select5	Normal
+Map	Rotary 6		Channel 5 HMF Frequency		Wrap	EQ	Select5	Normal
+Map	Rotary 3		Channel 5 LMF Gain		Boost/Cut	EQ	Select5	Normal
+Map	Rotary 4		Channel 5 LMF Frequency		Wrap	EQ	Select5	Normal
+Map	Rotary 1		Channel 5 LF Gain		Boost/Cut	EQ	Select5	Normal
+Map	Rotary 2		Channel 5 LF Frequency		Wrap	EQ	Select5	Normal
 
 Map	Rotary Button 1		Channel 5 EQ On			EQ	Select5
 Map	Rotary Button 2		Channel 5 EQ E Mode			EQ	Select5
-Map	Rotary Button 3		Channel 5 HF Bell			EQ	Select5
-Map	Rotary Button 4		Channel 5 LF Bell			EQ	Select5
+Map	Rotary Button 4		Channel 5 HF Bell			EQ	Select5
+Map	Rotary Button 3		Channel 5 LF Bell			EQ	Select5
 Map	Rotary Button 5		0			EQ	Select5
 Map	Rotary Button 6		0			EQ	Select5
 Map	Rotary Button 7		0			EQ	Select5
@@ -1005,19 +1005,19 @@ Map	Rotary Button 8		0			Inserts	Select6
 
 //  EQ
 
-Map	Rotary 1		Channel 6 HF Gain		Boost/Cut	EQ	Select6	Normal
-Map	Rotary 2		Channel 6 HF Frequency		Wrap	EQ	Select6	Normal
-Map	Rotary 3		Channel 6 HMF Gain		Boost/Cut	EQ	Select6	Normal
-Map	Rotary 4		Channel 6 HMF Frequency		Wrap	EQ	Select6	Normal
-Map	Rotary 5		Channel 6 LMF Gain		Boost/Cut	EQ	Select6	Normal
-Map	Rotary 6		Channel 6 LMF Frequency		Wrap	EQ	Select6	Normal
-Map	Rotary 7		Channel 6 LF Gain		Boost/Cut	EQ	Select6	Normal
-Map	Rotary 8		Channel 6 LF Frequency		Wrap	EQ	Select6	Normal
+Map	Rotary 7		Channel 6 HF Gain		Boost/Cut	EQ	Select6	Normal
+Map	Rotary 8		Channel 6 HF Frequency		Wrap	EQ	Select6	Normal
+Map	Rotary 5		Channel 6 HMF Gain		Boost/Cut	EQ	Select6	Normal
+Map	Rotary 6		Channel 6 HMF Frequency		Wrap	EQ	Select6	Normal
+Map	Rotary 3		Channel 6 LMF Gain		Boost/Cut	EQ	Select6	Normal
+Map	Rotary 4		Channel 6 LMF Frequency		Wrap	EQ	Select6	Normal
+Map	Rotary 1		Channel 6 LF Gain		Boost/Cut	EQ	Select6	Normal
+Map	Rotary 2		Channel 6 LF Frequency		Wrap	EQ	Select6	Normal
 
 Map	Rotary Button 1		Channel 6 EQ On			EQ	Select6
 Map	Rotary Button 2		Channel 6 EQ E Mode			EQ	Select6
-Map	Rotary Button 3		Channel 6 HF Bell			EQ	Select6
-Map	Rotary Button 4		Channel 6 LF Bell			EQ	Select6
+Map	Rotary Button 4		Channel 6 HF Bell			EQ	Select6
+Map	Rotary Button 3		Channel 6 LF Bell			EQ	Select6
 Map	Rotary Button 5		0			EQ	Select6
 Map	Rotary Button 6		0			EQ	Select6
 Map	Rotary Button 7		0			EQ	Select6
@@ -1100,19 +1100,19 @@ Map	Rotary Button 8		0			Inserts	Select7
 
 //  EQ
 
-Map	Rotary 1		Channel 7 HF Gain		Boost/Cut	EQ	Select7	Normal
-Map	Rotary 2		Channel 7 HF Frequency		Wrap	EQ	Select7	Normal
-Map	Rotary 3		Channel 7 HMF Gain		Boost/Cut	EQ	Select7	Normal
-Map	Rotary 4		Channel 7 HMF Frequency		Wrap	EQ	Select7	Normal
-Map	Rotary 5		Channel 7 LMF Gain		Boost/Cut	EQ	Select7	Normal
-Map	Rotary 6		Channel 7 LMF Frequency		Wrap	EQ	Select7	Normal
-Map	Rotary 7		Channel 7 LF Gain		Boost/Cut	EQ	Select7	Normal
-Map	Rotary 8		Channel 7 LF Frequency		Wrap	EQ	Select7	Normal
+Map	Rotary 7		Channel 7 HF Gain		Boost/Cut	EQ	Select7	Normal
+Map	Rotary 8		Channel 7 HF Frequency		Wrap	EQ	Select7	Normal
+Map	Rotary 5		Channel 7 HMF Gain		Boost/Cut	EQ	Select7	Normal
+Map	Rotary 6		Channel 7 HMF Frequency		Wrap	EQ	Select7	Normal
+Map	Rotary 3		Channel 7 LMF Gain		Boost/Cut	EQ	Select7	Normal
+Map	Rotary 4		Channel 7 LMF Frequency		Wrap	EQ	Select7	Normal
+Map	Rotary 1		Channel 7 LF Gain		Boost/Cut	EQ	Select7	Normal
+Map	Rotary 2		Channel 7 LF Frequency		Wrap	EQ	Select7	Normal
 
 Map	Rotary Button 1		Channel 7 EQ On			EQ	Select7
 Map	Rotary Button 2		Channel 7 EQ E Mode			EQ	Select7
-Map	Rotary Button 3		Channel 7 HF Bell			EQ	Select7
-Map	Rotary Button 4		Channel 7 LF Bell			EQ	Select7
+Map	Rotary Button 4		Channel 7 HF Bell			EQ	Select7
+Map	Rotary Button 3		Channel 7 LF Bell			EQ	Select7
 Map	Rotary Button 5		0			EQ	Select7
 Map	Rotary Button 6		0			EQ	Select7
 Map	Rotary Button 7		0			EQ	Select7
@@ -1195,19 +1195,19 @@ Map	Rotary Button 8		0			Inserts	Select8
 
 //  EQ
 
-Map	Rotary 1		Channel 8 HF Gain		Boost/Cut	EQ	Select8	Normal
-Map	Rotary 2		Channel 8 HF Frequency		Wrap	EQ	Select8	Normal
-Map	Rotary 3		Channel 8 HMF Gain		Boost/Cut	EQ	Select8	Normal
-Map	Rotary 4		Channel 8 HMF Frequency		Wrap	EQ	Select8	Normal
-Map	Rotary 5		Channel 8 LMF Gain		Boost/Cut	EQ	Select8	Normal
-Map	Rotary 6		Channel 8 LMF Frequency		Wrap	EQ	Select8	Normal
-Map	Rotary 7		Channel 8 LF Gain		Boost/Cut	EQ	Select8	Normal
-Map	Rotary 8		Channel 8 LF Frequency		Wrap	EQ	Select8	Normal
+Map	Rotary 7		Channel 8 HF Gain		Boost/Cut	EQ	Select8	Normal
+Map	Rotary 8		Channel 8 HF Frequency		Wrap	EQ	Select8	Normal
+Map	Rotary 5		Channel 8 HMF Gain		Boost/Cut	EQ	Select8	Normal
+Map	Rotary 6		Channel 8 HMF Frequency		Wrap	EQ	Select8	Normal
+Map	Rotary 3		Channel 8 LMF Gain		Boost/Cut	EQ	Select8	Normal
+Map	Rotary 4		Channel 8 LMF Frequency		Wrap	EQ	Select8	Normal
+Map	Rotary 1		Channel 8 LF Gain		Boost/Cut	EQ	Select8	Normal
+Map	Rotary 2		Channel 8 LF Frequency		Wrap	EQ	Select8	Normal
 
 Map	Rotary Button 1		Channel 8 EQ On			EQ	Select8
 Map	Rotary Button 2		Channel 8 EQ E Mode			EQ	Select8
-Map	Rotary Button 3		Channel 8 HF Bell			EQ	Select8
-Map	Rotary Button 4		Channel 8 LF Bell			EQ	Select8
+Map	Rotary Button 4		Channel 8 HF Bell			EQ	Select8
+Map	Rotary Button 3		Channel 8 LF Bell			EQ	Select8
 Map	Rotary Button 5		0			EQ	Select8
 Map	Rotary Button 6		0			EQ	Select8
 Map	Rotary Button 7		0			EQ	Select8
@@ -1347,14 +1347,15 @@ Map	Fader 7		Channel 1 FX7 Send Level			FXSends	Flipped	Select1
 Map	Fader 8		Channel 1 FX8 Send Level			FXSends	Flipped	Select1
 
 
-Map	Fader 1		Channel 1 HF Gain			EQ	Flipped	Select1
-Map	Fader 2		Channel 1 HF Frequency			EQ	Flipped	Select1
-Map	Fader 3		Channel 1 HMF Gain			EQ	Flipped	Select1
-Map	Fader 4		Channel 1 HMF Frequency			EQ	Flipped	Select1
-Map	Fader 5		Channel 1 LMF Gain			EQ	Flipped	Select1
-Map	Fader 6		Channel 1 LMF Frequency			EQ	Flipped	Select1
-Map	Fader 7		Channel 1 LF Gain			EQ	Flipped	Select1
-Map	Fader 8		Channel 1 LF Frequency			EQ	Flipped	Select1
+Map	Fader 7		Channel 1 HF Gain			EQ	Flipped	Select1
+Map	Fader 8		Channel 1 HF Frequency			EQ	Flipped	Select1
+Map	Fader 5		Channel 1 HMF Gain			EQ	Flipped	Select1
+Map	Fader 6		Channel 1 HMF Frequency			EQ	Flipped	Select1
+Map	Fader 3		Channel 1 LMF Gain			EQ	Flipped	Select1
+Map	Fader 4		Channel 1 LMF Frequency			EQ	Flipped	Select1
+Map	Fader 1		Channel 1 LF Gain			EQ	Flipped	Select1
+Map	Fader 2		Channel 1 LF Frequency			EQ	Flipped	Select1
+
 Map	Fader 1		Channel 1 Input Gain			Inserts	Flipped	Select1
 Map	Fader 2		Channel 1 C Ratio			Inserts	Flipped	Select1
 Map	Fader 3		Channel 1 C Threshold			Inserts	Flipped	Select1
@@ -1384,14 +1385,15 @@ Map	Fader 6		Channel 2 FX6 Send Level			FXSends	Flipped	Select2
 Map	Fader 7		Channel 2 FX7 Send Level			FXSends	Flipped	Select2
 Map	Fader 8		Channel 2 FX8 Send Level			FXSends	Flipped	Select2
 
-Map	Fader 1		Channel 2 HF Gain			EQ	Flipped	Select2
-Map	Fader 2		Channel 2 HF Frequency			EQ	Flipped	Select2
-Map	Fader 3		Channel 2 HMF Gain			EQ	Flipped	Select2
-Map	Fader 4		Channel 2 HMF Frequency			EQ	Flipped	Select2
-Map	Fader 5		Channel 2 LMF Gain			EQ	Flipped	Select2
-Map	Fader 6		Channel 2 LMF Frequency			EQ	Flipped	Select2
-Map	Fader 7		Channel 2 LF Gain			EQ	Flipped	Select2
-Map	Fader 8		Channel 2 LF Frequency			EQ	Flipped	Select2
+Map	Fader 7		Channel 2 HF Gain			EQ	Flipped	Select2
+Map	Fader 8		Channel 2 HF Frequency			EQ	Flipped	Select2
+Map	Fader 5		Channel 2 HMF Gain			EQ	Flipped	Select2
+Map	Fader 6		Channel 2 HMF Frequency			EQ	Flipped	Select2
+Map	Fader 3		Channel 2 LMF Gain			EQ	Flipped	Select2
+Map	Fader 4		Channel 2 LMF Frequency			EQ	Flipped	Select2
+Map	Fader 1		Channel 2 LF Gain			EQ	Flipped	Select2
+Map	Fader 2		Channel 2 LF Frequency			EQ	Flipped	Select2
+
 Map	Fader 1		Channel 2 Input Gain			Inserts	Flipped	Select2
 Map	Fader 2		Channel 2 C Ratio			Inserts	Flipped	Select2
 Map	Fader 3		Channel 2 C Threshold			Inserts	Flipped	Select2
@@ -1421,14 +1423,14 @@ Map	Fader 6		Channel 3 FX6 Send Level			FXSends	Flipped	Select3
 Map	Fader 7		Channel 3 FX7 Send Level			FXSends	Flipped	Select3
 Map	Fader 8		Channel 3 FX8 Send Level			FXSends	Flipped	Select3
 
-Map	Fader 1		Channel 3 HF Gain			EQ	Flipped	Select3
-Map	Fader 2		Channel 3 HF Frequency			EQ	Flipped	Select3
-Map	Fader 3		Channel 3 HMF Gain			EQ	Flipped	Select3
-Map	Fader 4		Channel 3 HMF Frequency			EQ	Flipped	Select3
-Map	Fader 5		Channel 3 LMF Gain			EQ	Flipped	Select3
-Map	Fader 6		Channel 3 LMF Frequency			EQ	Flipped	Select3
-Map	Fader 7		Channel 3 LF Gain			EQ	Flipped	Select3
-Map	Fader 8		Channel 3 LF Frequency			EQ	Flipped	Select3
+Map	Fader 7		Channel 3 HF Gain			EQ	Flipped	Select3
+Map	Fader 8		Channel 3 HF Frequency			EQ	Flipped	Select3
+Map	Fader 5		Channel 3 HMF Gain			EQ	Flipped	Select3
+Map	Fader 6		Channel 3 HMF Frequency			EQ	Flipped	Select3
+Map	Fader 3		Channel 3 LMF Gain			EQ	Flipped	Select3
+Map	Fader 4		Channel 3 LMF Frequency			EQ	Flipped	Select3
+Map	Fader 1		Channel 3 LF Gain			EQ	Flipped	Select3
+Map	Fader 2		Channel 3 LF Frequency			EQ	Flipped	Select3
 
 Map	Fader 1		Channel 3 Input Gain			Inserts	Flipped	Select3
 Map	Fader 2		Channel 3 C Ratio			Inserts	Flipped	Select3
@@ -1459,14 +1461,15 @@ Map	Fader 6		Channel 4 FX6 Send Level			FXSends	Flipped	Select4
 Map	Fader 7		Channel 4 FX7 Send Level			FXSends	Flipped	Select4
 Map	Fader 8		Channel 4 FX8 Send Level			FXSends	Flipped	Select4
 
-Map	Fader 1		Channel 4 HF Gain			EQ	Flipped	Select4
-Map	Fader 2		Channel 4 HF Frequency			EQ	Flipped	Select4
-Map	Fader 3		Channel 4 HMF Gain			EQ	Flipped	Select4
-Map	Fader 4		Channel 4 HMF Frequency			EQ	Flipped	Select4
-Map	Fader 5		Channel 4 LMF Gain			EQ	Flipped	Select4
-Map	Fader 6		Channel 4 LMF Frequency			EQ	Flipped	Select4
-Map	Fader 7		Channel 4 LF Gain			EQ	Flipped	Select4
-Map	Fader 8		Channel 4 LF Frequency			EQ	Flipped	Select4
+Map	Fader 7		Channel 4 HF Gain			EQ	Flipped	Select4
+Map	Fader 8		Channel 4 HF Frequency			EQ	Flipped	Select4
+Map	Fader 5		Channel 4 HMF Gain			EQ	Flipped	Select4
+Map	Fader 6		Channel 4 HMF Frequency			EQ	Flipped	Select4
+Map	Fader 3		Channel 4 LMF Gain			EQ	Flipped	Select4
+Map	Fader 4		Channel 4 LMF Frequency			EQ	Flipped	Select4
+Map	Fader 1		Channel 4 LF Gain			EQ	Flipped	Select4
+Map	Fader 2		Channel 4 LF Frequency			EQ	Flipped	Select4
+
 Map	Fader 1		Channel 4 Input Gain			Inserts	Flipped	Select4
 Map	Fader 2		Channel 4 C Ratio			Inserts	Flipped	Select4
 Map	Fader 3		Channel 4 C Threshold			Inserts	Flipped	Select4
@@ -1497,14 +1500,15 @@ Map	Fader 7		Channel 5 FX7 Send Level			FXSends	Flipped	Select5
 Map	Fader 8		Channel 5 FX8 Send Level			FXSends	Flipped	Select5
 
 
-Map	Fader 1		Channel 5 HF Gain			EQ	Flipped	Select5
-Map	Fader 2		Channel 5 HF Frequency			EQ	Flipped	Select5
-Map	Fader 3		Channel 5 HMF Gain			EQ	Flipped	Select5
-Map	Fader 4		Channel 5 HMF Frequency			EQ	Flipped	Select5
-Map	Fader 5		Channel 5 LMF Gain			EQ	Flipped	Select5
-Map	Fader 6		Channel 5 LMF Frequency			EQ	Flipped	Select5
-Map	Fader 7		Channel 5 LF Gain			EQ	Flipped	Select5
-Map	Fader 8		Channel 5 LF Frequency			EQ	Flipped	Select5
+Map	Fader 7		Channel 5 HF Gain			EQ	Flipped	Select5
+Map	Fader 8		Channel 5 HF Frequency			EQ	Flipped	Select5
+Map	Fader 5		Channel 5 HMF Gain			EQ	Flipped	Select5
+Map	Fader 6		Channel 5 HMF Frequency			EQ	Flipped	Select5
+Map	Fader 3		Channel 5 LMF Gain			EQ	Flipped	Select5
+Map	Fader 4		Channel 5 LMF Frequency			EQ	Flipped	Select5
+Map	Fader 1		Channel 5 LF Gain			EQ	Flipped	Select5
+Map	Fader 2		Channel 5 LF Frequency			EQ	Flipped	Select5
+
 Map	Fader 1		Channel 5 Input Gain			Inserts	Flipped	Select5
 Map	Fader 2		Channel 5 C Ratio			Inserts	Flipped	Select5
 Map	Fader 3		Channel 5 C Threshold			Inserts	Flipped	Select5
@@ -1536,14 +1540,14 @@ Map	Fader 7		Channel 6 FX7 Send Level			FXSends	Flipped	Select6
 Map	Fader 8		Channel 6 FX8 Send Level			FXSends	Flipped	Select6
 
 
-Map	Fader 1		Channel 6 HF Gain			EQ	Flipped	Select6
-Map	Fader 2		Channel 6 HF Frequency			EQ	Flipped	Select6
-Map	Fader 3		Channel 6 HMF Gain			EQ	Flipped	Select6
-Map	Fader 4		Channel 6 HMF Frequency			EQ	Flipped	Select6
-Map	Fader 5		Channel 6 LMF Gain			EQ	Flipped	Select6
-Map	Fader 6		Channel 6 LMF Frequency			EQ	Flipped	Select6
-Map	Fader 7		Channel 6 LF Gain			EQ	Flipped	Select6
-Map	Fader 8		Channel 6 LF Frequency			EQ	Flipped	Select6
+Map	Fader 7		Channel 6 HF Gain			EQ	Flipped	Select6
+Map	Fader 8		Channel 6 HF Frequency			EQ	Flipped	Select6
+Map	Fader 5		Channel 6 HMF Gain			EQ	Flipped	Select6
+Map	Fader 6		Channel 6 HMF Frequency			EQ	Flipped	Select6
+Map	Fader 3		Channel 6 LMF Gain			EQ	Flipped	Select6
+Map	Fader 4		Channel 6 LMF Frequency			EQ	Flipped	Select6
+Map	Fader 1		Channel 6 LF Gain			EQ	Flipped	Select6
+Map	Fader 2		Channel 6 LF Frequency			EQ	Flipped	Select6
 
 Map	Fader 1		Channel 6 Input Gain			Inserts	Flipped	Select6
 Map	Fader 2		Channel 6 C Ratio			Inserts	Flipped	Select6
@@ -1576,14 +1580,14 @@ Map	Fader 7		Channel 7 FX7 Send Level			FXSends	Flipped	Select7
 Map	Fader 8		Channel 7 FX8 Send Level			FXSends	Flipped	Select7
 
 
-Map	Fader 1		Channel 7 HF Gain			EQ	Flipped	Select7
-Map	Fader 2		Channel 7 HF Frequency			EQ	Flipped	Select7
-Map	Fader 3		Channel 7 HMF Gain			EQ	Flipped	Select7
-Map	Fader 4		Channel 7 HMF Frequency			EQ	Flipped	Select7
-Map	Fader 5		Channel 7 LMF Gain			EQ	Flipped	Select7
-Map	Fader 6		Channel 7 LMF Frequency			EQ	Flipped	Select7
-Map	Fader 7		Channel 7 LF Gain			EQ	Flipped	Select7
-Map	Fader 8		Channel 7 LF Frequency			EQ	Flipped	Select7
+Map	Fader 7		Channel 7 HF Gain			EQ	Flipped	Select7
+Map	Fader 8		Channel 7 HF Frequency			EQ	Flipped	Select7
+Map	Fader 5		Channel 7 HMF Gain			EQ	Flipped	Select7
+Map	Fader 6		Channel 7 HMF Frequency			EQ	Flipped	Select7
+Map	Fader 3		Channel 7 LMF Gain			EQ	Flipped	Select7
+Map	Fader 4		Channel 7 LMF Frequency			EQ	Flipped	Select7
+Map	Fader 1		Channel 7 LF Gain			EQ	Flipped	Select7
+Map	Fader 2		Channel 7 LF Frequency			EQ	Flipped	Select7
 
 Map	Fader 1		Channel 7 Input Gain			Inserts	Flipped	Select7
 Map	Fader 2		Channel 7 C Ratio			Inserts	Flipped	Select7
@@ -1615,14 +1619,14 @@ Map	Fader 6		Channel 8 FX6 Send Level			FXSends	Flipped	Select8
 Map	Fader 7		Channel 8 FX7 Send Level			FXSends	Flipped	Select8
 Map	Fader 8		Channel 8 FX8 Send Level			FXSends	Flipped	Select8
 
-Map	Fader 1		Channel 8 HF Gain			EQ	Flipped	Select8
-Map	Fader 2		Channel 8 HF Frequency			EQ	Flipped	Select8
-Map	Fader 3		Channel 8 HMF Gain			EQ	Flipped	Select8
-Map	Fader 4		Channel 8 HMF Frequency			EQ	Flipped	Select8
-Map	Fader 5		Channel 8 LMF Gain			EQ	Flipped	Select8
-Map	Fader 6		Channel 8 LMF Frequency			EQ	Flipped	Select8
-Map	Fader 7		Channel 8 LF Gain			EQ	Flipped	Select8
-Map	Fader 8		Channel 8 LF Frequency			EQ	Flipped	Select8
+Map	Fader 7		Channel 8 HF Gain			EQ	Flipped	Select8
+Map	Fader 8		Channel 8 HF Frequency			EQ	Flipped	Select8
+Map	Fader 5		Channel 8 HMF Gain			EQ	Flipped	Select8
+Map	Fader 6		Channel 8 HMF Frequency			EQ	Flipped	Select8
+Map	Fader 3		Channel 8 LMF Gain			EQ	Flipped	Select8
+Map	Fader 4		Channel 8 LMF Frequency			EQ	Flipped	Select8
+Map	Fader 1		Channel 8 LF Gain			EQ	Flipped	Select8
+Map	Fader 2		Channel 8 LF Frequency			EQ	Flipped	Select8
 
 Map	Fader 1		Channel 8 Input Gain			Inserts	Flipped	Select8
 Map	Fader 2		Channel 8 C Ratio			Inserts	Flipped	Select8
