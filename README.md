@@ -48,7 +48,8 @@ So I tried to make sense of the button texts with regards of what's remotable in
 - Lower LCD Row shows the mapped record button function
 - Pan:      Rotaries = Low/High Pass Freq/On/Off + Insert Levels 1-4/On/Off + ByPass + Toggle-Order-Of-Inserts-Comp 
 - Insert:   Rotaries = Compressor and Gate Settings
-- EQ:       Rotaries = EQ Filter Settings without Low/High Pass
+- EQ:       Rotaries = EQ Filter Settings without Low/High Pass from low to high
+- EQ In flipped mode: Channel volume is available on master fader
 - FX Send:  Rotaries = FX Send Level Busses 1-8 / On/Off
 
 #### Assignment Buttons when master section is selected
