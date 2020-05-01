@@ -97,6 +97,8 @@ g_param_value_states={}
 g_new_lcd_output_states={{},{},{},{},{},{},{},{}}
 g_sent_lcd_output_states={{},{},{},{},{},{},{},{}}
 
+g_time_millis_show_feedback_msg=2000
+
 g_split_button_index=-1
 
 g_new_split_button_value=0
@@ -481,6 +483,7 @@ function remote_init(manufacturer,model)
 				table.insert(global_items,{ name=item_name, input="button", output="text" })
 				table.insert(global_auto_inputs,{ name=item_name,pattern=MakeButtonMIDIInputMask(button_id),value=MakeButtonInputValueFormula(),port=port_no })
 			end
+			-- store some special indexes
 			if item_name=="SMPTE/Beats Button" then
 				g_smpte_button_index=table.getn(global_items)
 			end
@@ -736,18 +739,20 @@ function remote_on_auto_input(item)
 		return
 	end
 	local time=remote.get_time_ms()
-	if item>=g_min_rotary_index and item<=g_max_rotary_index then
-		local channel=item-g_min_rotary_index+1
-		g_last_channel_input_time[channel]=time
-		g_last_channel_input_item[channel]=item
-	elseif item>=g_min_rotary_button_index and item<=g_max_rotary_button_index then
-		local channel=item-g_min_rotary_button_index+1
-		g_last_channel_input_time[channel]=time
-		g_last_channel_input_item[channel]=item
-	else
+	-- change: by commenting the input time for rotaries, the feedback display is
+	-- the same now for rotaries:display in lcd row instead channel column
+	--if item>=g_min_rotary_index and item<=g_max_rotary_index then
+	--	local channel=item-g_min_rotary_index+1
+	--	g_last_channel_input_time[channel]=time
+	--	g_last_channel_input_item[channel]=item
+	--elseif item>=g_min_rotary_button_index and item<=g_max_rotary_button_index then
+	--	local channel=item-g_min_rotary_button_index+1
+	--	g_last_channel_input_time[channel]=time
+	--	g_last_channel_input_item[channel]=item
+	--else
 		g_last_input_time=time
 		g_last_input_item=item
-	end
+	--end
 end
 
 g_empty_strings = {
@@ -938,13 +943,15 @@ function remote_set_state(changed_items)
 	-- FL: Write global temporary parameter feedback on main display row 1.
 	local feedback_row_1_enabled=false
 	local now_ms = remote.get_time_ms()
-	-- FL: Check if there has been any input in the last second.
-	if g_last_input_item~=-1 and (now_ms-g_last_input_time) < 1000 then
+	-- FL: Check if there has been any input in the last two second.
+	-- Note: this is effectively the time in millis to show the feedback on the display
+	if g_last_input_item~=-1 and (now_ms-g_last_input_time) < g_time_millis_show_feedback_msg then
 		if remote.is_item_enabled(g_last_input_item) then
-			local feedback_text=remote.get_item_name_and_value(g_last_input_item)
+			--local feedback_text=remote.get_item_name_and_value(g_last_input_item)
+			local feedback_text=remote.get_item_name(g_last_input_item).." "..remote.get_item_text_value(g_last_input_item)
 			-- FL: No feedback if text is empty
-			if string.len(feedback_text)>0 then
-				set_lcd_row_text(1,feedback_text)
+			if string.len(feedback_text)>1 then
+				set_lcd_row_text(2,feedback_text)
 				feedback_row_1_enabled=true
 			end
 		end
@@ -955,7 +962,7 @@ function remote_set_state(changed_items)
 		local channel_time=g_last_channel_input_time[feedback_index]
 		local channel_item=g_last_channel_input_item[feedback_index]
 		-- FL: Check if there has been any channel input in the last second.
-		if channel_item~=-1 and (now_ms-channel_time) < 1000 then
+		if channel_item~=-1 and (now_ms-channel_time) < g_time_millis_show_feedback_msg then
 			if remote.is_item_enabled(channel_item) then
 				local port_no=get_port_for_channel(feedback_index)
 				-- FL: Feed back on row is always on port 1, so if port==2 channel feedback always shows.
@@ -974,17 +981,8 @@ end
 
 
 local function GetModelByte(model_type)
-	local model_byte=nil
-	if model_type==k_control_model then
-		-- FL: hex 14
-		model_byte=20
-	elseif model_type==k_extender_model then
-		model_byte=21
-	elseif model_type==k_c4_model then
-		model_byte=23
-	else
-		assert(false)
-	end
+	local model_byte=20
+	-- FL: hex 14 = mackie control
 	return model_byte
 end
 
@@ -1013,23 +1011,12 @@ function MakePeakMeterLevelMIDIMessage(channel,level,port_no)
 	assert(channel<=g_num_channels)
 	assert(level>=k_min_peak_value);
 	assert(level<=k_max_peak_value);
-	if g_selected_model==k_c4_model then
-		local panel=math.floor((channel-1)/k_unit_channel_count)
-		local peak=math.mod(channel-1,k_unit_channel_count)
---		local event=remote.make_midi("dz <0xxx><yyyy>", { x=peak, y=level, z=panel, port=port_no  })
-		local event={ 208+panel, peak*16+level }
-		if port_no~=-1 then
-			event.port=port_no
-		end
-		return event
-	else
 --		local event=remote.make_midi("d0 <0xxx><yyyy>", { x=channel-1, y=level, port=port_no  })
-		local event={ 208, (channel-1)*16+level }
-		if port_no~=-1 then
-			event.port=port_no
-		end
-		return event
+	local event={ 208, (channel-1)*16+level }
+	if port_no~=-1 then
+		event.port=port_no
 	end
+	return event
 end
 
 
@@ -1041,17 +1028,6 @@ local function MakeOneLCDMIDIMessage(row,startPos,text,port_no,model_type)
 		start_byte=start_byte+k_lcd_row_width
 	end
 	local lcd_byte=18
-	if model_type==k_c4_model then
-		if row>=1 and row<=2 then
-			lcd_byte=48
-		elseif row>=3 and row<=4 then
-			lcd_byte=49
-		elseif row>=5 and row<=6 then
-			lcd_byte=50
-		else
-			lcd_byte=51
-		end
-	end
 --	local event=remote.make_midi("f0 00 00 66 yy zz xx", { x=start_byte, y=model_byte, z=lcd_byte, port=port_no })
 	local event={ 240, 0, 0, 102, model_byte, lcd_byte, start_byte }
 	start=8

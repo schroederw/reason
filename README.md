@@ -62,6 +62,9 @@ So I tried to make sense of the button texts with regards of what's remotable in
 #### Known Issues
 - The Record Buttons are not working, because the 'Record Arm' command is not remotable (=not supported by Reason)
 - The Save Button is unused, mapped to no function, because the Save command is not remotable
+- The Name/Value Button is not working, because Reason Remote does allow to map a remotable item twice (e.g. a rotary (input) and a lcd display (output))
+    The only way to realize this would be to use different midi groups, but that way you can only edit with a rotary or see a value on display.
+    You cannot have both at the same time.
 - These buttons are mapped to no function.
     - Save
     - Layer
