@@ -1038,6 +1038,11 @@ function MakeAssignNPosDisplayMIDIMessage(pos,char,port_no)
 		-- FL: 0x1f=='_' is replacement char
 		char_byte=31
 	end
+	if(pos == 5 or pos == 7 or pos == 9) then
+		-- add a dot behind these positions by adding hex 40
+		-- valid positions are 1 to 12 (1-2= assignment display, 3-12 = timecode display
+		char_byte=char_byte+64
+	end
 --	local event=remote.make_midi("b0 xx yy", { x=index_byte, y=char_byte, port=port_no })
 	local event={ 176, index_byte, char_byte }
 	if port_no~=-1 then
